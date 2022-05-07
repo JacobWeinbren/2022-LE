@@ -1,0 +1,439 @@
+con,lab,lib,green,snp,plaid,other,code,name
+40.7,15.5,32.9,10.9,0.0,0.0,0.0,belmont,Belmont
+54.1,29.1,0.0,8.9,0.0,0.0,7.9,edgware,Edgware
+41.0,49.4,0.0,5.0,0.0,0.0,4.6,preston,Preston
+44.6,10.5,44.9,0.0,0.0,0.0,0.0,queenspark,Queens Park
+16.8,74.8,8.4,0.0,0.0,0.0,0.0,queenspark,Queen's Park
+18.3,62.7,18.9,0.0,0.0,0.0,0.0,kenton,Kenton
+26.8,35.2,1.8,4.3,0.0,0.0,31.8,queensbury,Queensbury
+29.7,52.7,5.7,8.4,0.0,0.0,3.4,underhill,Underhill
+35.5,48.3,5.0,8.5,0.0,0.0,2.7,highbarnet,High Barnet
+25.6,47.4,16.2,10.9,0.0,0.0,0.0,westhendon,West Hendon
+20.2,64.0,6.4,9.4,0.0,0.0,0.0,cricklewood,Cricklewood
+27.9,59.2,0.0,12.9,0.0,0.0,0.0,colindalesouth,Colindale South
+35.7,42.2,12.8,9.2,0.0,0.0,0.0,childshill,Childs Hill
+44.6,24.8,14.6,8.7,0.0,0.0,7.3,gardensuburb,Garden Suburb
+41.0,25.5,25.5,8.1,0.0,0.0,0.0,finchleychurchend,Finchley Church End
+12.6,58.8,17.4,11.2,0.0,0.0,0.0,eastfinchley,East Finchley
+47.5,44.8,0.0,7.7,0.0,0.0,0.0,edgwarebury,Edgwarebury
+40.1,31.2,14.7,8.8,0.0,0.0,5.2,millhill,Mill Hill
+36.2,51.4,0.0,12.4,0.0,0.0,0.0,whetstone,Whetstone
+22.4,59.6,7.2,10.8,0.0,0.0,0.0,friernbarnet,Friern Barnet
+37.3,46.3,6.2,10.2,0.0,0.0,0.0,brunswickpark,Brunswick Park
+38.6,44.1,6.5,10.9,0.0,0.0,0.0,eastbarnet,East Barnet
+23.9,63.2,0.0,12.9,0.0,0.0,0.0,burntoak,Burnt Oak
+49.4,26.8,5.2,8.0,0.0,0.0,10.7,hendon,Hendon
+11.8,45.7,38.2,4.4,0.0,0.0,0.0,hendon,Hendon
+18.2,46.3,20.2,10.0,0.0,0.0,5.2,westfinchley,West Finchley
+21.8,55.1,9.3,13.9,0.0,0.0,0.0,dulwichwood,Dulwich Wood
+10.6,49.4,21.8,13.8,0.0,0.0,4.4,rotherhithe,Rotherhithe
+22.4,44.5,23.9,8.2,0.0,0.0,1.1,dulwichvillage,Dulwich Village
+7.5,60.9,11.6,20.0,0.0,0.0,0.0,championhill,Champion Hill
+8.7,55.6,14.7,21.0,0.0,0.0,0.0,dulwichhill,Dulwich Hill
+8.6,62.5,6.4,22.5,0.0,0.0,0.0,peckhamrye,Peckham Rye
+7.1,59.6,9.2,20.8,0.0,0.0,3.3,camberwellgreen,Camberwell Green
+6.8,57.8,9.1,26.3,0.0,0.0,0.0,stgiles,St Giles
+6.5,56.9,10.9,22.9,0.0,0.0,2.8,ryelane,Rye Lane
+4.3,41.2,23.7,30.8,0.0,0.0,0.0,nunheadqueensroad,Nunhead & Queen's Road
+9.9,79.3,10.7,0.0,0.0,0.0,0.0,peckham,Peckham
+9.5,62.8,12.5,15.1,0.0,0.0,0.0,newington,Newington
+9.9,58.3,8.5,15.4,0.0,0.0,7.9,faraday,Faraday
+10.6,60.4,9.9,15.9,0.0,0.0,3.2,oldkentroad,Old Kent Road
+9.7,53.3,37.0,0.0,0.0,0.0,0.0,southbermondsey,South Bermondsey
+9.8,32.0,54.5,0.0,0.0,0.0,3.7,boroughbankside,Borough & Bankside
+7.1,46.7,32.8,13.5,0.0,0.0,0.0,londonbridgewestbermondsey,London Bridge & West Bermondsey
+9.9,29.3,45.5,15.3,0.0,0.0,0.0,northbermondsey,North Bermondsey
+10.5,28.9,38.9,21.7,0.0,0.0,0.0,surreydocks,Surrey Docks
+6.1,48.9,18.7,18.2,0.0,0.0,8.1,goosegreen,Goose Green
+42.6,18.0,0.0,0.0,0.0,0.0,39.5,stgeorges,St George's
+6.3,37.4,46.2,10.1,0.0,0.0,0.0,stgeorges,St George's
+9.5,55.8,13.3,19.1,0.0,0.0,2.3,northwalworth,North Walworth
+8.1,55.7,17.7,18.5,0.0,0.0,0.0,chaucer,Chaucer
+48.4,51.6,0.0,0.0,0.0,0.0,0.0,blackheath,Blackheath
+23.2,58.0,8.2,10.5,0.0,0.0,0.0,middleparkhornpark,Middle Park & Horn Park
+43.5,44.0,9.2,0.0,0.0,0.0,3.4,mottinghamcoldharbourneweltham,"Mottingham, Coldharbour & New Eltham"
+13.2,60.0,8.8,15.2,0.0,0.0,2.8,shootershill,Shooters Hill
+22.0,49.6,8.4,15.1,0.0,0.0,4.9,kidbrookepark,Kidbrooke Park
+9.4,62.5,7.4,18.5,0.0,0.0,2.2,leytonstone,Leytonstone
+19.0,52.3,10.1,18.6,0.0,0.0,0.0,wansteadpark,Wanstead Park
+41.3,58.7,0.0,0.0,0.0,0.0,0.0,fullwell,Fullwell
+46.0,44.9,9.2,0.0,0.0,0.0,0.0,fairlop,Fairlop
+24.0,76.0,0.0,0.0,0.0,0.0,0.0,goodmayes,Goodmayes
+33.5,52.3,6.7,0.0,0.0,0.0,7.5,aldborough,Aldborough
+33.7,36.6,8.8,14.1,0.0,0.0,6.8,bridge,Bridge
+42.9,50.2,0.0,0.0,0.0,0.0,6.9,hainault,Hainault
+28.1,60.7,0.0,0.0,0.0,0.0,11.2,cranbrook,Cranbrook
+18.9,81.1,0.0,0.0,0.0,0.0,0.0,loxford,Loxford
+16.8,83.2,0.0,0.0,0.0,0.0,0.0,clementswood,Clementswood
+22.4,66.9,0.0,0.0,0.0,0.0,10.8,valentines,Valentines
+23.8,76.2,0.0,0.0,0.0,0.0,0.0,ilfordtown,Ilford Town
+25.3,65.0,9.7,0.0,0.0,0.0,0.0,newbury,Newbury
+16.6,55.0,0.0,0.0,0.0,0.0,28.5,sevenkings,Seven Kings
+22.0,47.2,19.3,11.6,0.0,0.0,0.0,wansteadvillage,Wanstead Village
+34.5,44.8,10.2,10.5,0.0,0.0,0.0,southwoodford,South Woodford
+36.4,53.0,10.6,0.0,0.0,0.0,0.0,clayhall,Clayhall
+33.3,43.1,16.4,7.1,0.0,0.0,0.0,churchfields,Churchfields
+36.9,45.8,8.7,0.0,0.0,0.0,8.6,barkingside,Barkingside
+25.6,58.3,0.0,16.1,0.0,0.0,0.0,chadwell,Chadwell
+56.6,31.1,12.3,0.0,0.0,0.0,0.0,monkhams,Monkhams
+35.1,18.1,41.1,5.6,0.0,0.0,0.0,stonecot,Stonecot
+32.7,14.9,41.5,11.0,0.0,0.0,0.0,thewrythe,The Wrythe
+23.9,15.2,47.8,8.2,0.0,0.0,4.9,wallingtonsouth,Wallington South
+20.9,13.9,39.9,9.6,0.0,0.0,15.7,wallingtonnorth,Wallington North
+19.2,16.5,19.8,9.9,0.0,0.0,34.5,beddington,Beddington
+28.6,7.9,63.5,0.0,0.0,0.0,0.0,hampton,Hampton
+21.7,11.5,66.9,0.0,0.0,0.0,0.0,teddington,Teddington
+25.5,26.0,48.5,0.0,0.0,0.0,0.0,heathfield,Heathfield
+19.6,8.6,55.3,0.0,0.0,0.0,16.4,twickenhamriverside,Twickenham Riverside
+22.5,13.8,63.8,0.0,0.0,0.0,0.0,northrichmond,North Richmond
+27.1,7.6,58.9,0.0,0.0,0.0,6.4,kew,Kew
+27.0,50.1,22.9,0.0,0.0,0.0,0.0,kew,Kew
+30.4,7.6,62.1,0.0,0.0,0.0,0.0,eastsheen,East Sheen
+23.7,8.3,33.3,21.0,0.0,0.0,13.7,hamptonnorth,Hampton North
+44.7,12.4,31.0,11.9,0.0,0.0,0.0,cheam,Cheam
+31.1,32.1,27.6,9.2,0.0,0.0,0.0,sthelierwest,St Helier West
+23.4,30.3,39.0,7.3,0.0,0.0,0.0,stheliereast,St Helier East
+40.7,15.5,32.9,10.9,0.0,0.0,0.0,belmont,Belmont
+49.7,15.5,34.7,0.0,0.0,0.0,0.0,worcesterparksouth,Worcester Park South
+42.5,17.8,31.7,8.1,0.0,0.0,0.0,worcesterparknorth,Worcester Park North
+38.4,15.5,46.0,0.0,0.0,0.0,0.0,suttonsouth,Sutton South
+22.9,27.2,38.9,11.1,0.0,0.0,0.0,suttoncentral,Sutton Central
+22.4,9.6,39.9,25.4,0.0,0.0,2.6,carshaltoncentral,Carshalton Central
+36.1,16.3,37.1,10.5,0.0,0.0,0.0,suttonnorth,Sutton North
+14.0,9.0,40.4,36.7,0.0,0.0,0.0,fulwellhamptonhill,Fulwell & Hampton Hill
+24.1,13.8,62.1,0.0,0.0,0.0,0.0,westtwickenham,West Twickenham
+27.3,10.5,62.2,0.0,0.0,0.0,0.0,whitton,Whitton
+15.4,8.9,40.5,35.3,0.0,0.0,0.0,southtwickenham,South Twickenham
+23.9,6.3,38.5,31.3,0.0,0.0,0.0,southrichmond,South Richmond
+42.7,6.5,50.8,0.0,0.0,0.0,0.0,barnes,Barnes
+47.6,38.6,7.7,6.2,0.0,0.0,0.0,barnes,Barnes
+32.1,26.6,33.7,7.6,0.0,0.0,0.0,cannonhill,Cannon Hill
+15.9,66.8,7.2,10.1,0.0,0.0,0.0,cricketgreen,Cricket Green
+21.8,78.2,0.0,0.0,0.0,0.0,0.0,village,Village
+46.9,12.0,30.5,10.5,0.0,0.0,0.0,village,Village
+22.6,13.9,52.1,11.3,0.0,0.0,0.0,wimbledonpark,Wimbledon Park
+28.4,18.1,42.2,11.2,0.0,0.0,0.0,westbarnes,West Barnes
+30.0,17.9,42.4,9.8,0.0,0.0,0.0,raynespark,Raynes Park
+22.6,13.9,52.1,11.3,0.0,0.0,0.0,wimbledontowndundonald,Wimbledon Town & Dundonald
+19.8,57.9,6.3,16.0,0.0,0.0,0.0,sthelier,St Helier
+16.2,63.3,8.1,12.4,0.0,0.0,0.0,ravensbury,Ravensbury
+10.7,17.7,9.0,5.3,0.0,0.0,57.2,mertonpark,Merton Park
+14.5,66.1,0.0,19.4,0.0,0.0,0.0,abbey,Abbey
+7.7,37.3,7.0,48.0,0.0,0.0,0.0,abbey,Abbey
+12.1,47.3,31.6,5.5,0.0,0.0,3.5,abbey,Abbey
+9.2,28.1,62.7,0.0,0.0,0.0,0.0,abbey,Abbey
+24.5,30.9,34.2,10.3,0.0,0.0,0.0,abbey,Abbey
+27.5,60.5,0.0,12.0,0.0,0.0,0.0,abbey,Abbey
+42.2,44.4,8.0,5.4,0.0,0.0,0.0,abbey,Abbey
+15.4,84.6,0.0,0.0,0.0,0.0,0.0,abbey,Abbey
+11.1,74.7,5.8,8.4,0.0,0.0,0.0,figgesmarsh,Figge's Marsh
+14.1,74.4,4.8,6.7,0.0,0.0,0.0,pollardshill,Pollards Hill
+12.1,68.4,6.2,13.2,0.0,0.0,0.0,graveney,Graveney
+15.8,65.1,7.6,11.6,0.0,0.0,0.0,longthornton,Longthornton
+50.5,49.5,0.0,0.0,0.0,0.0,0.0,hillside,Hillside
+39.5,19.2,41.2,0.0,0.0,0.0,0.0,hillside,Hillside
+36.4,9.6,54.1,0.0,0.0,0.0,0.0,hillside,Hillside
+15.8,60.4,10.2,13.7,0.0,0.0,0.0,lavenderfields,Lavender Fields
+11.6,55.5,8.0,24.9,0.0,0.0,0.0,collierswood,Colliers Wood
+31.5,48.2,8.9,9.0,0.0,0.0,2.5,roehampton,Roehampton
+35.6,43.9,11.7,8.8,0.0,0.0,0.0,thamesfield,Thamesfield
+48.8,31.9,5.8,13.4,0.0,0.0,0.0,wandsworthcommon,Wandsworth Common
+19.1,26.2,3.6,7.6,0.0,0.0,43.5,westhill,West Hill
+40.6,42.8,8.2,8.4,0.0,0.0,0.0,westputney,West Putney
+38.2,37.7,11.8,12.3,0.0,0.0,0.0,eastputney,East Putney
+18.5,60.6,6.0,14.9,0.0,0.0,0.0,tootingbroadway,Tooting Broadway
+42.9,39.4,8.7,8.9,0.0,0.0,0.0,southfields,Southfields
+31.6,7.7,60.6,0.0,0.0,0.0,0.0,trinity,Trinity
+64.3,35.7,0.0,0.0,0.0,0.0,0.0,trinity,Trinity
+36.9,45.6,8.5,8.9,0.0,0.0,0.0,trinity,Trinity
+36.0,46.8,5.8,11.4,0.0,0.0,0.0,southbalham,South Balham
+49.4,25.9,12.6,12.2,0.0,0.0,0.0,winchmorehill,Winchmore Hill
+56.2,24.7,9.0,10.1,0.0,0.0,0.0,cockfosters,Cockfosters
+38.6,44.3,7.4,9.7,0.0,0.0,0.0,wandsworthtown,Wandsworth Town
+45.6,28.0,11.1,15.3,0.0,0.0,0.0,northcote,Northcote
+26.0,68.9,0.0,0.0,0.0,0.0,5.1,falconbrook,Falconbrook
+26.7,58.9,0.0,14.4,0.0,0.0,0.0,stmarys,St Mary's
+71.7,26.1,0.0,0.0,0.0,0.0,2.2,stmarys,St Mary's
+49.9,32.9,4.7,4.5,0.0,0.0,8.0,stmarys,St Mary's
+7.0,78.8,8.4,5.8,0.0,0.0,0.0,stmarys,St Mary's
+0.0,29.1,3.5,45.3,0.0,0.0,22.1,stmarys,St Mary's
+38.4,43.2,7.9,10.5,0.0,0.0,0.0,stmarys,St Mary's
+30.6,43.4,8.6,15.0,0.0,0.0,2.3,batterseapark,Battersea Park
+41.7,32.1,26.2,0.0,0.0,0.0,0.0,munster,Munster
+25.6,62.9,11.5,0.0,0.0,0.0,0.0,lillie,Lillie
+29.7,57.5,12.8,0.0,0.0,0.0,0.0,brookgreen,Brook Green
+11.9,60.3,6.9,20.9,0.0,0.0,0.0,coningham,Coningham
+15.0,60.7,9.4,14.9,0.0,0.0,0.0,wormholt,Wormholt
+14.7,70.1,15.2,0.0,0.0,0.0,0.0,shepherdsbushgreen,Shepherds Bush Green
+45.0,27.4,27.6,0.0,0.0,0.0,0.0,fulhamtown,Fulham Town
+24.1,63.3,12.6,0.0,0.0,0.0,0.0,fulhamreach,Fulham Reach
+21.3,62.2,14.0,0.0,0.0,0.0,2.4,westkensington,West Kensington
+15.1,70.7,14.2,0.0,0.0,0.0,0.0,addison,Addison
+40.8,33.2,26.0,0.0,0.0,0.0,0.0,chelseariverside,Chelsea Riverside
+51.9,36.2,11.9,0.0,0.0,0.0,0.0,holland,Holland
+47.9,21.6,9.9,20.6,0.0,0.0,0.0,norland,Norland
+47.9,22.8,29.3,0.0,0.0,0.0,0.0,redcliffe,Redcliffe
+54.3,24.5,21.2,0.0,0.0,0.0,0.0,stanley,Stanley
+68.7,15.2,16.1,0.0,0.0,0.0,0.0,royalhospital,Royal Hospital
+18.6,70.1,11.3,0.0,0.0,0.0,0.0,nottingdale,Notting Dale
+15.9,73.8,10.3,0.0,0.0,0.0,0.0,sthelens,St Helens
+33.1,51.4,10.6,0.0,0.0,0.0,4.9,sthelens,St. Helen's
+24.6,59.4,16.0,0.0,0.0,0.0,0.0,colville,Colville
+21.1,57.9,10.6,0.0,0.0,0.0,10.4,dalgarno,Dalgarno
+19.9,69.4,10.7,0.0,0.0,0.0,0.0,golborne,Golborne
+29.7,17.5,44.1,8.8,0.0,0.0,0.0,earlscourt,Earl's Court
+51.1,13.5,35.4,0.0,0.0,0.0,0.0,courtfield,Courtfield
+59.0,21.6,19.4,0.0,0.0,0.0,0.0,abingdon,Abingdon
+52.4,17.9,29.7,0.0,0.0,0.0,0.0,queensgate,Queen's Gate
+65.7,17.6,16.7,0.0,0.0,0.0,0.0,bromptonhanstown,Brompton & Hans Town
+0.0,76.3,14.4,9.4,0.0,0.0,0.0,alexandra,Alexandra
+24.2,25.6,50.2,0.0,0.0,0.0,0.0,tudor,Tudor
+34.1,14.4,0.0,0.0,0.0,0.0,51.5,shirleysouth,Shirley South
+12.8,71.5,15.6,0.0,0.0,0.0,0.0,woodside,Woodside
+23.8,24.7,51.4,0.0,0.0,0.0,0.0,woodside,Woodside
+56.6,10.0,7.9,5.5,0.0,0.0,20.1,darwin,Darwin
+11.0,60.9,9.2,19.0,0.0,0.0,0.0,crystalpalaceanerley,Crystal Palace & Anerley
+38.4,43.3,9.5,8.7,0.0,0.0,0.0,plaistow,Plaistow
+54.1,26.8,7.9,7.8,0.0,0.0,3.4,mottingham,Mottingham
+36.8,37.3,10.0,0.0,0.0,0.0,15.9,stpaulscray,St Paul's Cray
+36.2,51.4,0.0,12.5,0.0,0.0,0.0,bedfont,Bedfont
+38.7,45.2,0.0,16.1,0.0,0.0,0.0,hanworthvillage,Hanworth Village 
+19.1,53.3,0.0,14.2,0.0,0.0,13.4,cranford,Cranford 
+14.8,37.8,10.1,16.1,0.0,0.0,21.2,syonbrentfordlock,Syon & Brentford Lock 
+20.5,64.2,0.0,15.3,0.0,0.0,0.0,hestonwest,Heston West 
+28.3,58.4,0.0,13.3,0.0,0.0,0.0,hestoneast,Heston East 
+25.4,48.6,13.0,13.0,0.0,0.0,0.0,osterleyspringgrove,Osterley & Spring Grove 
+41.4,36.2,22.4,0.0,0.0,0.0,0.0,chiswickgunnersbury,Chiswick Gunnersbury 
+42.8,29.0,14.7,13.6,0.0,0.0,0.0,chiswickhomefields,Chiswick Homefields 
+30.7,53.9,0.0,15.4,0.0,0.0,0.0,felthamwest,Feltham West 
+32.0,43.1,11.7,13.2,0.0,0.0,0.0,hanworthpark,Hanworth Park 
+42.6,43.0,0.0,14.4,0.0,0.0,0.0,felthamnorth,Feltham North 
+22.9,48.5,15.8,12.8,0.0,0.0,0.0,hounslowheath,Hounslow Heath 
+21.3,53.7,12.6,12.5,0.0,0.0,0.0,hounslowwest,Hounslow West 
+14.5,58.1,13.4,14.0,0.0,0.0,0.0,hestoncentral,Heston Central 
+24.4,49.6,11.3,14.7,0.0,0.0,0.0,hounslowsouth,Hounslow South 
+14.5,49.4,19.9,16.2,0.0,0.0,0.0,isleworth,Isleworth 
+30.9,51.2,0.0,17.9,0.0,0.0,0.0,hounsloweast,Hounslow East 
+34.9,33.6,15.3,16.2,0.0,0.0,0.0,chiswickriverside,Chiswick Riverside 
+13.5,64.3,6.4,12.4,0.0,0.0,3.4,norwoodgreen,Norwood Green
+18.2,70.5,5.5,0.0,0.0,0.0,5.8,southallgreen,Southall Green
+8.3,53.5,10.0,23.1,0.0,0.0,5.1,chapelend,Chapel End
+8.5,58.1,10.7,19.1,0.0,0.0,3.5,cannhall,Cann Hall
+38.3,27.3,5.5,11.6,0.0,0.0,17.3,larkswood,Larkswood
+56.2,33.7,5.8,0.0,0.0,0.0,4.3,endlebury,Endlebury
+18.5,60.8,8.4,12.3,0.0,0.0,0.0,northoltwestend,Northolt West End
+14.8,58.7,7.9,8.7,0.0,0.0,9.8,dormerswells,Dormers Wells
+22.6,55.2,7.2,11.2,0.0,0.0,3.9,greenfordbroadway,Greenford Broadway
+23.6,52.8,11.5,12.1,0.0,0.0,0.0,northgreenford,North Greenford
+30.7,42.0,12.4,14.9,0.0,0.0,0.0,northfield,Northfield
+17.7,46.2,11.4,16.5,0.0,0.0,8.2,northacton,North Acton
+18.5,54.9,4.2,6.5,0.0,0.0,15.9,southallwest,Southall West
+18.2,39.1,13.5,29.2,0.0,0.0,0.0,hanwellbroadway,Hanwell Broadway
+27.0,39.6,19.5,13.9,0.0,0.0,0.0,walpole,Walpole
+19.2,60.2,8.5,12.2,0.0,0.0,0.0,ladymargaret,Lady Margaret
+26.5,55.0,6.7,11.8,0.0,0.0,0.0,northoltmandeville,Northolt Mandeville
+18.0,47.8,13.2,17.7,0.0,0.0,3.3,northhanwell,North Hanwell
+26.9,36.0,18.9,14.7,0.0,0.0,3.5,pitshanger,Pitshanger
+27.5,48.5,9.3,11.6,0.0,0.0,3.0,centralgreenford,Central Greenford
+29.1,50.2,7.8,10.4,0.0,0.0,2.6,perivale,Perivale
+36.6,28.8,15.5,19.1,0.0,0.0,0.0,ealingbroadway,Ealing Broadway
+15.0,48.4,11.5,19.3,0.0,0.0,5.9,southacton,South Acton
+16.0,22.9,45.7,15.5,0.0,0.0,0.0,southfield,Southfield
+31.0,23.2,33.0,12.8,0.0,0.0,0.0,hangerhill,Hanger Hill
+19.9,9.4,0.0,7.5,0.0,0.0,63.1,upminster,Upminster
+24.1,28.1,0.0,4.9,0.0,0.0,43.0,southhornchurch,South Hornchurch
+13.2,16.7,0.0,5.7,0.0,0.0,64.4,elmpark,Elm Park
+44.5,37.0,0.0,0.0,0.0,0.0,18.4,rushgreencrowlands,Rush Green & Crowlands
+41.1,22.0,4.5,7.8,0.0,0.0,24.6,stedwards,St Edward's
+51.6,13.3,0.0,0.0,0.0,0.0,35.0,marshallsrisepark,Marshalls & Rise Park
+14.2,9.1,0.0,0.0,0.0,0.0,76.7,hacton,Hacton
+16.5,13.8,0.0,6.5,0.0,0.0,63.1,standrews,St Andrew's
+32.6,13.1,2.2,0.0,0.0,0.0,52.1,emersonpark,Emerson Park
+49.1,18.0,4.8,0.0,0.0,0.0,28.1,squirrelsheath,Squirrels Heath
+16.4,19.3,4.2,0.0,0.0,0.0,60.2,haroldwood,Harold Wood
+11.9,10.0,2.7,6.4,0.0,0.0,69.0,cranham,Cranham
+7.7,46.3,3.5,42.5,0.0,0.0,0.0,heaton,Heaton
+29.8,48.6,0.0,0.0,0.0,0.0,21.6,heaton,Heaton
+7.1,55.9,16.2,18.5,0.0,0.0,2.2,heaton,Heaton
+26.2,37.7,0.0,8.7,0.0,0.0,27.4,gooshays,Gooshays
+37.6,53.3,0.0,9.1,0.0,0.0,0.0,heathrowvillages,Heathrow Villages
+29.0,63.9,7.1,0.0,0.0,0.0,0.0,woodend,Wood End
+25.6,67.0,0.0,7.4,0.0,0.0,0.0,belmore,Belmore
+57.6,21.5,9.3,10.4,0.0,0.0,1.2,eastcote,Eastcote
+51.6,19.2,15.8,13.5,0.0,0.0,0.0,campden,Campden
+42.0,27.1,30.9,0.0,0.0,0.0,0.0,pembridge,Pembridge
+47.5,38.2,14.3,0.0,0.0,0.0,0.0,stjamess,St James's
+39.8,37.9,11.4,10.9,0.0,0.0,0.0,lancastergate,Lancaster Gate
+44.8,43.1,12.1,0.0,0.0,0.0,0.0,vincentsquare,Vincent Square
+17.9,71.8,10.3,0.0,0.0,0.0,0.0,harrowroad,Harrow Road
+53.2,32.5,14.4,0.0,0.0,0.0,0.0,regentspark,Regent's Park
+45.2,29.2,25.6,0.0,0.0,0.0,0.0,abbeyroad,Abbey Road
+44.6,10.5,44.9,0.0,0.0,0.0,0.0,queenspark,Queens Park
+16.8,74.8,8.4,0.0,0.0,0.0,0.0,queenspark,Queen's Park
+32.5,57.7,9.8,0.0,0.0,0.0,0.0,bayswater,Bayswater
+41.8,49.9,8.3,0.0,0.0,0.0,0.0,pimlicosouth,Pimlico South
+18.0,67.5,7.9,0.0,0.0,0.0,6.6,westbourne,Westbourne
+46.1,44.6,9.3,0.0,0.0,0.0,0.0,littlevenice,Little Venice
+19.4,72.7,8.0,0.0,0.0,0.0,0.0,churchstreet,Church Street
+10.9,32.1,37.9,19.1,0.0,0.0,0.0,highgate,Highgate
+53.2,32.5,14.4,0.0,0.0,0.0,0.0,regentspark,Regent's Park
+52.1,38.1,0.0,9.8,0.0,0.0,0.0,poplar,Poplar
+41.2,12.3,0.0,0.0,0.0,0.0,46.5,stpeters,St Peter's
+21.9,11.2,66.9,0.0,0.0,0.0,0.0,stpeters,St Peter's
+10.0,14.1,39.3,36.6,0.0,0.0,0.0,stpeters,St Peters
+50.5,34.4,7.0,8.1,0.0,0.0,0.0,stpeters,St Peter's
+15.7,72.5,0.0,11.8,0.0,0.0,0.0,stpeters,St Peter's
+21.2,78.8,0.0,0.0,0.0,0.0,0.0,stpeters,St Peter's
+15.7,12.3,66.3,5.7,0.0,0.0,0.0,mileend,Mile End
+8.2,57.4,0.0,0.0,0.0,0.0,34.5,leabridge,Lea Bridge
+27.9,9.8,0.0,0.0,0.0,0.0,62.3,victoria,Victoria
+28.6,60.2,0.0,0.0,0.0,0.0,11.1,victoria,Victoria
+6.9,60.3,27.0,5.7,0.0,0.0,0.0,victoria,Victoria
+21.2,56.9,5.2,9.2,0.0,0.0,7.4,victoria,Victoria
+10.9,32.1,37.9,19.1,0.0,0.0,0.0,highgate,Highgate
+3.8,42.4,26.4,19.1,0.0,0.0,8.3,harringay,Harringay
+51.5,21.5,11.4,13.8,0.0,0.0,1.8,ridgeway,Ridgeway
+16.9,66.8,6.7,9.6,0.0,0.0,0.0,upperedmonton,Upper Edmonton
+56.9,11.0,0.0,32.1,0.0,0.0,0.0,harefieldvillage,Harefield Village
+36.5,54.0,0.0,5.5,0.0,0.0,3.9,westdrayton,West Drayton
+35.5,56.1,0.0,8.4,0.0,0.0,0.0,yiewsley,Yiewsley
+45.7,40.9,0.0,10.5,0.0,0.0,3.0,uxbridge,Uxbridge
+44.7,38.0,0.0,7.2,0.0,0.0,10.1,colhamcowley,Colham & Cowley
+53.7,21.8,0.0,24.5,0.0,0.0,0.0,ickenhamsouthharefield,Ickenham & South Harefield
+55.3,19.1,16.9,8.7,0.0,0.0,0.0,northwood,Northwood
+55.8,28.1,0.0,9.1,0.0,0.0,7.0,southruislip,South Ruislip
+59.1,24.1,8.0,8.7,0.0,0.0,0.0,ruislipmanor,Ruislip Manor
+54.1,24.2,11.5,10.2,0.0,0.0,0.0,northwoodhills,Northwood Hills
+23.0,77.0,0.0,0.0,0.0,0.0,0.0,pinkwell,Pinkwell
+49.4,50.6,0.0,0.0,0.0,0.0,0.0,charville,Charville
+4.6,60.9,9.6,20.1,0.0,0.0,4.8,highamhill,Higham Hill
+20.9,64.5,0.0,10.7,0.0,0.0,3.9,valley,Valley
+48.1,46.6,5.4,0.0,0.0,0.0,0.0,valley,Valley
+52.6,22.7,9.1,12.3,0.0,0.0,3.4,chingfordgreen,Chingford Green
+9.6,59.7,8.9,18.3,0.0,0.0,3.4,cathall,Cathall
+8.2,57.4,0.0,0.0,0.0,0.0,34.5,leabridge,Lea Bridge
+5.0,44.2,26.6,20.1,0.0,0.0,4.1,grovegreen,Grove Green
+7.9,56.0,11.8,19.6,0.0,0.0,4.7,forest,Forest
+7.4,60.3,0.0,25.6,0.0,0.0,6.7,williammorris,William Morris
+6.0,54.0,9.1,23.6,0.0,0.0,7.3,hoestreet,Hoe Street
+16.8,52.4,9.0,17.2,0.0,0.0,4.6,upperwalthamstow,Upper Walthamstow
+6.4,40.7,35.1,17.8,0.0,0.0,0.0,fortisgreen,Fortis Green
+7.2,54.7,23.0,15.2,0.0,0.0,0.0,boundsgreen,Bounds Green
+4.8,41.4,34.0,19.9,0.0,0.0,0.0,crouchend,Crouch End
+3.0,45.0,29.3,22.7,0.0,0.0,0.0,stroudgreen,Stroud Green
+7.2,35.4,42.1,15.4,0.0,0.0,0.0,muswellhill,Muswell Hill
+6.4,62.6,16.1,14.9,0.0,0.0,0.0,hornsey,Hornsey
+5.8,39.6,39.5,15.1,0.0,0.0,0.0,alexandrapark,Alexandra Park
+11.1,67.9,18.9,0.0,0.0,0.0,2.2,noelpark,Noel Park
+12.8,71.5,15.6,0.0,0.0,0.0,0.0,woodside,Woodside
+23.8,24.7,51.4,0.0,0.0,0.0,0.0,woodside,Woodside
+0.0,52.3,6.5,41.3,0.0,0.0,0.0,stanns,St Ann's
+6.2,63.2,7.0,23.6,0.0,0.0,0.0,hermitagegardens,Hermitage & Gardens
+9.5,65.3,6.3,18.8,0.0,0.0,0.0,sevensisters,Seven Sisters
+10.6,75.6,13.8,0.0,0.0,0.0,0.0,westgreen,West Green
+8.3,68.2,8.0,15.6,0.0,0.0,0.0,tottenhamhale,Tottenham Hale
+12.1,57.4,10.3,0.0,0.0,0.0,20.3,whitehartlane,White Hart Lane
+8.1,62.3,8.6,21.0,0.0,0.0,0.0,tottenhamcentral,Tottenham Central
+10.2,67.4,7.1,15.3,0.0,0.0,0.0,northumberlandpark,Northumberland Park
+10.7,26.5,56.6,6.1,0.0,0.0,0.0,eastham,Eastham
+9.6,30.5,52.1,7.8,0.0,0.0,0.0,manorpark,Manor Park
+16.6,74.4,0.0,0.0,0.0,0.0,9.0,gascoigne,Gascoigne
+24.8,60.1,0.0,0.0,0.0,0.0,15.2,barkingriverside,Barking Riverside
+32.4,67.6,0.0,0.0,0.0,0.0,0.0,beam,Beam
+21.8,78.2,0.0,0.0,0.0,0.0,0.0,village,Village
+46.9,12.0,30.5,10.5,0.0,0.0,0.0,village,Village
+16.7,68.8,0.0,14.5,0.0,0.0,0.0,northbury,Northbury
+31.2,58.7,10.1,0.0,0.0,0.0,0.0,longbridge,Longbridge
+25.1,74.9,0.0,0.0,0.0,0.0,0.0,eastbury,Eastbury
+29.3,70.7,0.0,0.0,0.0,0.0,0.0,goresbrook,Goresbrook
+30.3,69.7,0.0,0.0,0.0,0.0,0.0,mayesbrook,Mayesbrook
+23.0,77.0,0.0,0.0,0.0,0.0,0.0,becontree,Becontree
+28.1,71.9,0.0,0.0,0.0,0.0,0.0,alibon,Alibon
+27.4,72.6,0.0,0.0,0.0,0.0,0.0,valence,Valence
+26.2,73.8,0.0,0.0,0.0,0.0,0.0,heath,Heath
+51.6,39.0,0.0,9.4,0.0,0.0,0.0,heath,Heath
+29.5,70.5,0.0,0.0,0.0,0.0,0.0,whalebone,Whalebone
+21.0,57.8,6.9,6.7,0.0,0.0,7.5,southallbroadway,Southall Broadway
+17.0,30.3,36.4,14.7,0.0,0.0,1.7,ealingcommon,Ealing Common
+17.1,51.6,8.8,15.1,0.0,0.0,7.3,eastacton,East Acton
+27.9,54.8,0.0,17.3,0.0,0.0,0.0,hounslowcentral,Hounslow Central 
+16.5,47.5,0.0,26.9,0.0,0.0,9.1,brentfordwest,Brentford West 
+18.6,62.8,0.0,18.5,0.0,0.0,0.0,brentfordeast,Brentford East 
+15.0,63.6,5.6,15.9,0.0,0.0,0.0,southtottenham,South Tottenham
+11.1,66.8,6.8,15.3,0.0,0.0,0.0,brucecastle,Bruce Castle
+46.4,15.5,35.0,0.0,0.0,0.0,3.0,northcheam,North Cheam
+18.8,53.1,28.0,0.0,0.0,0.0,0.0,hackbridge,Hackbridge
+10.9,63.2,10.2,15.7,0.0,0.0,0.0,whitecity,White City
+19.5,63.8,16.7,0.0,0.0,0.0,0.0,wendellpark,Wendell Park
+18.8,71.6,9.6,0.0,0.0,0.0,0.0,hammersmithbroadway,Hammersmith Broadway
+22.1,54.2,11.8,11.9,0.0,0.0,0.0,ravenscourt,Ravenscourt
+16.9,66.4,16.6,0.0,0.0,0.0,0.0,grove,Grove
+22.8,62.3,15.0,0.0,0.0,0.0,0.0,avonmore,Avonmore
+26.6,52.7,10.7,10.0,0.0,0.0,0.0,walhamgreen,Walham Green
+39.3,48.6,12.0,0.0,0.0,0.0,0.0,sandsend,Sands End
+31.2,59.6,9.3,0.0,0.0,0.0,0.0,maidavale,Maida Vale
+41.9,44.4,13.7,0.0,0.0,0.0,0.0,hydepark,Hyde Park
+13.1,65.8,0.0,0.0,0.0,0.0,21.0,westend,West End
+41.3,49.8,8.9,0.0,0.0,0.0,0.0,westend,West End
+45.0,22.1,32.9,0.0,0.0,0.0,0.0,marylebone,Marylebone
+47.6,35.7,16.7,0.0,0.0,0.0,0.0,pimliconorth,Pimlico North
+60.0,18.3,10.1,11.6,0.0,0.0,0.0,ruislip,Ruislip
+24.1,51.7,6.4,10.5,0.0,0.0,7.3,jubilee,Jubilee
+26.1,54.6,9.6,9.8,0.0,0.0,0.0,pondersend,Ponders End
+24.5,55.6,6.6,11.1,0.0,0.0,2.2,brimsdown,Brimsdown
+41.7,31.6,16.2,10.4,0.0,0.0,0.0,arnosgrove,Arnos Grove
+39.4,46.6,7.9,6.1,0.0,0.0,0.0,southgate,Southgate
+39.2,27.9,7.0,25.9,0.0,0.0,0.0,southgate,Southgate
+20.2,54.9,9.2,15.6,0.0,0.0,0.0,haselbury,Haselbury
+47.5,28.7,10.0,12.1,0.0,0.0,1.6,bushhillpark,Bush Hill Park
+41.5,30.7,10.1,17.7,0.0,0.0,0.0,town,Town
+29.0,46.3,0.0,5.3,0.0,0.0,19.4,town,Town
+30.9,43.3,7.8,13.1,0.0,0.0,4.9,southbury,Southbury
+7.6,56.2,15.9,17.8,0.0,0.0,2.5,leyton,Leyton
+62.5,37.5,0.0,0.0,0.0,0.0,0.0,stjames,St James
+36.9,39.6,5.1,3.7,0.0,0.0,14.7,stjames,St James'
+14.6,13.8,62.8,8.8,0.0,0.0,0.0,stjames,St James'
+4.6,51.2,8.6,28.0,0.0,0.0,7.6,stjames,St James
+28.1,71.9,0.0,0.0,0.0,0.0,0.0,chadwellheath,Chadwell Heath
+27.0,73.0,0.0,0.0,0.0,0.0,0.0,parsloes,Parsloes
+33.7,36.6,8.8,14.1,0.0,0.0,6.8,bridge,Bridge
+57.6,35.9,0.0,0.0,0.0,0.0,6.5,hillingdoneast,Hillingdon East
+31.4,68.6,0.0,0.0,0.0,0.0,0.0,yeading,Yeading
+21.9,70.3,0.0,0.0,0.0,0.0,7.8,hayestown,Hayes Town
+55.1,34.5,0.0,10.4,0.0,0.0,0.0,hillingdonwest,Hillingdon West
+36.2,38.1,13.0,12.7,0.0,0.0,0.0,barnetvale,Barnet Vale
+54.1,29.1,0.0,8.9,0.0,0.0,7.9,edgware,Edgware
+17.8,57.2,0.0,8.5,0.0,0.0,16.5,colindalenorth,Colindale North
+65.2,19.5,5.7,6.2,0.0,0.0,3.4,goldersgreen,Golders Green
+27.1,53.1,8.8,10.9,0.0,0.0,0.0,woodhouse,Woodhouse
+21.3,60.1,7.1,9.1,0.0,0.0,2.4,woodhouse,Woodhouse
+46.6,40.5,12.9,0.0,0.0,0.0,0.0,stmarycray,St Mary Cray
+39.4,29.2,26.8,4.6,0.0,0.0,0.0,nineelms,Nine Elms
+42.3,36.7,8.3,12.6,0.0,0.0,0.0,lavender,Lavender
+41.1,39.8,7.3,11.8,0.0,0.0,0.0,balham,Balham
+17.8,59.2,5.9,17.1,0.0,0.0,0.0,furzedown,Furzedown
+38.6,44.3,6.2,10.9,0.0,0.0,0.0,tootingbec,Tooting Bec
+22.7,32.7,33.4,11.2,0.0,0.0,0.0,wandle,Wandle
+39.0,46.9,5.8,8.3,0.0,0.0,0.0,wandle,Wandle
+38.1,26.3,21.2,11.2,0.0,0.0,3.1,whitewebbs,Whitewebbs
+53.7,25.3,14.4,4.0,0.0,0.0,2.6,oakwood,Oakwood
+48.1,30.3,10.4,11.2,0.0,0.0,0.0,oakwood,Oakwood
+26.8,47.1,12.7,10.6,0.0,0.0,2.8,palmersgreen,Palmers Green
+5.7,54.3,9.0,25.0,0.0,0.0,6.1,highstreet,High Street
+8.2,71.9,12.6,0.0,0.0,0.0,7.3,woodstreet,Wood Street
+8.2,70.7,14.2,0.0,0.0,0.0,6.9,markhouse,Markhouse
+9.1,47.2,0.0,2.7,0.0,0.0,41.1,beampark,Beam Park
+45.0,40.8,0.0,0.0,0.0,0.0,14.1,stalbans,St Alban's
+44.0,26.1,0.0,0.0,0.0,0.0,29.9,haveringattebower,Havering-Atte-Bower
+22.7,32.7,33.4,11.2,0.0,0.0,0.0,wandle,Wandle
+39.0,46.9,5.8,8.3,0.0,0.0,0.0,wandle,Wandle
+16.7,54.4,10.6,18.2,0.0,0.0,0.0,kidbrookevillagesutcliffe,Kidbrooke Village & Sutcliffe
+14.5,66.1,0.0,19.4,0.0,0.0,0.0,abbey,Abbey
+7.7,37.3,7.0,48.0,0.0,0.0,0.0,abbey,Abbey
+12.1,47.3,31.6,5.5,0.0,0.0,3.5,abbey,Abbey
+9.2,28.1,62.7,0.0,0.0,0.0,0.0,abbey,Abbey
+24.5,30.9,34.2,10.3,0.0,0.0,0.0,abbey,Abbey
+27.5,60.5,0.0,12.0,0.0,0.0,0.0,abbey,Abbey
+42.2,44.4,8.0,5.4,0.0,0.0,0.0,abbey,Abbey
+15.4,84.6,0.0,0.0,0.0,0.0,0.0,abbey,Abbey
+23.3,62.0,0.0,0.0,0.0,0.0,14.7,thamesview,Thames View
