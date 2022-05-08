@@ -14,7 +14,7 @@ Many Thanks to UK Election Maps, Britain Elects, Andrew Teale and Ballot Box.
 
 -   [Eng + Wal + Sco 2022](https://docs.google.com/spreadsheets/d/1RmvhrMUb8-zxqipiz8RDTzMmhRnl-KEUiZXHILMxEQA/edit#gid=494045480)
 -   [Eng 2018](https://docs.google.com/spreadsheets/d/1ZaAenyQkbwcxdl4GiPUj73rpi2oocpG3PmwAnypAQZA/edit#gid=635729702)
--   [Wal 2017](https://www.andrewteale.me.uk/leap/councils/2017/#area59)
+-   [Wal 2017](https://www.andrewteale.me.uk/leap/councils/2017/#area59) + [Spreadsheet](https://docs.google.com/spreadsheets/d/1KFklLbaAHSq6Tlxf-LUpKCpj2JCCyvUfoBPGsazKyBc/edit?usp=sharing)
 -   [Sco 2017](https://ballotbox.scot/councils/2017-elections)
 
 ## Process
@@ -34,4 +34,4 @@ Many Thanks to UK Election Maps, Britain Elects, Andrew Teale and Ballot Box.
 
 -   Cd into scripts and run boundary_changes.py
 
--   Remove extra attributes, simplify (.25km for LDN)
+-   Remove extra attributes, simplify (.1km for LDN + WAL, .5km for ENG)

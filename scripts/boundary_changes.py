@@ -1,5 +1,6 @@
 import fiona, re
 from shapely.geometry import shape
+from collections import OrderedDict
 
 #Remove wards with changed boundaries
 def compare(base_file, comp_file, output_file):
@@ -45,8 +46,11 @@ def compare(base_file, comp_file, output_file):
     print(len(matched_list), len(changed_list))
     print("Writing")
 
-    with fiona.open(base_file) as source, fiona.open(output_file, 'w', driver=base_data.driver, schema = base_data.schema, crs=base_data.crs) as dest:
+    schema = {'properties': OrderedDict([('NAME', 'str')]), 'geometry': 'Polygon'}
+
+    with fiona.open(base_file) as source, fiona.open(output_file, 'w', driver=base_data.driver, schema = schema, crs=base_data.crs) as dest:
         for index, feat in enumerate(source):
+            feat['properties'] = {}
             feat['properties']['NAME'] = re.sub(' Ward', '', feat['properties']['NAME'])
             feat['properties']['NAME'] = re.sub(' ED', '', feat['properties']['NAME'])
             if index not in changed_list:
