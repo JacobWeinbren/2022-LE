@@ -45,16 +45,20 @@ def clear(name):
     #/, &, and are used interchangably
     if '/' in name:
         name = name.split('/')[1]
-    elif '&' in name:
+    if '&' in name:
         name = name.split('&')[1]
-    elif 'and' in name:
+    #English
+    if ' and ' in name:
         name = name.split('and')[1]
+    #Welsh
+    if ' a ' in name:
+        name = name.split('a')[1]
 
-    #Remove numbers and misc
+    #Remove numbers and misc spacing issues
     filter(lambda x: x.isalpha(), name)
 
     #Clear
-    name = name.strip()
+    name = name.replace(" ", "")
 
     return name
 

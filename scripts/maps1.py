@@ -16,7 +16,7 @@ def create(infile, outfile, outcsv):
         writer.writerow(list(new_results[0].keys()))
 
         schema = meta.schema
-        schema['properties'] = OrderedDict([('name', 'str'),('council', 'str')])
+        schema['properties'] = OrderedDict([('name', 'str')])
 
         #Write to geojson
         with fiona.open(infile) as source, fiona.open(outfile, 'w', driver=meta.driver, schema = schema, crs=meta.crs) as dest:
@@ -30,9 +30,9 @@ def create(infile, outfile, outcsv):
 
                 #Is it in the 2022 records?
                 for item in new_results:
-                    if council and item['shorthand'] == shorthand and item['council'] == helper.clear(council):
+                    if council and item['shorthand'] == shorthand and item['council'] == council:
 
-                        print(index, name)
+                        print(index)
 
                         #Write to csv
                         item['name'] = name
@@ -42,7 +42,6 @@ def create(infile, outfile, outcsv):
                         #Update feature to match
                         feat['properties'] = {}
                         feat['properties']['name'] = name
-                        feat['properties']['council'] = council
 
                         #Write to file
                         dest.write(feat)
