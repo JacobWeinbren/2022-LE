@@ -7,6 +7,7 @@
 -   [Dec 2017](https://geoportal.statistics.gov.uk/datasets/ons::wards-december-2017-full-extent-boundaries-in-uk-wgs84/about)
 -   [Dec 2018](https://geoportal.statistics.gov.uk/datasets/ons::wards-december-2018-full-extent-boundaries-gb/about)
 -   [May 2022](https://osdatahub.os.uk/downloads/open/BoundaryLine)
+-   [Changes](https://www.ordnancesurvey.co.uk/documents/product-support/support/boundary-line-code-changes-May-2022.xls)
 
 ### Results
 
@@ -19,12 +20,16 @@ Many Thanks to UK Election Maps, Britain Elects, Andrew Teale and Ballot Box.
 
 ## Process
 
+-   python3 -m venv env
+-   source env/bin/activate
+
 -   Merge 2022 wards Boundaries
 
 -   Now we are going to find the minimum area that encompasses both the old and new maps
 
     1. Make four regions (Wales, Scotland, England, London) - make sure to include the Highlands (use join)
     2. Intersect regions with 2017/18 (as they are difference source)
+    3. Remove attributes
 
 -   Now we intersect with wards and export
 

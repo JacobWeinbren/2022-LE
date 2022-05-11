@@ -1,13 +1,75 @@
-import re, csv
+import re, csv, unidecode, requests, json
+from bs4 import BeautifulSoup as Soup
+import urllib
+
+with open("../sources/boundary-line-code-changes-May-2022.csv") as fp:
+    reader = csv.reader(fp, delimiter=",", quotechar='"')
+    next(reader)
+    changes = [row for row in reader]
+
+#Search for ward's council
+def searcharea(code):
+    address = "https://findthatpostcode.uk/search/?q=" + str(code)
+    response = requests.get(address)
+
+    if response.status_code == 200:
+        soup = Soup(response.content, 'html.parser')
+        try:
+            meta = soup.find(class_='columns').find('ul').find('li').find('a')['href'].replace('.html','.json')
+
+            address = "https://findthatpostcode.uk/" + meta
+            response = requests.get(address)
+
+            if response.status_code == 200:
+                response = json.loads(response.text)
+                name = False
+                for included in response['included']:
+                    if 'attributes' in included and 'active' in included['attributes'] and included['attributes']['active'] == True:
+                        name = included['attributes']['name']
+                return name
+            else:
+                return False
+        except:
+            return False
+    else:
+        return False
 
 #Clear text of ascii, numbers, capitalisation
 def clear(name):
-    #Remove and
-    name = str(name.replace(' and ',''))
-    #Remove numbers
+
+    #Normalise string
+    name = unidecode.unidecode(name)
+    name = name.lower()
+    
+    #Second value keeps translations
+    #/, &, and are used interchangably
+    if '/' in name:
+        name = name.split('/')[1]
+    elif '&' in name:
+        name = name.split('&')[1]
+    elif 'and' in name:
+        name = name.split('and')[1]
+
+    #Remove numbers and misc
     filter(lambda x: x.isalpha(), name)
-    #Remove misc
-    return re.sub(r'\W+', '', name).lower()
+
+    #Clear
+    name = name.strip()
+
+    return name
+
+#Search for council
+def findcouncil(code):
+
+    item = code
+
+    for row in changes:
+        if row[0] == code:
+            item = row[2]
+            break
+    
+    council = searcharea(item)
+    return council
 
 #Parse list data
 def parse_csv_list(csv_list):
@@ -26,13 +88,11 @@ def parse_csv_list(csv_list):
     return item
 
 #Parse percentages
-def parse_percentage(input_item, output_item, name_loc, total):
+def parse_percentage(input_item, output_item, total):
 
     #Voteshare
     for key in output_item:
         output_item[key] = round(output_item[key] / total * 100, 1)
-
-    output_item["code"] = clear(input_item[name_loc])
 
 #Read New Results
 def new_results():
@@ -63,7 +123,9 @@ def new_results():
             total = sum(output_item.values())
 
             if total > 0:
-                parse_percentage(input_item, output_item, 3, total)
+                parse_percentage(input_item, output_item, total)
+                output_item["shorthand"] = clear(input_item[3])
+                output_item["council"] = clear(input_item[2])
                 data.append(output_item)
 
     return data
@@ -93,7 +155,9 @@ def old_results():
             total = sum(output_item.values())
 
             if total > 0:
-                parse_percentage(input_item, output_item, 3, total)
+                parse_percentage(input_item, output_item, total)
+                output_item["shorthand"] = clear(input_item[3])
+                output_item["council"] = clear(input_item[2])
                 data.append(output_item)
 
     #Scotland
@@ -121,7 +185,9 @@ def old_results():
                 total = sum(output_item.values())
 
                 if total > 0:
-                    parse_percentage(input_item, output_item, 2, total)
+                    parse_percentage(input_item, output_item, total)
+                    output_item["shorthand"] = clear(input_item[2])
+                    output_item["council"] = clear(input_item[0])
                     data.append(output_item)
 
     #Wales
@@ -164,27 +230,9 @@ def old_results():
             total = sum(output_item.values())
 
             if total > 0:
-                parse_percentage(input_item, output_item, 0, total)
+                parse_percentage(input_item, output_item, total)
+                output_item["shorthand"] = clear(input_item[0])
+                output_item["council"] = clear(input_item[1])
                 data.append(output_item)
 
     return data
-
-if __name__ == "__main__":
-    with open('old.csv', "wt") as f:
-        writer = csv.writer(f, delimiter=",")
-
-        data = old_results()
-
-        writer = csv.DictWriter(f, ['code','lab','con','lib','green','plaid','snp','ind','other'])
-        writer.writeheader()
-        writer.writerows(data)
-
-    with open('new.csv', "wt") as f:
-        writer = csv.writer(f, delimiter=",")
-
-        data = new_results()
-
-        writer = csv.DictWriter(f, ['code','lab','con','lib','green','plaid','snp','ind','other'])
-        writer.writeheader()
-        writer.writerows(data)
-

@@ -13,30 +13,36 @@ def create(infile, outfile, outcsv):
     #Write to csv
     with open(outcsv, "wt") as f:
         writer = csv.writer(f, delimiter=",")
-        writer.writerow(list(new_results[0].keys())[:-1])
+        writer.writerow(list(new_results[0].keys()))
 
         schema = meta.schema
-        schema['properties'] = OrderedDict([('NAME', 'str')])
+        schema['properties'] = OrderedDict([('name', 'str'),('council', 'str')])
 
         #Write to geojson
         with fiona.open(infile) as source, fiona.open(outfile, 'w', driver=meta.driver, schema = schema, crs=meta.crs) as dest:
             for index, feat in enumerate(source):
-
-                #print(feat['properties']['NAME'])
+                
                 name = re.sub(' Ward', '', feat['properties']['NAME'])
                 name = re.sub(' ED', '', name)
-                code = helper.clear(name)
+                shorthand = helper.clear(name)
 
-                #Is it in thw 2022 records?
+                council = helper.findcouncil(feat['properties']['CODE'])
+
+                #Is it in the 2022 records?
                 for item in new_results:
-                    if item['code'] == code:
+                    if council and item['shorthand'] == shorthand and item['council'] == helper.clear(council):
+
+                        print(index, name)
 
                         #Write to csv
-                        writer.writerow(list(item.values())[:-1])
+                        item['name'] = name
+                        item['council'] = council
+                        writer.writerow(list(item.values()))
                         
-                        #Update name to match
+                        #Update feature to match
                         feat['properties'] = {}
-                        feat['properties']['NAME'] = code
+                        feat['properties']['name'] = name
+                        feat['properties']['council'] = council
 
                         #Write to file
                         dest.write(feat)
@@ -44,6 +50,6 @@ def create(infile, outfile, outcsv):
                         break
 
 create('../sources/output/wards_lon_2022.geojson', '../maps1/lon_2022.geojson', '../maps1/lon.csv')
-create('../sources/output/wards_eng_2022.geojson', '../maps1/eng_2022.geojson', '../maps1/eng.csv')
-create('../sources/output/wards_wal_2022.geojson', '../maps1/wal_2022.geojson', '../maps1/wal.csv')
-create('../sources/output/wards_sco_2022.geojson', '../maps1/sco_2022.geojson', '../maps1/sco.csv')
+#create('../sources/output/wards_eng_2022.geojson', '../maps1/eng_2022.geojson', '../maps1/eng.csv')
+#create('../sources/output/wards_wal_2022.geojson', '../maps1/wal_2022.geojson', '../maps1/wal.csv')
+#create('../sources/output/wards_sco_2022.geojson', '../maps1/sco_2022.geojson', '../maps1/sco.csv')

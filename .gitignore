@@ -3,3 +3,5 @@ env/**
 **.geojson
 **.pyc
 **.csv
+.DS_Store
+.DS_Store

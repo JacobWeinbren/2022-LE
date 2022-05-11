@@ -8,7 +8,7 @@
 		max-width: 714px;
 	}
 
-	@media only screen and (min-width: 713px) {
+	@media only screen and (min-width: 714px) {
 		.block {
 			display: inline-block;
 		}
@@ -68,7 +68,7 @@
 			<iframe title="Greens" aria-label="Map" id="datawrapper-chart-TQ2FQ" src="https://datawrapper.dwcdn.net/TQ2FQ/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="568"></iframe>
 		</div>
 
-		<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+		<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height="370px"}}}))}();</script>
 
 	</div>
 
@@ -76,6 +76,7 @@
 
 		document.addEventListener("DOMContentLoaded", function(event) {
 
+			//England
 			document.getElementById('england1').addEventListener('click', () => {
 				console.log('test');
 				//Con
@@ -83,11 +84,12 @@
 				//Lab
 				document.getElementById('block2').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/dZQ9Y/';
 				//Lib
-				document.getElementById('block3').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/MzDqA/';
+				document.getElementById('block3').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/e0fMg/';
 				//Green
 				document.getElementById('block4').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/IvrR4/';
 			});
 
+			//London
 			document.getElementById('london1').addEventListener('click', () => {
 				//Con
 				document.getElementById('block1').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/lfqE2/';
@@ -99,10 +101,19 @@
 				document.getElementById('block4').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/TQ2FQ/';
 			});
 
-			document.getElementById('london1').addEventListener('click', () => {
-				document.getElementById('block1').querySelector('iframe').src = '';
+			//Scotland
+			document.getElementById('scotland1').addEventListener('click', () => {
+				//Con
+				document.getElementById('block1').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/AqVBy/';
+				//Lab
+				document.getElementById('block2').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/EjjOV/';
+				//Lib
+				document.getElementById('block3').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/QELAz/';
+				//SNP
+				document.getElementById('block4').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/OzrRt/';
 			});
 
+			//Wales
 			document.getElementById('wales1').addEventListener('click', () => {
 				//Con
 				document.getElementById('block1').querySelector('iframe').src = 'https://datawrapper.dwcdn.net/j1iOJ/';

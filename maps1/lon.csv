@@ -1,9 +1,24 @@
-con,lab,lib,green,ind,snp,plaid,other,code
-40.7,15.5,32.9,10.9,0.0,0.0,0.0,0.0,belmont
-54.1,29.1,0.0,8.9,0.0,0.0,0.0,7.9,edgware
-41.0,49.4,0.0,5.0,3.0,0.0,0.0,1.6,preston
-44.6,10.5,44.9,0.0,0.0,0.0,0.0,0.0,queenspark
-18.3,62.7,18.9,0.0,0.0,0.0,0.0,0.0,kenton
-26.8,35.2,1.8,4.3,30.9,0.0,0.0,1.0,queensbury
-29.7,52.7,5.7,8.4,0.0,0.0,0.0,3.4,underhill
-35.5,48.3,5.0,8.5,0.0,0.0,0.0,2.7,highbarnet
+con,lab,lib,green,ind,snp,plaid,other,shorthand,council
+29.7,52.7,5.7,8.4,0.0,0.0,0.0,3.4,underhill,Barnet,Underhill
+35.5,48.3,5.0,8.5,0.0,0.0,0.0,2.7,high barnet,Barnet,High Barnet
+25.6,47.4,16.2,10.9,0.0,0.0,0.0,0.0,west hendon,Barnet,West Hendon
+35.7,42.2,12.8,9.2,0.0,0.0,0.0,0.0,childs hill,Barnet,Childs Hill
+44.6,24.8,14.6,8.7,7.3,0.0,0.0,0.0,garden suburb,Barnet,Garden Suburb
+41.0,25.5,25.5,8.1,0.0,0.0,0.0,0.0,finchley church end,Barnet,Finchley Church End
+12.6,58.8,17.4,11.2,0.0,0.0,0.0,0.0,east finchley,Barnet,East Finchley
+40.1,31.2,14.7,8.8,0.0,0.0,0.0,5.2,mill hill,Barnet,Mill Hill
+37.3,46.3,6.2,10.2,0.0,0.0,0.0,0.0,brunswick park,Barnet,Brunswick Park
+38.6,44.1,6.5,10.9,0.0,0.0,0.0,0.0,east barnet,Barnet,East Barnet
+23.9,63.2,0.0,12.9,0.0,0.0,0.0,0.0,burnt oak,Barnet,Burnt Oak
+49.4,26.8,5.2,8.0,10.7,0.0,0.0,0.0,hendon,Barnet,Hendon
+18.2,46.3,20.2,10.0,0.0,0.0,0.0,5.2,west finchley,Barnet,West Finchley
+21.8,55.1,9.3,13.9,0.0,0.0,0.0,0.0,dulwich wood,Southwark,Dulwich Wood
+22.4,44.5,23.9,8.2,0.0,0.0,0.0,1.1,dulwich village,Southwark,Dulwich Village
+7.5,60.9,11.6,20.0,0.0,0.0,0.0,0.0,champion hill,Southwark,Champion Hill
+8.7,55.6,14.7,21.0,0.0,0.0,0.0,0.0,dulwich hill,Southwark,Dulwich Hill
+6.5,56.9,10.9,22.9,0.0,0.0,0.0,2.8,rye lane,Southwark,Rye Lane
+4.3,41.2,23.7,30.8,0.0,0.0,0.0,0.0, queen's road,Southwark,Nunhead & Queen's Road
+10.6,60.4,9.9,15.9,0.0,0.0,0.0,3.2,old kent road,Southwark,Old Kent Road
+9.8,32.0,54.5,0.0,0.0,0.0,0.0,3.7, bankside,Southwark,Borough & Bankside
+7.1,46.7,32.8,13.5,0.0,0.0,0.0,0.0, west bermondsey,Southwark,London Bridge & West Bermondsey
+9.9,29.3,45.5,15.3,0.0,0.0,0.0,0.0,north bermondsey,Southwark,North Bermondsey
