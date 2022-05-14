@@ -35,7 +35,7 @@ def compare(base_file, comp_file, output_file):
                 similarity1 = (base_feature.intersection(comp_feature).area/base_feature.area)*100
                 similarity2 = (comp_feature.intersection(base_feature).area/comp_feature.area)*100
 
-                if 95 <= similarity1 <= 105 and 95 <= similarity2 <= 105:
+                if 90 <= similarity1 <= 110 and 95 <= similarity2 <= 105:
                     matched = True
                     matched_list.append(i)
                     break
