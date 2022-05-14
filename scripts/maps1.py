@@ -18,6 +18,9 @@ def writeward(shorthand, name, council, item, feat, writer):
     feat['properties']['id'] = merger
 
 def getattrs(feat):
+    name = False
+    district = False
+
     if feat['properties']['content'] != None:
 
         html = feat['properties']['content']
@@ -60,9 +63,10 @@ def create(infile, outfile, outcsv):
                 name = False
 
                 name, district = getattrs(feat)
-
+                
                 if name:
-                    shorthand = helper.clear(helper.process_name(name))
+                    name = helper.process_name(name)
+                    shorthand = helper.clear(name)
                     district = helper.clear(helper.process_council(district))
                     found = False
                     #Is it in the 2022 records?
