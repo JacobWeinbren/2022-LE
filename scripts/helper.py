@@ -1,79 +1,93 @@
-import re, csv, unidecode, requests, json
-from bs4 import BeautifulSoup as Soup
-import urllib
+import re, csv
 
-with open("../sources/boundary-line-code-changes-May-2022.csv") as fp:
-    reader = csv.reader(fp, delimiter=",", quotechar='"')
-    next(reader)
-    changes = [row for row in reader]
+replacement_names = {
+    "Bethnal Green East": ["St Peter's", "Tower Hamlets"],
+    "Bethnal Green West": ["Bethnal Green", "Tower Hamlets"],
+    "Swinton & Wardley": ["Swinton and Wardley", "Salford"],
+    "Levans and Crooklands": ["Levens and Crooklands", "Westmorland & Furness"],
+    "Old Barrow": ["Old Barrow and Hindpool", "Westmorland & Furness"],
+    "George Street/Harbour": ["George St / Harbour", "Aberdeen"],
+    "Sgìre an Rubha": ["SgÃ¯Â¿Â½re an Rubha (Point)", "Comhairle nan Eilean Siar"],
+    "Sgìre nan Loch": ["SgÃ¯Â¿Â½re nan Loch", "Comhairle nan Eilean Siar"],
+    "Steòrnabhagh a Deas": ["SteÃ¯Â¿Â½rnabhagh a Deas (Stornaway South)", "Comhairle nan Eilean Siar"],
+    "Steòrnabhagh a Tuath": ["SteÃ¯Â¿Â½rnabhagh a Tuath (Stornaway North)", "Comhairle nan Eilean Siar"],
+    "Uibhist a Deas Èirisgeigh agus Beinn na Faoghla": ["Uibhist a Deas, Ã¯Â¿Â½irisgeigh agus Beinn na Faoghla (South Uist)", "Comhairle nan Eilean Siar"],
+    "Skye": ["Eilean Ã¯Â¿Â½ ChÃ¯Â¿Â½o (Skye)", "Highland"],
+    "Burnham North": ["Burnham on Sea North", "Somerset"],
+    "Bryntyrion Laleston and Merthyr Ma": ["Bryntirion, laleston and Merthyr Mawr ED", "Bridgend"],
+    "Darran Valley": ["Darren Valley ED", "Caerphilly"],
+    "St Clears with Llansteffan": ["St. Clears and Llansteffan ED", "Carmarthenshire"],
+    "Llansantffraid": ["Llansanffraid ED", "Ceredigion"],
+    "New Quay with Llanllwchaiarn": ["New Quay and Llanllwchaearn ED", "Ceredigion"],
+    "Edernion": ["Edeirnion ED", "Denbighshire"],
+    "Efenechtyd": ["Efenechdyd ED", "Denbighshire"],
+    "Ewloe": ["Hawarden: Ewloe ED", "Flintshire"],
+    "Llanasa and Trelawyd": ["Llanasa and Trelawnyd ED", "Flintshire"],
+    "Brithdir and Llanfachreth / Ganllwyd /": ["Brithdir and Llanfachreth/Ganllwyd/Llanelltyd ED", "Gwynedd"],
+    "De Dollgellau": ["De Dolgellau ED", "Gwynedd"],
+    "Tre-garth a Mynydd Llandygái": ["Tre-garth a Mynydd Llandygai ED", "Gwynedd"],
+    "Cantref": ["Cantref ED (DET)", "Monmouthshire"],
+    "Crynant Onllywn and Seven Sisters": ["Crynant, Onllwyn and Seven Sisters ED", "Neath Port Talbot"],
+    "Gwaun-Cae-Gurwen and Lower Brynamma": ["Gwaun-Cae-Gurwen and Lower Brynamman ED", "Neath Port Talbot"],
+    "Narberth": ["Narberth: Urban ED", "Pembrokeshire"],
+    "Newtown West": ["Newton West ED", "Powys"],
+    "Bôn-y-maen": ["Bon-y-maen ED", "Swansea"],
+    "Goresinon and Penyrheol": ["Gorseinon and Penyrheol ED", "Swansea"],
+    "Pontlliw and Tircoed": ["Pontlliew and Tircoed ED", "Swansea"],
+    "Wathvale": ["Wathvale and Bishop Monkton", "Harrogate"]
+}
 
-#Search for ward's council
-def searcharea(code):
-    address = "https://findthatpostcode.uk/search/?q=" + str(code)
-    response = requests.get(address)
+replacement_councils = {
+    "Comhairle nan Eilean Siar": "Na h-Eileanan Siar",
+    "Anglesey": "Isle of Anglesey"
+}
 
-    if response.status_code == 200:
-        soup = Soup(response.content, 'html.parser')
-        try:
-            meta = soup.find(class_='columns').find('ul').find('li').find('a')['href'].replace('.html','.json')
-
-            address = "https://findthatpostcode.uk/" + meta
-            response = requests.get(address)
-
-            if response.status_code == 200:
-                response = json.loads(response.text)
-                name = False
-                for included in response['included']:
-                    if 'attributes' in included and 'active' in included['attributes'] and included['attributes']['active'] == True:
-                        name = included['attributes']['name']
-                return name
-            else:
-                return False
-        except:
-            return False
+#Party code
+def partycode(party):
+    if party in ["Lab", "Con", "LDem", "Grn", "Ind", "SNP", "PC"]:
+        return party
     else:
-        return False
+        return "OTH"
 
 #Clear text of ascii, numbers, capitalisation
 def clear(name):
 
-    #Normalise string
-    name = unidecode.unidecode(name)
     name = name.lower()
-    
-    #Second value keeps translations
-    #/, &, and are used interchangably
-    if '/' in name:
-        name = name.split('/')[1]
-    if '&' in name:
-        name = name.split('&')[1]
-    #English
-    if ' and ' in name:
-        name = name.split('and')[1]
-    #Welsh
-    if ' a ' in name:
-        name = name.split('a')[1]
-
-    #Remove numbers and misc spacing issues
-    filter(lambda x: x.isalpha(), name)
-
-    #Clear
+    name = name.replace(" and ","").replace(" a ","").replace(" an ","")
     name = name.replace(" ", "")
 
+    #Remove bracktets
+    name = re.sub("[\(\[].*?[\)\]]", "", name)
+
+    #Remove non letters
+    name = ''.join([i for i in name if i.isalpha()])
+
+    return name.strip()
+
+def process_council(council):
+    if '-' in council:
+        council = council.rsplit('-',1)[1]
+    council = council.replace("City of", "").replace("London Boro","").replace("District","").replace("City","").replace("Islands","").replace("the ", "").replace("County","")
+    return council
+
+def process_name(name):
+    if name.endswith('Ward'):
+        name = name[:-4]
+    if name.endswith('ED'):
+        name = name[:-2]
     return name
 
-#Search for council
-def findcouncil(code):
+#Name exceptions
+def exceptions(name, council):
 
-    item = code
+    for key in replacement_names:
+        if name == key and council == replacement_names[key][1]:
+            name = process_name(replacement_names[key][0])
 
-    for row in changes:
-        if row[0] == code:
-            item = row[2]
-            break
-    
-    council = searcharea(item)
-    return council
+    if council in replacement_councils:
+        council = process_council(replacement_councils[council])
+
+    return clear(process_name(name)), clear(process_council(council))
 
 #Parse list data
 def parse_csv_list(csv_list):
@@ -104,7 +118,7 @@ def new_results():
     data = []
 
     #Read result values
-    with open("../sources/results/LE2022 RESULTS - RESULTS.csv") as f:
+    with open("../sources/results/2022 local election results (Britain Elects aggregate) - results.csv") as f:
         reader = csv.reader(f, delimiter=",", quotechar='"')
         sheet_data = [row for row in reader]
 
@@ -114,22 +128,24 @@ def new_results():
 
             #Party vote tally
             output_item = {
-                "con": input_item[10],
-                "lab": input_item[11],
-                "lib": input_item[12],
-                "green": input_item[13],
-                "ind": input_item[14],
-                "snp": input_item[15],
-                "plaid": input_item[16],
-                "other": sum(input_item[17:34])
+                "con": input_item[6],
+                "lab": input_item[7],
+                "lib": input_item[8],
+                "green": input_item[9],
+                "snp": input_item[10],
+                "plaid": input_item[11],
+                "other": sum(input_item[12:20])
             }
 
             total = sum(output_item.values())
 
             if total > 0:
                 parse_percentage(input_item, output_item, total)
-                output_item["shorthand"] = clear(input_item[3])
-                output_item["council"] = clear(input_item[2])
+            if input_item[4]:
+                output_item["shorthand"], output_item["council"] = exceptions(input_item[1], input_item[0])
+                output_item['name'] = input_item[1]
+                output_item["winner"] = partycode(input_item[4])
+
                 data.append(output_item)
 
     return data
@@ -160,8 +176,8 @@ def old_results():
 
             if total > 0:
                 parse_percentage(input_item, output_item, total)
-                output_item["shorthand"] = clear(input_item[3])
-                output_item["council"] = clear(input_item[2])
+                output_item["shorthand"], output_item["council"] = exceptions(input_item[3], input_item[2])
+                output_item['name'] = input_item[3]
                 data.append(output_item)
 
     #Scotland
@@ -190,8 +206,8 @@ def old_results():
 
                 if total > 0:
                     parse_percentage(input_item, output_item, total)
-                    output_item["shorthand"] = clear(input_item[2])
-                    output_item["council"] = clear(input_item[0])
+                    output_item["shorthand"], output_item["council"] = exceptions(input_item[2], input_item[0])
+                    output_item['name'] = input_item[2]
                     data.append(output_item)
 
     #Wales
@@ -235,8 +251,8 @@ def old_results():
 
             if total > 0:
                 parse_percentage(input_item, output_item, total)
-                output_item["shorthand"] = clear(input_item[0])
-                output_item["council"] = clear(input_item[1])
+                output_item["shorthand"], output_item["council"] = exceptions(input_item[0], input_item[1])
+                output_item['name'] = input_item[0]
                 data.append(output_item)
 
     return data

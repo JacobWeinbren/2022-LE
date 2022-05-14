@@ -2,16 +2,16 @@
 
 ## Sources
 
+With many thanks to Election Maps UK, Britain Elects, Andrew Teale, Ballot Box, Electoral Calculus, The Ordnance Survey and The Boundary Commission 
+
 ### Full Extent Boundaries
 
 -   [Dec 2017](https://geoportal.statistics.gov.uk/datasets/ons::wards-december-2017-full-extent-boundaries-in-uk-wgs84/about)
 -   [Dec 2018](https://geoportal.statistics.gov.uk/datasets/ons::wards-december-2018-full-extent-boundaries-gb/about)
--   [May 2022](https://osdatahub.os.uk/downloads/open/BoundaryLine)
--   [Changes](https://www.ordnancesurvey.co.uk/documents/product-support/support/boundary-line-code-changes-May-2022.xls)
+-   [Electoral Calculus](https://www.electoralcalculus.co.uk/geoserver/)
+-   OS Unitary Electoral Division
 
 ### Results
-
-Many Thanks to UK Election Maps, Britain Elects, Andrew Teale and Ballot Box.
 
 -   [Eng + Wal + Sco 2022](https://docs.google.com/spreadsheets/d/1RmvhrMUb8-zxqipiz8RDTzMmhRnl-KEUiZXHILMxEQA/edit#gid=494045480)
 -   [Eng 2018](https://docs.google.com/spreadsheets/d/1ZaAenyQkbwcxdl4GiPUj73rpi2oocpG3PmwAnypAQZA/edit#gid=635729702)
@@ -24,11 +24,12 @@ Many Thanks to UK Election Maps, Britain Elects, Andrew Teale and Ballot Box.
 -   source env/bin/activate
 
 -   Merge 2022 wards Boundaries
+-   Parwise Clip wards with 2017/18 (as they are difference source)
+-   Spatial join with districts
 
 -   Now we are going to find the minimum area that encompasses both the old and new maps
 
-    1. Make four regions (Wales, Scotland, England, London) - make sure to include the Highlands (use join)
-    2. Intersect regions with 2017/18 (as they are difference source)
+    1. Make four regions (Wales, Scotland, England, London) from country region
     3. Remove attributes
 
 -   Now we intersect with wards and export
@@ -39,4 +40,4 @@ Many Thanks to UK Election Maps, Britain Elects, Andrew Teale and Ballot Box.
 
 -   Cd into scripts and run boundary_changes.py
 
--   Remove extra attributes, simplify (.1km for LDN + WAL, .5km for ENG)
+-   Remove extra attributes, simplify (use mapshaper ~1mb topojson)

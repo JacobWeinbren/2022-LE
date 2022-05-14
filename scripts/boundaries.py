@@ -1,6 +1,7 @@
-import fiona, re
+import fiona, helper
 from shapely.geometry import shape
 from collections import OrderedDict
+import maps1
 
 #Remove wards with changed boundaries
 def compare(base_file, comp_file, output_file):
@@ -34,7 +35,7 @@ def compare(base_file, comp_file, output_file):
                 similarity1 = (base_feature.intersection(comp_feature).area/base_feature.area)*100
                 similarity2 = (comp_feature.intersection(base_feature).area/comp_feature.area)*100
 
-                if 90 <= similarity1 <= 110 and 90 <= similarity2 <= 110:
+                if 95 <= similarity1 <= 105 and 95 <= similarity2 <= 105:
                     matched = True
                     matched_list.append(i)
                     break
@@ -46,36 +47,40 @@ def compare(base_file, comp_file, output_file):
     print(len(matched_list), len(changed_list))
     print("Writing")
 
-    schema = {'properties': OrderedDict([('NAME', 'str')]), 'geometry': 'Polygon'}
+    schema = {'properties': OrderedDict([('name', 'str'), ('district', 'str')]), 'geometry': 'Polygon'}
 
     with fiona.open(base_file) as source, fiona.open(output_file, 'w', driver=base_data.driver, schema = schema, crs=base_data.crs) as dest:
         for index, feat in enumerate(source):
+
+            name, district = maps1.getattrs(feat)
+
             feat['properties'] = {}
-            feat['properties']['NAME'] = re.sub(' Ward', '', feat['properties']['NAME'])
-            feat['properties']['NAME'] = re.sub(' ED', '', feat['properties']['NAME'])
+            feat['properties']['name'] = name
+            feat['properties']['district'] = district
+
             if index not in changed_list:
                 dest.write(feat)
 
 compare(
-    '../sources/output/wards_lon_2022.geojson', 
-    '../sources/output/wards_lon_2018.geojson',
+    '../sources/output/lon_2022.geojson', 
+    '../sources/output/lon_2018.geojson',
     '../sources/processed/wards_lon.geojson'
 )
 
 compare(
-    '../sources/output/wards_eng_2022.geojson', 
-    '../sources/output/wards_eng_2018.geojson',
+    '../sources/output/eng_2022.geojson', 
+    '../sources/output/eng_2018.geojson',
     '../sources/processed/wards_eng.geojson'
 )
 
 compare(
-    '../sources/output/wards_sco_2022.geojson', 
-    '../sources/output/wards_sco_2017.geojson',
+    '../sources/output/sco_2022.geojson', 
+    '../sources/output/sco_2017.geojson',
     '../sources/processed/wards_sco.geojson'
 )
 
 compare(
-    '../sources/output/wards_wal_2022.geojson', 
-    '../sources/output/wards_wal_2017.geojson',
+    '../sources/output/wal_2022.geojson', 
+    '../sources/output/wal_2017.geojson',
     '../sources/processed/wards_wal.geojson'
 )

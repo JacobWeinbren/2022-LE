@@ -1,8 +1,40 @@
 import csv, re, fiona
 from collections import OrderedDict
+from bs4 import BeautifulSoup  
 import helper
 
 new_results = helper.new_results()
+
+def writeward(shorthand, name, council, item, feat, writer):
+    merger = (shorthand + '-' + council).strip()
+
+    #Write to csv
+    item['name'] = name
+    item['id'] = merger
+    writer.writerow(list(item.values()))
+    
+    #Update feature to match
+    feat['properties'] = {}
+    feat['properties']['id'] = merger
+
+def getattrs(feat):
+    if feat['properties']['content'] != None:
+
+        html = feat['properties']['content']
+        soup = BeautifulSoup(html, "html.parser")
+        values = soup.select('span.atr-value')
+
+        if len(values):
+
+            name = values[0].text
+            district = values[2].text
+
+    elif feat['properties']['Name'] != None:
+
+        name = feat['properties']['Name']
+        district = feat['properties']['District']
+
+    return name, district
 
 def create(infile, outfile, outcsv):
 
@@ -13,42 +45,37 @@ def create(infile, outfile, outcsv):
     #Write to csv
     with open(outcsv, "wt") as f:
         writer = csv.writer(f, delimiter=",")
-        writer.writerow(list(new_results[0].keys()))
+        headers = list(new_results[0].keys())
+        headers.append('name')
+        headers.append('id')
+        writer.writerow(headers)
 
         schema = meta.schema
-        schema['properties'] = OrderedDict([('name', 'str')])
+        schema['properties'] = OrderedDict([('id', 'str')])
 
         #Write to geojson
         with fiona.open(infile) as source, fiona.open(outfile, 'w', driver=meta.driver, schema = schema, crs=meta.crs) as dest:
             for index, feat in enumerate(source):
-                
-                name = re.sub(' Ward', '', feat['properties']['NAME'])
-                name = re.sub(' ED', '', name)
-                shorthand = helper.clear(name)
 
-                council = helper.findcouncil(feat['properties']['CODE'])
+                name = False
 
-                #Is it in the 2022 records?
-                for item in new_results:
-                    if council and item['shorthand'] == shorthand and item['council'] == council:
+                name, district = getattrs(feat)
 
-                        print(index)
+                if name:
+                    shorthand = helper.clear(helper.process_name(name))
+                    district = helper.clear(helper.process_council(district))
+                    found = False
+                    #Is it in the 2022 records?
+                    for item in new_results:
+                        if item['shorthand'] == shorthand:
+                            if item['council'] == district:
+                                writeward(shorthand, name, district, item, feat, writer)
+                                dest.write(feat)
+                                found = True
+                                break
 
-                        #Write to csv
-                        item['name'] = name
-                        item['council'] = council
-                        writer.writerow(list(item.values()))
-                        
-                        #Update feature to match
-                        feat['properties'] = {}
-                        feat['properties']['name'] = name
-
-                        #Write to file
-                        dest.write(feat)
-
-                        break
-
-create('../sources/output/wards_lon_2022.geojson', '../maps1/lon_2022.geojson', '../maps1/lon.csv')
-#create('../sources/output/wards_eng_2022.geojson', '../maps1/eng_2022.geojson', '../maps1/eng.csv')
-#create('../sources/output/wards_wal_2022.geojson', '../maps1/wal_2022.geojson', '../maps1/wal.csv')
-#create('../sources/output/wards_sco_2022.geojson', '../maps1/sco_2022.geojson', '../maps1/sco.csv')
+if __name__ == "__main__":             
+    create('../sources/output/lon_2022.geojson', '../maps1/lon_2022.geojson', '../maps1/lon.csv')
+    create('../sources/output/eng_2022.geojson', '../maps1/eng_2022.geojson', '../maps1/eng.csv')
+    create('../sources/output/wal_2022.geojson', '../maps1/wal_2022.geojson', '../maps1/wal.csv')
+    create('../sources/output/sco_2022.geojson', '../maps1/sco_2022.geojson', '../maps1/sco.csv')

@@ -1,24 +1,1428 @@
-con,lab,lib,green,ind,snp,plaid,other,shorthand,council
-29.7,52.7,5.7,8.4,0.0,0.0,0.0,3.4,underhill,Barnet,Underhill
-35.5,48.3,5.0,8.5,0.0,0.0,0.0,2.7,high barnet,Barnet,High Barnet
-25.6,47.4,16.2,10.9,0.0,0.0,0.0,0.0,west hendon,Barnet,West Hendon
-35.7,42.2,12.8,9.2,0.0,0.0,0.0,0.0,childs hill,Barnet,Childs Hill
-44.6,24.8,14.6,8.7,7.3,0.0,0.0,0.0,garden suburb,Barnet,Garden Suburb
-41.0,25.5,25.5,8.1,0.0,0.0,0.0,0.0,finchley church end,Barnet,Finchley Church End
-12.6,58.8,17.4,11.2,0.0,0.0,0.0,0.0,east finchley,Barnet,East Finchley
-40.1,31.2,14.7,8.8,0.0,0.0,0.0,5.2,mill hill,Barnet,Mill Hill
-37.3,46.3,6.2,10.2,0.0,0.0,0.0,0.0,brunswick park,Barnet,Brunswick Park
-38.6,44.1,6.5,10.9,0.0,0.0,0.0,0.0,east barnet,Barnet,East Barnet
-23.9,63.2,0.0,12.9,0.0,0.0,0.0,0.0,burnt oak,Barnet,Burnt Oak
-49.4,26.8,5.2,8.0,10.7,0.0,0.0,0.0,hendon,Barnet,Hendon
-18.2,46.3,20.2,10.0,0.0,0.0,0.0,5.2,west finchley,Barnet,West Finchley
-21.8,55.1,9.3,13.9,0.0,0.0,0.0,0.0,dulwich wood,Southwark,Dulwich Wood
-22.4,44.5,23.9,8.2,0.0,0.0,0.0,1.1,dulwich village,Southwark,Dulwich Village
-7.5,60.9,11.6,20.0,0.0,0.0,0.0,0.0,champion hill,Southwark,Champion Hill
-8.7,55.6,14.7,21.0,0.0,0.0,0.0,0.0,dulwich hill,Southwark,Dulwich Hill
-6.5,56.9,10.9,22.9,0.0,0.0,0.0,2.8,rye lane,Southwark,Rye Lane
-4.3,41.2,23.7,30.8,0.0,0.0,0.0,0.0, queen's road,Southwark,Nunhead & Queen's Road
-10.6,60.4,9.9,15.9,0.0,0.0,0.0,3.2,old kent road,Southwark,Old Kent Road
-9.8,32.0,54.5,0.0,0.0,0.0,0.0,3.7, bankside,Southwark,Borough & Bankside
-7.1,46.7,32.8,13.5,0.0,0.0,0.0,0.0, west bermondsey,Southwark,London Bridge & West Bermondsey
-9.9,29.3,45.5,15.3,0.0,0.0,0.0,0.0,north bermondsey,Southwark,North Bermondsey
+con,lab,lib,green,snp,plaid,other,shorthand,council,name,winner,name,id
+58.6,9.1,32.3,0.0,0.0,0.0,0.0,brizesdoddinghurst,brentwood,Brizes and Doddinghurst,Con,brizesdoddinghurst-brentwood
+58.6,9.1,32.3,0.0,0.0,0.0,0.0,brizesdoddinghurst,brentwood,Brizes and Doddinghurst,Con,brizesdoddinghurst-brentwood
+58.6,9.1,32.3,0.0,0.0,0.0,0.0,brizesdoddinghurst,brentwood,Brizes and Doddinghurst,Con,brizesdoddinghurst-brentwood
+30.4,58.4,4.4,4.8,0.0,0.0,1.9,walthamcross,broxbourne,Waltham Cross,Lab,walthamcross-broxbourne
+30.4,58.4,4.4,4.8,0.0,0.0,1.9,walthamcross,broxbourne,Waltham Cross,Lab,walthamcross-broxbourne
+30.4,58.4,4.4,4.8,0.0,0.0,1.9,walthamcross,broxbourne,Waltham Cross,Lab,walthamcross-broxbourne
+47.5,44.8,0.0,7.7,0.0,0.0,0.0,edgwarebury,barnet,Edgwarebury,Con,edgwarebury-barnet
+47.5,44.8,0.0,7.7,0.0,0.0,0.0,edgwarebury,barnet,Edgwarebury,Con,edgwarebury-barnet
+41.7,31.6,16.2,10.4,0.0,0.0,0.0,arnosgrove,enfield,Arnos Grove,Con,arnosgrove-enfield
+41.7,31.6,16.2,10.4,0.0,0.0,0.0,arnosgrove,enfield,Arnos Grove,Con,arnosgrove-enfield
+58.0,21.1,9.7,8.8,0.0,0.0,2.4,stanmore,harrow,Stanmore,Con,stanmore-harrow
+58.0,21.1,9.7,8.8,0.0,0.0,2.4,stanmore,harrow,Stanmore,Con,stanmore-harrow
+58.0,21.1,9.7,8.8,0.0,0.0,2.4,stanmore,harrow,Stanmore,Con,stanmore-harrow
+36.2,51.4,0.0,12.4,0.0,0.0,0.0,whetstone,barnet,Whetstone,Lab,whetstone-barnet
+33.7,9.2,51.4,5.7,0.0,0.0,0.0,pennmillend,threerivers,Penn and Mill End,LDem,pennmillend-threerivers
+33.7,9.2,51.4,5.7,0.0,0.0,0.0,pennmillend,threerivers,Penn and Mill End,LDem,pennmillend-threerivers
+47.2,11.2,32.4,9.3,0.0,0.0,0.0,rickmansworthtown,threerivers,Rickmansworth Town,Con,rickmansworthtown-threerivers
+47.2,11.2,32.4,9.3,0.0,0.0,0.0,rickmansworthtown,threerivers,Rickmansworth Town,Con,rickmansworthtown-threerivers
+37.5,46.0,6.3,10.2,0.0,0.0,0.0,brunswickpark,barnet,Brunswick Park,Lab,brunswickpark-barnet
+37.5,46.0,6.3,10.2,0.0,0.0,0.0,brunswickpark,barnet,Brunswick Park,Lab,brunswickpark-barnet
+26.1,49.0,9.3,15.6,0.0,0.0,0.0,newsouthgate,enfield,New Southgate,Lab,newsouthgate-enfield
+47.0,27.1,13.1,12.8,0.0,0.0,0.0,winchmorehill,enfield,Winchmore Hill,Con,winchmorehill-enfield
+41.5,30.7,10.1,17.7,0.0,0.0,0.0,town,enfield,Town,Con,town-enfield
+35.4,38.5,13.1,12.9,0.0,0.0,0.0,barnetvale,barnet,Barnet Vale,Lab,barnetvale-barnet
+35.4,38.5,13.1,12.9,0.0,0.0,0.0,barnetvale,barnet,Barnet Vale,Lab,barnetvale-barnet
+54.1,29.1,0.0,8.9,0.0,0.0,7.9,edgware,barnet,Edgware,Con,edgware-barnet
+54.1,29.1,0.0,8.9,0.0,0.0,7.9,edgware,barnet,Edgware,Con,edgware-barnet
+47.5,28.7,10.0,12.1,0.0,0.0,1.6,bushhillpark,enfield,Bush Hill Park,Con,bushhillpark-enfield
+56.9,11.0,0.0,32.1,0.0,0.0,0.0,harefieldvillage,hillingdon,Harefield Village,Con,harefieldvillage-hillingdon
+56.9,11.0,0.0,32.1,0.0,0.0,0.0,harefieldvillage,hillingdon,Harefield Village,Con,harefieldvillage-hillingdon
+25.0,48.2,13.0,10.9,0.0,0.0,2.9,palmersgreen,enfield,Palmers Green,Lab,palmersgreen-enfield
+44.6,28.6,12.1,9.9,0.0,0.0,4.7,totteridgewoodside,barnet,Totteridge and Woodside,Con,totteridgewoodside-barnet
+35.5,48.3,5.0,8.5,0.0,0.0,2.7,highbarnet,barnet,High Barnet,Lab,highbarnet-barnet
+35.5,48.3,5.0,8.5,0.0,0.0,2.7,highbarnet,barnet,High Barnet,Lab,highbarnet-barnet
+48.1,30.3,10.4,11.2,0.0,0.0,0.0,oakwood,enfield,Oakwood,Con,oakwood-enfield
+67.8,17.6,14.6,0.0,0.0,0.0,0.0,northawcuffley,welwynhatfield,Northaw and Cuffley,Con,northawcuffley-welwynhatfield
+67.8,17.6,14.6,0.0,0.0,0.0,0.0,northawcuffley,welwynhatfield,Northaw and Cuffley,Con,northawcuffley-welwynhatfield
+67.8,17.6,14.6,0.0,0.0,0.0,0.0,northawcuffley,welwynhatfield,Northaw and Cuffley,Con,northawcuffley-welwynhatfield
+67.8,17.6,14.6,0.0,0.0,0.0,0.0,northawcuffley,welwynhatfield,Northaw and Cuffley,Con,northawcuffley-welwynhatfield
+67.8,17.6,14.6,0.0,0.0,0.0,0.0,northawcuffley,welwynhatfield,Northaw and Cuffley,Con,northawcuffley-welwynhatfield
+36.4,41.0,12.8,9.7,0.0,0.0,0.0,highfield,enfield,Highfield,Lab,highfield-enfield
+29.7,52.7,5.7,8.4,0.0,0.0,3.4,underhill,barnet,Underhill,Lab,underhill-barnet
+47.9,43.1,9.0,0.0,0.0,0.0,0.0,edgware,harrow,Edgware,Con,edgware-harrow
+62.2,25.9,12.0,0.0,0.0,0.0,0.0,canons,harrow,Canons,Con,canons-harrow
+62.2,25.9,12.0,0.0,0.0,0.0,0.0,canons,harrow,Canons,Con,canons-harrow
+68.4,7.9,17.5,6.2,0.0,0.0,0.0,moorparkeastbury,threerivers,Moor Park and Eastbury,Con,moorparkeastbury-threerivers
+68.4,7.9,17.5,6.2,0.0,0.0,0.0,moorparkeastbury,threerivers,Moor Park and Eastbury,Con,moorparkeastbury-threerivers
+68.4,7.9,17.5,6.2,0.0,0.0,0.0,moorparkeastbury,threerivers,Moor Park and Eastbury,Con,moorparkeastbury-threerivers
+27.4,37.7,8.5,10.1,0.0,0.0,16.2,headstone,harrow,Headstone,Lab,headstone-harrow
+54.5,24.8,9.3,11.4,0.0,0.0,0.0,grangepark,enfield,Grange Park,Con,grangepark-enfield
+56.2,24.7,9.0,10.1,0.0,0.0,0.0,cockfosters,enfield,Cockfosters,Con,cockfosters-enfield
+56.2,24.7,9.0,10.1,0.0,0.0,0.0,cockfosters,enfield,Cockfosters,Con,cockfosters-enfield
+56.2,24.7,9.0,10.1,0.0,0.0,0.0,cockfosters,enfield,Cockfosters,Con,cockfosters-enfield
+53.9,34.6,11.5,0.0,0.0,0.0,0.0,harrowweald,harrow,Harrow Weald,Con,harrowweald-harrow
+53.9,34.6,11.5,0.0,0.0,0.0,0.0,harrowweald,harrow,Harrow Weald,Con,harrowweald-harrow
+53.9,34.6,11.5,0.0,0.0,0.0,0.0,harrowweald,harrow,Harrow Weald,Con,harrowweald-harrow
+43.4,27.0,16.5,13.1,0.0,0.0,0.0,pinner,harrow,Pinner,Con,pinner-harrow
+43.4,27.0,16.5,13.1,0.0,0.0,0.0,pinner,harrow,Pinner,Con,pinner-harrow
+43.4,27.0,16.5,13.1,0.0,0.0,0.0,pinner,harrow,Pinner,Con,pinner-harrow
+39.2,27.9,7.0,25.9,0.0,0.0,0.0,southgate,enfield,Southgate,Con,southgate-enfield
+39.2,27.9,7.0,25.9,0.0,0.0,0.0,southgate,enfield,Southgate,Con,southgate-enfield
+49.9,23.5,17.9,4.8,0.0,0.0,3.8,carpenderspark,threerivers,Carpenders Park,Con,carpenderspark-threerivers
+49.9,23.5,17.9,4.8,0.0,0.0,3.8,carpenderspark,threerivers,Carpenders Park,Con,carpenderspark-threerivers
+49.9,23.5,17.9,4.8,0.0,0.0,3.8,carpenderspark,threerivers,Carpenders Park,Con,carpenderspark-threerivers
+49.9,23.5,17.9,4.8,0.0,0.0,3.8,carpenderspark,threerivers,Carpenders Park,Con,carpenderspark-threerivers
+48.4,21.6,12.1,11.7,0.0,0.0,6.2,hatchend,harrow,Hatch End,Con,hatchend-harrow
+48.4,21.6,12.1,11.7,0.0,0.0,6.2,hatchend,harrow,Hatch End,Con,hatchend-harrow
+32.3,6.8,53.4,7.5,0.0,0.0,0.0,chorleywoodsouthmaplecross,threerivers,Chorleywood South and Maple Cross,LDem,chorleywoodsouthmaplecross-threerivers
+32.3,6.8,53.4,7.5,0.0,0.0,0.0,chorleywoodsouthmaplecross,threerivers,Chorleywood South and Maple Cross,LDem,chorleywoodsouthmaplecross-threerivers
+32.3,6.8,53.4,7.5,0.0,0.0,0.0,chorleywoodsouthmaplecross,threerivers,Chorleywood South and Maple Cross,LDem,chorleywoodsouthmaplecross-threerivers
+42.2,41.4,7.1,9.3,0.0,0.0,0.0,northharrow,harrow,North Harrow,Con,northharrow-harrow
+51.5,21.5,11.4,13.8,0.0,0.0,1.8,ridgeway,enfield,Ridgeway,Con,ridgeway-enfield
+51.5,21.5,11.4,13.8,0.0,0.0,1.8,ridgeway,enfield,Ridgeway,Con,ridgeway-enfield
+51.5,21.5,11.4,13.8,0.0,0.0,1.8,ridgeway,enfield,Ridgeway,Con,ridgeway-enfield
+41.2,29.5,14.7,12.7,0.0,0.0,1.8,pinnersouth,harrow,Pinner South,Con,pinnersouth-harrow
+41.2,29.5,14.7,12.7,0.0,0.0,1.8,pinnersouth,harrow,Pinner South,Con,pinnersouth-harrow
+38.6,44.1,6.5,10.9,0.0,0.0,0.0,eastbarnet,barnet,East Barnet,Lab,eastbarnet-barnet
+38.6,44.1,6.5,10.9,0.0,0.0,0.0,eastbarnet,barnet,East Barnet,Lab,eastbarnet-barnet
+55.8,27.3,0.0,10.0,0.0,0.0,6.8,belmont,harrow,Belmont,Con,belmont-harrow
+54.5,15.2,24.9,5.4,0.0,0.0,0.0,goffsoak,broxbourne,Goffs Oak,Con,goffsoak-broxbourne
+54.5,15.2,24.9,5.4,0.0,0.0,0.0,goffsoak,broxbourne,Goffs Oak,Con,goffsoak-broxbourne
+54.5,15.2,24.9,5.4,0.0,0.0,0.0,goffsoak,broxbourne,Goffs Oak,Con,goffsoak-broxbourne
+54.5,15.2,24.9,5.4,0.0,0.0,0.0,goffsoak,broxbourne,Goffs Oak,Con,goffsoak-broxbourne
+27.8,61.3,5.2,5.6,0.0,0.0,0.0,southoxhey,threerivers,South Oxhey,Lab,southoxhey-threerivers
+27.8,61.3,5.2,5.6,0.0,0.0,0.0,southoxhey,threerivers,South Oxhey,Lab,southoxhey-threerivers
+27.8,61.3,5.2,5.6,0.0,0.0,0.0,southoxhey,threerivers,South Oxhey,Lab,southoxhey-threerivers
+38.1,26.3,21.2,11.2,0.0,0.0,3.1,whitewebbs,enfield,Whitewebbs,Con,whitewebbs-enfield
+38.1,26.3,21.2,11.2,0.0,0.0,3.1,whitewebbs,enfield,Whitewebbs,Con,whitewebbs-enfield
+38.1,26.3,21.2,11.2,0.0,0.0,3.1,whitewebbs,enfield,Whitewebbs,Con,whitewebbs-enfield
+33.8,21.2,45.0,0.0,0.0,0.0,0.0,belsize,camden,Belsize,LDem,belsize-camden
+33.3,43.1,16.4,7.1,0.0,0.0,0.0,churchfields,redbridge,Churchfields,Lab,churchfields-redbridge
+33.3,43.1,16.4,7.1,0.0,0.0,0.0,churchfields,redbridge,Churchfields,Lab,churchfields-redbridge
+4.6,36.0,6.1,10.0,0.0,0.0,43.3,bromleynorth,towerhamlets,Bromley North,OTH,bromleynorth-towerhamlets
+4.6,36.0,6.1,10.0,0.0,0.0,43.3,bromleynorth,towerhamlets,Bromley North,OTH,bromleynorth-towerhamlets
+13.3,52.9,11.7,22.1,0.0,0.0,0.0,streathamhilleast,lambeth,Streatham Hill East,Lab,streathamhilleast-lambeth
+0.0,57.3,12.4,22.0,0.0,0.0,8.4,debeauvoir,hackney,De Beauvoir,Lab,debeauvoir-hackney
+0.0,57.3,12.4,22.0,0.0,0.0,8.4,debeauvoir,hackney,De Beauvoir,Lab,debeauvoir-hackney
+32.9,17.0,0.0,11.6,0.0,0.0,38.5,hylandsharrowlodge,havering,Hylands and Harrow Lodge,OTH,hylandsharrowlodge-havering
+32.9,17.0,0.0,11.6,0.0,0.0,38.5,hylandsharrowlodge,havering,Hylands and Harrow Lodge,OTH,hylandsharrowlodge-havering
+10.9,59.7,0.0,21.5,0.0,0.0,8.0,haggerston,hackney,Haggerston,Lab,haggerston-hackney
+10.9,59.7,0.0,21.5,0.0,0.0,8.0,haggerston,hackney,Haggerston,Lab,haggerston-hackney
+14.8,61.8,8.4,15.0,0.0,0.0,0.0,westthamesmead,greenwich,West Thamesmead,Lab,westthamesmead-greenwich
+14.8,61.8,8.4,15.0,0.0,0.0,0.0,westthamesmead,greenwich,West Thamesmead,Lab,westthamesmead-greenwich
+18.2,39.1,13.5,29.2,0.0,0.0,0.0,hanwellbroadway,ealing,Hanwell Broadway,Lab,hanwellbroadway-ealing
+18.2,39.1,13.5,29.2,0.0,0.0,0.0,hanwellbroadway,ealing,Hanwell Broadway,Lab,hanwellbroadway-ealing
+57.4,35.4,1.8,5.4,0.0,0.0,0.0,stamfordhillwest,hackney,Stamford Hill West,Con,stamfordhillwest-hackney
+5.4,62.7,4.5,18.7,0.0,0.0,8.7,finsburypark,islington,Finsbury Park,Lab,finsburypark-islington
+5.4,62.7,4.5,18.7,0.0,0.0,8.7,finsburypark,islington,Finsbury Park,Lab,finsburypark-islington
+36.0,53.2,0.0,6.9,0.0,0.0,3.9,westdrayton,hillingdon,West Drayton,Lab,westdrayton-hillingdon
+36.0,53.2,0.0,6.9,0.0,0.0,3.9,westdrayton,hillingdon,West Drayton,Lab,westdrayton-hillingdon
+36.0,53.2,0.0,6.9,0.0,0.0,3.9,westdrayton,hillingdon,West Drayton,Lab,westdrayton-hillingdon
+22.6,47.9,7.8,11.0,0.0,0.0,10.6,elthampage,greenwich,Eltham Page,Lab,elthampage-greenwich
+17.3,64.5,18.3,0.0,0.0,0.0,0.0,bloomsbury,camden,Bloomsbury,Lab,bloomsbury-camden
+17.3,64.5,18.3,0.0,0.0,0.0,0.0,bloomsbury,camden,Bloomsbury,Lab,bloomsbury-camden
+17.5,55.3,11.3,15.9,0.0,0.0,0.0,plaistowsouth,newham,Plaistow South,Lab,plaistowsouth-newham
+44.1,38.9,11.3,0.0,0.0,0.0,5.7,eastwickham,bexley,East Wickham,Con,eastwickham-bexley
+44.1,38.9,11.3,0.0,0.0,0.0,5.7,eastwickham,bexley,East Wickham,Con,eastwickham-bexley
+45.6,43.0,0.0,8.3,0.0,0.0,3.1,uxbridge,hillingdon,Uxbridge,Con,uxbridge-hillingdon
+45.6,43.0,0.0,8.3,0.0,0.0,3.1,uxbridge,hillingdon,Uxbridge,Con,uxbridge-hillingdon
+10.8,55.7,11.6,22.0,0.0,0.0,0.0,kennington,lambeth,Kennington,Lab,kennington-lambeth
+10.8,55.7,11.6,22.0,0.0,0.0,0.0,kennington,lambeth,Kennington,Lab,kennington-lambeth
+9.1,47.2,0.0,2.7,0.0,0.0,41.1,beampark,havering,Beam Park,Lab,beampark-havering
+9.1,47.2,0.0,2.7,0.0,0.0,41.1,beampark,havering,Beam Park,Lab,beampark-havering
+27.5,10.2,48.9,9.9,0.0,0.0,3.5,berrylands,kingstonuponthames,Berrylands,LDem,berrylands-kingstonuponthames
+10.3,57.5,12.6,19.7,0.0,0.0,0.0,woodside,haringey,Woodside,Lab,woodside-haringey
+10.3,57.5,12.6,19.7,0.0,0.0,0.0,woodside,haringey,Woodside,Lab,woodside-haringey
+24.1,13.8,62.1,0.0,0.0,0.0,0.0,westtwickenham,richmonduponthames,West Twickenham,LDem,westtwickenham-richmonduponthames
+24.1,13.8,62.1,0.0,0.0,0.0,0.0,westtwickenham,richmonduponthames,West Twickenham,LDem,westtwickenham-richmonduponthames
+10.1,57.0,9.0,19.6,0.0,0.0,4.4,evelyn,lewisham,Evelyn,Lab,evelyn-lewisham
+10.1,57.0,9.0,19.6,0.0,0.0,4.4,evelyn,lewisham,Evelyn,Lab,evelyn-lewisham
+10.1,57.0,9.0,19.6,0.0,0.0,4.4,evelyn,lewisham,Evelyn,Lab,evelyn-lewisham
+10.1,57.0,9.0,19.6,0.0,0.0,4.4,evelyn,lewisham,Evelyn,Lab,evelyn-lewisham
+4.5,33.6,10.0,51.0,0.0,0.0,0.9,stratfordolympicpark,newham,Stratford Olympic Park,Grn,stratfordolympicpark-newham
+4.5,33.6,10.0,51.0,0.0,0.0,0.9,stratfordolympicpark,newham,Stratford Olympic Park,Grn,stratfordolympicpark-newham
+4.5,33.6,10.0,51.0,0.0,0.0,0.9,stratfordolympicpark,newham,Stratford Olympic Park,Grn,stratfordolympicpark-newham
+4.5,33.6,10.0,51.0,0.0,0.0,0.9,stratfordolympicpark,newham,Stratford Olympic Park,Grn,stratfordolympicpark-newham
+42.5,38.3,0.0,15.3,0.0,0.0,3.9,hatchlanehighamsparknorth,walthamforest,Hatch Lane and Highams Park North,Con,hatchlanehighamsparknorth-walthamforest
+42.5,38.3,0.0,15.3,0.0,0.0,3.9,hatchlanehighamsparknorth,walthamforest,Hatch Lane and Highams Park North,Con,hatchlanehighamsparknorth-walthamforest
+17.2,56.3,8.7,17.7,0.0,0.0,0.0,plumsteadcommon,greenwich,Plumstead Common,Lab,plumsteadcommon-greenwich
+17.2,56.3,8.7,17.7,0.0,0.0,0.0,plumsteadcommon,greenwich,Plumstead Common,Lab,plumsteadcommon-greenwich
+27.1,53.1,8.8,10.9,0.0,0.0,0.0,woodhouse,barnet,Woodhouse,Lab,woodhouse-barnet
+9.6,59.7,8.9,18.3,0.0,0.0,3.4,cathall,walthamforest,Cathall,Lab,cathall-walthamforest
+9.6,59.7,8.9,18.3,0.0,0.0,3.4,cathall,walthamforest,Cathall,Lab,cathall-walthamforest
+22.6,55.2,7.2,11.2,0.0,0.0,3.9,greenfordbroadway,ealing,Greenford Broadway,Lab,greenfordbroadway-ealing
+22.6,55.2,7.2,11.2,0.0,0.0,3.9,greenfordbroadway,ealing,Greenford Broadway,Lab,greenfordbroadway-ealing
+8.1,33.1,10.9,47.9,0.0,0.0,0.0,highbury,islington,Highbury,Grn,highbury-islington
+8.1,33.1,10.9,47.9,0.0,0.0,0.0,highbury,islington,Highbury,Grn,highbury-islington
+68.7,15.2,16.1,0.0,0.0,0.0,0.0,royalhospital,kensingtonchelsea,Royal Hospital,Con,royalhospital-kensingtonchelsea
+68.7,15.2,16.1,0.0,0.0,0.0,0.0,royalhospital,kensingtonchelsea,Royal Hospital,Con,royalhospital-kensingtonchelsea
+68.7,15.2,16.1,0.0,0.0,0.0,0.0,royalhospital,kensingtonchelsea,Royal Hospital,Con,royalhospital-kensingtonchelsea
+11.7,50.4,4.1,9.3,0.0,0.0,24.4,edmontongreen,enfield,Edmonton Green,Lab,edmontongreen-enfield
+11.7,50.4,4.1,9.3,0.0,0.0,24.4,edmontongreen,enfield,Edmonton Green,Lab,edmontongreen-enfield
+42.3,36.7,8.3,12.6,0.0,0.0,0.0,lavender,wandsworth,Lavender,Con,lavender-wandsworth
+42.3,36.7,8.3,12.6,0.0,0.0,0.0,lavender,wandsworth,Lavender,Con,lavender-wandsworth
+30.6,43.4,8.6,15.0,0.0,0.0,2.3,batterseapark,wandsworth,Battersea Park,Lab,batterseapark-wandsworth
+30.6,43.4,8.6,15.0,0.0,0.0,2.3,batterseapark,wandsworth,Battersea Park,Lab,batterseapark-wandsworth
+53.8,46.2,0.0,0.0,0.0,0.0,0.0,ockendon,thurrock,Ockendon,Con,ockendon-thurrock
+53.8,46.2,0.0,0.0,0.0,0.0,0.0,ockendon,thurrock,Ockendon,Con,ockendon-thurrock
+24.6,59.4,16.0,0.0,0.0,0.0,0.0,colville,kensingtonchelsea,Colville,Lab,colville-kensingtonchelsea
+24.6,59.4,16.0,0.0,0.0,0.0,0.0,colville,kensingtonchelsea,Colville,Lab,colville-kensingtonchelsea
+38.4,43.2,7.9,10.5,0.0,0.0,0.0,stmarys,wandsworth,St Mary's,Lab,stmarys-wandsworth
+38.4,43.2,7.9,10.5,0.0,0.0,0.0,stmarys,wandsworth,St Mary's,Lab,stmarys-wandsworth
+38.4,43.2,7.9,10.5,0.0,0.0,0.0,stmarys,wandsworth,St Mary's,Lab,stmarys-wandsworth
+45.0,9.9,8.5,6.5,0.0,0.0,30.1,bansteadvillage,reigatebanstead,Banstead Village,Con,bansteadvillage-reigatebanstead
+45.0,9.9,8.5,6.5,0.0,0.0,30.1,bansteadvillage,reigatebanstead,Banstead Village,Con,bansteadvillage-reigatebanstead
+6.2,36.6,39.8,17.4,0.0,0.0,0.0,fortisgreen,haringey,Fortis Green,LDem,fortisgreen-haringey
+6.2,36.6,39.8,17.4,0.0,0.0,0.0,fortisgreen,haringey,Fortis Green,LDem,fortisgreen-haringey
+47.0,21.7,17.5,13.7,0.0,0.0,0.0,bickleysundridge,bromley,Bickley and Sundridge,Con,bickleysundridge-bromley
+49.0,19.2,20.6,11.1,0.0,0.0,0.0,farnboroughcrofton,bromley,Farnborough and Crofton,Con,farnboroughcrofton-bromley
+7.4,60.3,0.0,25.6,0.0,0.0,6.7,williammorris,walthamforest,William Morris,Lab,williammorris-walthamforest
+7.2,54.7,23.0,15.2,0.0,0.0,0.0,boundsgreen,haringey,Bounds Green,Lab,boundsgreen-haringey
+7.2,54.7,23.0,15.2,0.0,0.0,0.0,boundsgreen,haringey,Bounds Green,Lab,boundsgreen-haringey
+7.2,54.7,23.0,15.2,0.0,0.0,0.0,boundsgreen,haringey,Bounds Green,Lab,boundsgreen-haringey
+30.0,58.1,11.9,0.0,0.0,0.0,0.0,brookgreen,hammersmithfulham,Brook Green,Lab,brookgreen-hammersmithfulham
+30.0,58.1,11.9,0.0,0.0,0.0,0.0,brookgreen,hammersmithfulham,Brook Green,Lab,brookgreen-hammersmithfulham
+28.4,18.1,42.2,11.2,0.0,0.0,0.0,westbarnes,merton,West Barnes,LDem,westbarnes-merton
+28.4,18.1,42.2,11.2,0.0,0.0,0.0,westbarnes,merton,West Barnes,LDem,westbarnes-merton
+28.4,18.1,42.2,11.2,0.0,0.0,0.0,westbarnes,merton,West Barnes,LDem,westbarnes-merton
+56.6,31.1,12.3,0.0,0.0,0.0,0.0,monkhams,redbridge,Monkhams,Con,monkhams-redbridge
+56.6,31.1,12.3,0.0,0.0,0.0,0.0,monkhams,redbridge,Monkhams,Con,monkhams-redbridge
+56.6,31.1,12.3,0.0,0.0,0.0,0.0,monkhams,redbridge,Monkhams,Con,monkhams-redbridge
+10.6,75.6,13.8,0.0,0.0,0.0,0.0,westgreen,haringey,West Green,Lab,westgreen-haringey
+22.2,44.6,8.2,23.9,0.0,0.0,1.1,dulwichvillage,southwark,Dulwich Village,Lab,dulwichvillage-southwark
+22.2,44.6,8.2,23.9,0.0,0.0,1.1,dulwichvillage,southwark,Dulwich Village,Lab,dulwichvillage-southwark
+23.0,77.0,0.0,0.0,0.0,0.0,0.0,pinkwell,hillingdon,Pinkwell,Lab,pinkwell-hillingdon
+23.0,77.0,0.0,0.0,0.0,0.0,0.0,pinkwell,hillingdon,Pinkwell,Lab,pinkwell-hillingdon
+23.0,77.0,0.0,0.0,0.0,0.0,0.0,pinkwell,hillingdon,Pinkwell,Lab,pinkwell-hillingdon
+19.1,69.6,11.3,0.0,0.0,0.0,0.0,nottingdale,kensingtonchelsea,Notting Dale,Lab,nottingdale-kensingtonchelsea
+19.1,69.6,11.3,0.0,0.0,0.0,0.0,nottingdale,kensingtonchelsea,Notting Dale,Lab,nottingdale-kensingtonchelsea
+14.8,70.0,15.2,0.0,0.0,0.0,0.0,shepherdsbushgreen,hammersmithfulham,Shepherd's Bush Green,Lab,shepherdsbushgreen-hammersmithfulham
+14.8,70.0,15.2,0.0,0.0,0.0,0.0,shepherdsbushgreen,hammersmithfulham,Shepherd's Bush Green,Lab,shepherdsbushgreen-hammersmithfulham
+18.0,51.1,11.3,13.3,0.0,0.0,6.3,woodside,croydon,Woodside,Lab,woodside-croydon
+18.0,51.1,11.3,13.3,0.0,0.0,6.3,woodside,croydon,Woodside,Lab,woodside-croydon
+36.0,46.8,5.8,11.4,0.0,0.0,0.0,southbalham,wandsworth,South Balham,Lab,southbalham-wandsworth
+36.0,46.8,5.8,11.4,0.0,0.0,0.0,southbalham,wandsworth,South Balham,Lab,southbalham-wandsworth
+46.6,40.5,12.9,0.0,0.0,0.0,0.0,stmarycray,bromley,St Mary Cray,Con,stmarycray-bromley
+46.6,40.5,12.9,0.0,0.0,0.0,0.0,stmarycray,bromley,St Mary Cray,Con,stmarycray-bromley
+38.4,23.4,0.0,6.4,0.0,0.0,31.8,rainhamwennington,havering,Rainham and Wennington,Con,rainhamwennington-havering
+38.4,23.4,0.0,6.4,0.0,0.0,31.8,rainhamwennington,havering,Rainham and Wennington,Con,rainhamwennington-havering
+38.4,23.4,0.0,6.4,0.0,0.0,31.8,rainhamwennington,havering,Rainham and Wennington,Con,rainhamwennington-havering
+38.4,23.4,0.0,6.4,0.0,0.0,31.8,rainhamwennington,havering,Rainham and Wennington,Con,rainhamwennington-havering
+45.7,5.1,23.4,0.0,0.0,0.0,25.8,warlinghamwest,tandridge,Warlingham West,Con,warlinghamwest-tandridge
+45.7,5.1,23.4,0.0,0.0,0.0,25.8,warlinghamwest,tandridge,Warlingham West,Con,warlinghamwest-tandridge
+3.2,58.5,7.7,30.5,0.0,0.0,0.0,telegraphhill,lewisham,Telegraph Hill,Lab,telegraphhill-lewisham
+3.2,58.5,7.7,30.5,0.0,0.0,0.0,telegraphhill,lewisham,Telegraph Hill,Lab,telegraphhill-lewisham
+42.1,8.2,40.1,9.6,0.0,0.0,0.0,carshaltonsouthclockhouse,sutton,Carshalton South and Clockhouse,Con,carshaltonsouthclockhouse-sutton
+42.1,8.2,40.1,9.6,0.0,0.0,0.0,carshaltonsouthclockhouse,sutton,Carshalton South and Clockhouse,Con,carshaltonsouthclockhouse-sutton
+42.1,8.2,40.1,9.6,0.0,0.0,0.0,carshaltonsouthclockhouse,sutton,Carshalton South and Clockhouse,Con,carshaltonsouthclockhouse-sutton
+5.7,54.3,9.0,25.0,0.0,0.0,6.1,highstreet,walthamforest,High Street,Lab,highstreet-walthamforest
+44.6,24.8,14.6,8.7,0.0,0.0,7.3,gardensuburb,barnet,Garden Suburb,Con,gardensuburb-barnet
+44.6,24.8,14.6,8.7,0.0,0.0,7.3,gardensuburb,barnet,Garden Suburb,Con,gardensuburb-barnet
+44.6,24.8,14.6,8.7,0.0,0.0,7.3,gardensuburb,barnet,Garden Suburb,Con,gardensuburb-barnet
+41.8,49.2,9.0,0.0,0.0,0.0,0.0,northumberlandheath,bexley,Northumberland Heath,Lab,northumberlandheath-bexley
+30.7,46.9,9.9,12.4,0.0,0.0,0.0,bowes,enfield,Bowes,Lab,bowes-enfield
+30.7,46.9,9.9,12.4,0.0,0.0,0.0,bowes,enfield,Bowes,Lab,bowes-enfield
+34.5,44.8,10.2,10.5,0.0,0.0,0.0,southwoodford,redbridge,South Woodford,Lab,southwoodford-redbridge
+34.5,44.8,10.2,10.5,0.0,0.0,0.0,southwoodford,redbridge,South Woodford,Lab,southwoodford-redbridge
+62.0,38.0,0.0,0.0,0.0,0.0,0.0,kentoneast,harrow,Kenton East,Con,kentoneast-harrow
+62.0,38.0,0.0,0.0,0.0,0.0,0.0,kentoneast,harrow,Kenton East,Con,kentoneast-harrow
+19.3,34.3,11.9,34.4,0.0,0.0,0.0,fairfield,croydon,Fairfield,Grn,fairfield-croydon
+7.2,56.3,9.0,20.3,0.0,0.0,7.1,shacklewell,hackney,Shacklewell,Lab,shacklewell-hackney
+7.2,56.3,9.0,20.3,0.0,0.0,7.1,shacklewell,hackney,Shacklewell,Lab,shacklewell-hackney
+65.7,17.6,16.7,0.0,0.0,0.0,0.0,bromptonhanstown,kensingtonchelsea,Brompton and Hans Town,Con,bromptonhanstown-kensingtonchelsea
+65.7,17.6,16.7,0.0,0.0,0.0,0.0,bromptonhanstown,kensingtonchelsea,Brompton and Hans Town,Con,bromptonhanstown-kensingtonchelsea
+21.9,9.6,68.5,0.0,0.0,0.0,0.0,hamptonwicksouthteddington,richmonduponthames,Hampton Wick and South Teddington,LDem,hamptonwicksouthteddington-richmonduponthames
+21.9,9.6,68.5,0.0,0.0,0.0,0.0,hamptonwicksouthteddington,richmonduponthames,Hampton Wick and South Teddington,LDem,hamptonwicksouthteddington-richmonduponthames
+22.2,40.2,10.5,7.9,0.0,0.0,19.2,limehouse,towerhamlets,Limehouse,Lab,limehouse-towerhamlets
+22.2,40.2,10.5,7.9,0.0,0.0,19.2,limehouse,towerhamlets,Limehouse,Lab,limehouse-towerhamlets
+7.1,46.7,32.8,13.5,0.0,0.0,0.0,londonbridgewestbermondsey,southwark,London Bridge and West Bermondsey,Lab,londonbridgewestbermondsey-southwark
+14.2,38.8,31.6,15.4,0.0,0.0,0.0,stmarysstjames,islington,St Mary's and St James',Lab,stmarysstjames-islington
+14.2,38.8,31.6,15.4,0.0,0.0,0.0,stmarysstjames,islington,St Mary's and St James',Lab,stmarysstjames-islington
+47.8,35.9,8.3,8.0,0.0,0.0,0.0,kenton,brent,Kenton,Con,kenton-brent
+47.8,35.9,8.3,8.0,0.0,0.0,0.0,kenton,brent,Kenton,Con,kenton-brent
+41.5,34.2,10.1,9.9,0.0,0.0,4.3,mottingham,bromley,Mottingham,Con,mottingham-bromley
+41.5,34.2,10.1,9.9,0.0,0.0,4.3,mottingham,bromley,Mottingham,Con,mottingham-bromley
+41.5,34.2,10.1,9.9,0.0,0.0,4.3,mottingham,bromley,Mottingham,Con,mottingham-bromley
+13.9,53.8,12.2,14.1,0.0,0.0,6.1,cricklewoodmapesbury,brent,Cricklewood and Mapesbury,Lab,cricklewoodmapesbury-brent
+13.9,53.8,12.2,14.1,0.0,0.0,6.1,cricklewoodmapesbury,brent,Cricklewood and Mapesbury,Lab,cricklewoodmapesbury-brent
+13.9,53.8,12.2,14.1,0.0,0.0,6.1,cricklewoodmapesbury,brent,Cricklewood and Mapesbury,Lab,cricklewoodmapesbury-brent
+17.2,31.9,27.1,10.5,0.0,0.0,13.3,stkatharineswapping,towerhamlets,St Katharine's and Wapping,Lab,stkatharineswapping-towerhamlets
+17.2,31.9,27.1,10.5,0.0,0.0,13.3,stkatharineswapping,towerhamlets,St Katharine's and Wapping,Lab,stkatharineswapping-towerhamlets
+17.2,31.9,27.1,10.5,0.0,0.0,13.3,stkatharineswapping,towerhamlets,St Katharine's and Wapping,Lab,stkatharineswapping-towerhamlets
+42.0,27.1,30.9,0.0,0.0,0.0,0.0,pembridge,kensingtonchelsea,Pembridge,Con,pembridge-kensingtonchelsea
+42.0,27.1,30.9,0.0,0.0,0.0,0.0,pembridge,kensingtonchelsea,Pembridge,Con,pembridge-kensingtonchelsea
+30.9,26.2,33.3,9.6,0.0,0.0,0.0,beckenhamtowncoperscope,bromley,Beckenham Town and Copers Cope,LDem,beckenhamtowncoperscope-bromley
+30.9,26.2,33.3,9.6,0.0,0.0,0.0,beckenhamtowncoperscope,bromley,Beckenham Town and Copers Cope,LDem,beckenhamtowncoperscope-bromley
+11.5,10.1,39.9,29.4,0.0,0.0,9.2,stmarksseethingwells,kingstonuponthames,St Mark's and Seething Wells,LDem,stmarksseethingwells-kingstonuponthames
+11.5,10.1,39.9,29.4,0.0,0.0,9.2,stmarksseethingwells,kingstonuponthames,St Mark's and Seething Wells,LDem,stmarksseethingwells-kingstonuponthames
+11.5,10.1,39.9,29.4,0.0,0.0,9.2,stmarksseethingwells,kingstonuponthames,St Mark's and Seething Wells,LDem,stmarksseethingwells-kingstonuponthames
+25.6,47.4,16.2,10.9,0.0,0.0,0.0,westhendon,barnet,West Hendon,Lab,westhendon-barnet
+25.6,47.4,16.2,10.9,0.0,0.0,0.0,westhendon,barnet,West Hendon,Lab,westhendon-barnet
+5.0,44.2,26.6,20.1,0.0,0.0,4.1,grovegreen,walthamforest,Grove Green,Lab,grovegreen-walthamforest
+36.0,15.5,48.5,0.0,0.0,0.0,0.0,whyteleafe,tandridge,Whyteleafe,LDem,whyteleafe-tandridge
+36.0,15.5,48.5,0.0,0.0,0.0,0.0,whyteleafe,tandridge,Whyteleafe,LDem,whyteleafe-tandridge
+44.1,23.7,14.3,13.4,0.0,0.0,4.5,palacehurlingham,hammersmithfulham,Palace and Hurlingham,Con,palacehurlingham-hammersmithfulham
+44.1,23.7,14.3,13.4,0.0,0.0,4.5,palacehurlingham,hammersmithfulham,Palace and Hurlingham,Con,palacehurlingham-hammersmithfulham
+44.1,23.7,14.3,13.4,0.0,0.0,4.5,palacehurlingham,hammersmithfulham,Palace and Hurlingham,Con,palacehurlingham-hammersmithfulham
+33.1,51.4,10.6,0.0,0.0,0.0,4.9,sthelens,kensingtonchelsea,St Helen's,Lab,sthelens-kensingtonchelsea
+33.1,51.4,10.6,0.0,0.0,0.0,4.9,sthelens,kensingtonchelsea,St Helen's,Lab,sthelens-kensingtonchelsea
+14.9,0.0,14.8,9.2,0.0,0.0,61.1,ashteadcommon,molevalley,Ashtead Common,OTH,ashteadcommon-molevalley
+14.9,0.0,14.8,9.2,0.0,0.0,61.1,ashteadcommon,molevalley,Ashtead Common,OTH,ashteadcommon-molevalley
+14.9,0.0,14.8,9.2,0.0,0.0,61.1,ashteadcommon,molevalley,Ashtead Common,OTH,ashteadcommon-molevalley
+19.7,57.9,6.3,16.1,0.0,0.0,0.0,sthelier,merton,St Helier,Lab,sthelier-merton
+19.7,57.9,6.3,16.1,0.0,0.0,0.0,sthelier,merton,St Helier,Lab,sthelier-merton
+5.7,47.2,8.5,16.3,0.0,0.0,22.3,boweast,towerhamlets,Bow East,Lab,boweast-towerhamlets
+5.7,47.2,8.5,16.3,0.0,0.0,22.3,boweast,towerhamlets,Bow East,Lab,boweast-towerhamlets
+5.7,47.2,8.5,16.3,0.0,0.0,22.3,boweast,towerhamlets,Bow East,Lab,boweast-towerhamlets
+57.5,35.9,0.0,0.0,0.0,0.0,6.6,hillingdoneast,hillingdon,Hillingdon East,Con,hillingdoneast-hillingdon
+42.7,6.5,50.8,0.0,0.0,0.0,0.0,barnes,richmonduponthames,Barnes,LDem,barnes-richmonduponthames
+42.7,6.5,50.8,0.0,0.0,0.0,0.0,barnes,richmonduponthames,Barnes,LDem,barnes-richmonduponthames
+42.7,6.5,50.8,0.0,0.0,0.0,0.0,barnes,richmonduponthames,Barnes,LDem,barnes-richmonduponthames
+42.7,6.5,50.8,0.0,0.0,0.0,0.0,barnes,richmonduponthames,Barnes,LDem,barnes-richmonduponthames
+31.4,68.6,0.0,0.0,0.0,0.0,0.0,yeading,hillingdon,Yeading,Lab,yeading-hillingdon
+31.4,68.6,0.0,0.0,0.0,0.0,0.0,yeading,hillingdon,Yeading,Lab,yeading-hillingdon
+11.1,62.2,14.5,8.5,0.0,0.0,3.7,littleilford,newham,Little Ilford,Lab,littleilford-newham
+11.1,62.2,14.5,8.5,0.0,0.0,3.7,littleilford,newham,Little Ilford,Lab,littleilford-newham
+30.3,69.7,0.0,0.0,0.0,0.0,0.0,mayesbrook,barkingdagenham,Mayesbrook,Lab,mayesbrook-barkingdagenham
+30.3,69.7,0.0,0.0,0.0,0.0,0.0,mayesbrook,barkingdagenham,Mayesbrook,Lab,mayesbrook-barkingdagenham
+9.7,57.6,8.3,17.3,0.0,0.0,7.2,harlesdenkensalgreen,brent,Harlesden and Kensal Green,Lab,harlesdenkensalgreen-brent
+9.7,57.6,8.3,17.3,0.0,0.0,7.2,harlesdenkensalgreen,brent,Harlesden and Kensal Green,Lab,harlesdenkensalgreen-brent
+9.7,57.6,8.3,17.3,0.0,0.0,7.2,harlesdenkensalgreen,brent,Harlesden and Kensal Green,Lab,harlesdenkensalgreen-brent
+52.4,47.6,0.0,0.0,0.0,0.0,0.0,stalbans,havering,St Alban's,Con,stalbans-havering
+10.6,49.4,21.8,13.8,0.0,0.0,4.4,rotherhithe,southwark,Rotherhithe,Lab,rotherhithe-southwark
+10.6,49.4,21.8,13.8,0.0,0.0,4.4,rotherhithe,southwark,Rotherhithe,Lab,rotherhithe-southwark
+10.6,49.4,21.8,13.8,0.0,0.0,4.4,rotherhithe,southwark,Rotherhithe,Lab,rotherhithe-southwark
+9.2,59.7,9.8,21.2,0.0,0.0,0.0,pengecator,bromley,Penge and Cator,Lab,pengecator-bromley
+9.2,59.7,9.8,21.2,0.0,0.0,0.0,pengecator,bromley,Penge and Cator,Lab,pengecator-bromley
+15.0,63.6,5.6,15.9,0.0,0.0,0.0,southtottenham,haringey,South Tottenham,Lab,southtottenham-haringey
+15.0,63.6,5.6,15.9,0.0,0.0,0.0,southtottenham,haringey,South Tottenham,Lab,southtottenham-haringey
+15.0,63.6,5.6,15.9,0.0,0.0,0.0,southtottenham,haringey,South Tottenham,Lab,southtottenham-haringey
+8.2,57.4,0.0,0.0,0.0,0.0,34.5,leabridge,walthamforest,Lea Bridge,Lab,leabridge-walthamforest
+8.2,57.4,0.0,0.0,0.0,0.0,34.5,leabridge,walthamforest,Lea Bridge,Lab,leabridge-walthamforest
+47.9,14.1,25.9,12.2,0.0,0.0,0.0,chelsfield,bromley,Chelsfield,Con,chelsfield-bromley
+47.9,14.1,25.9,12.2,0.0,0.0,0.0,chelsfield,bromley,Chelsfield,Con,chelsfield-bromley
+55.3,14.3,17.6,12.9,0.0,0.0,0.0,purleywoodcote,croydon,Purley and Woodcote,Con,purleywoodcote-croydon
+55.3,14.3,17.6,12.9,0.0,0.0,0.0,purleywoodcote,croydon,Purley and Woodcote,Con,purleywoodcote-croydon
+15.5,46.0,12.4,12.5,0.0,0.0,13.5,thorntonheath,croydon,Thornton Heath,Lab,thorntonheath-croydon
+36.1,12.7,35.2,5.6,0.0,0.0,10.3,southbeddingtonroundshaw,sutton,South Beddington and Roundshaw,Con,southbeddingtonroundshaw-sutton
+36.1,12.7,35.2,5.6,0.0,0.0,10.3,southbeddingtonroundshaw,sutton,South Beddington and Roundshaw,Con,southbeddingtonroundshaw-sutton
+29.8,45.0,9.8,12.1,0.0,0.0,3.3,norburypark,croydon,Norbury Park,Lab,norburypark-croydon
+29.8,45.0,9.8,12.1,0.0,0.0,3.3,norburypark,croydon,Norbury Park,Lab,norburypark-croydon
+12.6,11.1,38.9,0.0,0.0,0.0,37.4,greenlanestjames,kingstonuponthames,Green Lane and St James,LDem,greenlanestjames-kingstonuponthames
+49.0,5.9,45.1,0.0,0.0,0.0,0.0,southweald,brentwood,South Weald,Con,southweald-brentwood
+49.0,5.9,45.1,0.0,0.0,0.0,0.0,southweald,brentwood,South Weald,Con,southweald-brentwood
+13.8,63.6,0.0,13.2,0.0,0.0,9.5,easthamsouth,newham,East Ham South,Lab,easthamsouth-newham
+13.8,63.6,0.0,13.2,0.0,0.0,9.5,easthamsouth,newham,East Ham South,Lab,easthamsouth-newham
+20.2,51.5,22.5,0.0,0.0,0.0,5.8,westfinchley,barnet,West Finchley,Lab,westfinchley-barnet
+0.0,100.0,0.0,0.0,0.0,0.0,0.0,leabridge,hackney,Lea Bridge,Lab,leabridge-hackney
+0.0,100.0,0.0,0.0,0.0,0.0,0.0,leabridge,hackney,Lea Bridge,Lab,leabridge-hackney
+25.0,38.9,11.6,16.1,0.0,0.0,8.4,primrosehill,camden,Primrose Hill,Lab,primrosehill-camden
+25.0,38.9,11.6,16.1,0.0,0.0,8.4,primrosehill,camden,Primrose Hill,Lab,primrosehill-camden
+9.5,65.3,6.3,18.8,0.0,0.0,0.0,sevensisters,haringey,Seven Sisters,Lab,sevensisters-haringey
+9.5,65.3,6.3,18.8,0.0,0.0,0.0,sevensisters,haringey,Seven Sisters,Lab,sevensisters-haringey
+28.1,71.9,0.0,0.0,0.0,0.0,0.0,chadwellheath,barkingdagenham,Chadwell Heath,Lab,chadwellheath-barkingdagenham
+28.1,71.9,0.0,0.0,0.0,0.0,0.0,chadwellheath,barkingdagenham,Chadwell Heath,Lab,chadwellheath-barkingdagenham
+28.1,71.9,0.0,0.0,0.0,0.0,0.0,chadwellheath,barkingdagenham,Chadwell Heath,Lab,chadwellheath-barkingdagenham
+4.3,41.2,23.7,30.8,0.0,0.0,0.0,nunheadqueensroad,southwark,Nunhead and Queen's Road,Lab,nunheadqueensroad-southwark
+4.3,41.2,23.7,30.8,0.0,0.0,0.0,nunheadqueensroad,southwark,Nunhead and Queen's Road,Lab,nunheadqueensroad-southwark
+35.5,34.2,15.6,14.6,0.0,0.0,0.0,chiswickriverside,hounslow,Chiswick Riverside,Con,chiswickriverside-hounslow
+35.5,34.2,15.6,14.6,0.0,0.0,0.0,chiswickriverside,hounslow,Chiswick Riverside,Con,chiswickriverside-hounslow
+9.5,49.6,8.9,22.0,0.0,0.0,10.0,brixtonacrelane,lambeth,Brixton Acre Lane,Lab,brixtonacrelane-lambeth
+17.3,60.3,6.4,16.0,0.0,0.0,0.0,abbeywood,greenwich,Abbey Wood,Lab,abbeywood-greenwich
+17.3,60.3,6.4,16.0,0.0,0.0,0.0,abbeywood,greenwich,Abbey Wood,Lab,abbeywood-greenwich
+12.1,57.4,0.0,10.3,0.0,0.0,20.3,whitehartlane,haringey,White Hart Lane,Lab,whitehartlane-haringey
+12.1,57.4,0.0,10.3,0.0,0.0,20.3,whitehartlane,haringey,White Hart Lane,Lab,whitehartlane-haringey
+19.2,70.7,10.1,0.0,0.0,0.0,0.0,thamesmeadmoorings,greenwich,Thamesmead Moorings,Lab,thamesmeadmoorings-greenwich
+19.2,70.7,10.1,0.0,0.0,0.0,0.0,thamesmeadmoorings,greenwich,Thamesmead Moorings,Lab,thamesmeadmoorings-greenwich
+19.2,70.7,10.1,0.0,0.0,0.0,0.0,thamesmeadmoorings,greenwich,Thamesmead Moorings,Lab,thamesmeadmoorings-greenwich
+58.3,41.7,0.0,0.0,0.0,0.0,0.0,barnehurst,bexley,Barnehurst,Con,barnehurst-bexley
+6.4,62.4,9.8,21.4,0.0,0.0,0.0,hillrise,islington,Hillrise,Lab,hillrise-islington
+6.4,62.4,9.8,21.4,0.0,0.0,0.0,hillrise,islington,Hillrise,Lab,hillrise-islington
+16.6,74.4,0.0,0.0,0.0,0.0,9.0,gascoigne,barkingdagenham,Gascoigne,Lab,gascoigne-barkingdagenham
+16.6,74.4,0.0,0.0,0.0,0.0,9.0,gascoigne,barkingdagenham,Gascoigne,Lab,gascoigne-barkingdagenham
+16.5,47.5,0.0,26.9,0.0,0.0,9.1,brentfordwest,hounslow,Brentford West,Lab,brentfordwest-hounslow
+16.5,47.5,0.0,26.9,0.0,0.0,9.1,brentfordwest,hounslow,Brentford West,Lab,brentfordwest-hounslow
+28.9,0.0,64.3,6.7,0.0,0.0,0.0,claygate,elmbridge,Claygate,LDem,claygate-elmbridge
+28.9,0.0,64.3,6.7,0.0,0.0,0.0,claygate,elmbridge,Claygate,LDem,claygate-elmbridge
+36.2,51.4,0.0,12.5,0.0,0.0,0.0,bedfont,hounslow,Bedfont,Lab,bedfont-hounslow
+36.2,51.4,0.0,12.5,0.0,0.0,0.0,bedfont,hounslow,Bedfont,Lab,bedfont-hounslow
+36.2,51.4,0.0,12.5,0.0,0.0,0.0,bedfont,hounslow,Bedfont,Lab,bedfont-hounslow
+40.8,33.2,26.0,0.0,0.0,0.0,0.0,chelseariverside,kensingtonchelsea,Chelsea Riverside,Con,chelseariverside-kensingtonchelsea
+40.8,33.2,26.0,0.0,0.0,0.0,0.0,chelseariverside,kensingtonchelsea,Chelsea Riverside,Con,chelseariverside-kensingtonchelsea
+40.8,33.2,26.0,0.0,0.0,0.0,0.0,chelseariverside,kensingtonchelsea,Chelsea Riverside,Con,chelseariverside-kensingtonchelsea
+49.4,50.6,0.0,0.0,0.0,0.0,0.0,aveleyuplands,thurrock,Aveley and Uplands,Lab,aveleyuplands-thurrock
+49.4,50.6,0.0,0.0,0.0,0.0,0.0,aveleyuplands,thurrock,Aveley and Uplands,Lab,aveleyuplands-thurrock
+49.4,50.6,0.0,0.0,0.0,0.0,0.0,aveleyuplands,thurrock,Aveley and Uplands,Lab,aveleyuplands-thurrock
+49.4,50.6,0.0,0.0,0.0,0.0,0.0,aveleyuplands,thurrock,Aveley and Uplands,Lab,aveleyuplands-thurrock
+47.9,42.3,0.0,9.8,0.0,0.0,0.0,newaddingtonsouth,croydon,New Addington South,Con,newaddingtonsouth-croydon
+47.9,42.3,0.0,9.8,0.0,0.0,0.0,newaddingtonsouth,croydon,New Addington South,Con,newaddingtonsouth-croydon
+47.9,42.3,0.0,9.8,0.0,0.0,0.0,newaddingtonsouth,croydon,New Addington South,Con,newaddingtonsouth-croydon
+53.7,36.3,9.9,0.0,0.0,0.0,0.0,bexleyheath,bexley,Bexleyheath,Con,bexleyheath-bexley
+37.6,53.3,0.0,9.1,0.0,0.0,0.0,heathrowvillages,hillingdon,Heathrow Villages,Lab,heathrowvillages-hillingdon
+37.6,53.3,0.0,9.1,0.0,0.0,0.0,heathrowvillages,hillingdon,Heathrow Villages,Lab,heathrowvillages-hillingdon
+37.6,53.3,0.0,9.1,0.0,0.0,0.0,heathrowvillages,hillingdon,Heathrow Villages,Lab,heathrowvillages-hillingdon
+37.6,53.3,0.0,9.1,0.0,0.0,0.0,heathrowvillages,hillingdon,Heathrow Villages,Lab,heathrowvillages-hillingdon
+51.9,30.6,11.3,0.0,0.0,0.0,6.2,stmarysstjames,bexley,St Mary's and St James,Con,stmarysstjames-bexley
+51.9,30.6,11.3,0.0,0.0,0.0,6.2,stmarysstjames,bexley,St Mary's and St James,Con,stmarysstjames-bexley
+51.9,30.6,11.3,0.0,0.0,0.0,6.2,stmarysstjames,bexley,St Mary's and St James,Con,stmarysstjames-bexley
+51.9,30.6,11.3,0.0,0.0,0.0,6.2,stmarysstjames,bexley,St Mary's and St James,Con,stmarysstjames-bexley
+14.9,58.2,8.1,15.6,0.0,0.0,3.3,royalalbert,newham,Royal Albert,Lab,royalalbert-newham
+14.9,58.2,8.1,15.6,0.0,0.0,3.3,royalalbert,newham,Royal Albert,Lab,royalalbert-newham
+51.6,19.2,15.8,13.5,0.0,0.0,0.0,campden,kensingtonchelsea,Campden,Con,campden-kensingtonchelsea
+51.6,19.2,15.8,13.5,0.0,0.0,0.0,campden,kensingtonchelsea,Campden,Con,campden-kensingtonchelsea
+7.9,56.0,11.8,19.6,0.0,0.0,4.7,forest,walthamforest,Forest,Lab,forest-walthamforest
+7.9,56.0,11.8,19.6,0.0,0.0,4.7,forest,walthamforest,Forest,Lab,forest-walthamforest
+34.7,13.5,43.3,8.5,0.0,0.0,0.0,motspurparkoldmaldeneast,kingstonuponthames,Motspur Park and Old Malden East,LDem,motspurparkoldmaldeneast-kingstonuponthames
+34.7,13.5,43.3,8.5,0.0,0.0,0.0,motspurparkoldmaldeneast,kingstonuponthames,Motspur Park and Old Malden East,LDem,motspurparkoldmaldeneast-kingstonuponthames
+34.7,13.5,43.3,8.5,0.0,0.0,0.0,motspurparkoldmaldeneast,kingstonuponthames,Motspur Park and Old Malden East,LDem,motspurparkoldmaldeneast-kingstonuponthames
+36.6,28.8,15.5,19.1,0.0,0.0,0.0,ealingbroadway,ealing,Ealing Broadway,Con,ealingbroadway-ealing
+32.0,11.2,0.0,2.2,0.0,0.0,54.6,emersonpark,havering,Emerson Park,OTH,emersonpark-havering
+15.1,50.3,17.0,17.6,0.0,0.0,0.0,clerkenwell,islington,Clerkenwell,Lab,clerkenwell-islington
+15.1,50.3,17.0,17.6,0.0,0.0,0.0,clerkenwell,islington,Clerkenwell,Lab,clerkenwell-islington
+15.1,50.3,17.0,17.6,0.0,0.0,0.0,clerkenwell,islington,Clerkenwell,Lab,clerkenwell-islington
+31.9,43.1,11.7,13.2,0.0,0.0,0.0,hanworthpark,hounslow,Hanworth Park,Lab,hanworthpark-hounslow
+22.5,13.8,63.8,0.0,0.0,0.0,0.0,northrichmond,richmonduponthames,North Richmond,LDem,northrichmond-richmonduponthames
+22.5,13.8,63.8,0.0,0.0,0.0,0.0,northrichmond,richmonduponthames,North Richmond,LDem,northrichmond-richmonduponthames
+38.6,44.3,7.4,9.7,0.0,0.0,0.0,wandsworthtown,wandsworth,Wandsworth Town,Lab,wandsworthtown-wandsworth
+6.1,56.8,7.9,25.6,0.0,0.0,3.5,brockley,lewisham,Brockley,Lab,brockley-lewisham
+6.1,56.8,7.9,25.6,0.0,0.0,3.5,brockley,lewisham,Brockley,Lab,brockley-lewisham
+11.3,69.4,19.3,0.0,0.0,0.0,0.0,noelpark,haringey,Noel Park,Lab,noelpark-haringey
+15.8,60.4,10.2,13.7,0.0,0.0,0.0,lavenderfields,merton,Lavender Fields,Lab,lavenderfields-merton
+10.9,50.7,12.7,19.5,0.0,0.0,6.2,woolwicharsenal,greenwich,Woolwich Arsenal,Lab,woolwicharsenal-greenwich
+10.9,50.7,12.7,19.5,0.0,0.0,6.2,woolwicharsenal,greenwich,Woolwich Arsenal,Lab,woolwicharsenal-greenwich
+55.3,19.1,16.9,8.7,0.0,0.0,0.0,northwood,hillingdon,Northwood,Con,northwood-hillingdon
+55.3,19.1,16.9,8.7,0.0,0.0,0.0,northwood,hillingdon,Northwood,Con,northwood-hillingdon
+9.7,59.5,9.9,20.9,0.0,0.0,0.0,rusheygreen,lewisham,Rushey Green,Lab,rusheygreen-lewisham
+26.1,49.0,9.3,15.6,0.0,0.0,0.0,newsouthgate,enfield,New Southgate,Lab,newsouthgate-enfield
+26.1,49.0,9.3,15.6,0.0,0.0,0.0,newsouthgate,enfield,New Southgate,Lab,newsouthgate-enfield
+40.3,48.6,11.1,0.0,0.0,0.0,0.0,westend,westminster,West End,Lab,westend-westminster
+40.3,48.6,11.1,0.0,0.0,0.0,0.0,westend,westminster,West End,Lab,westend-westminster
+36.1,16.3,37.1,10.5,0.0,0.0,0.0,suttonnorth,sutton,Sutton North,LDem,suttonnorth-sutton
+4.9,40.8,5.3,12.3,0.0,0.0,36.7,stpeters,towerhamlets,St Peter's,Lab,stpeters-towerhamlets
+4.9,40.8,5.3,12.3,0.0,0.0,36.7,stpeters,towerhamlets,St Peter's,Lab,stpeters-towerhamlets
+0.0,58.1,11.9,16.0,0.0,0.0,14.0,hoxtoneastshoreditch,hackney,Hoxton East and Shoreditch,Lab,hoxtoneastshoreditch-hackney
+0.0,58.1,11.9,16.0,0.0,0.0,14.0,hoxtoneastshoreditch,hackney,Hoxton East and Shoreditch,Lab,hoxtoneastshoreditch-hackney
+0.0,58.1,11.9,16.0,0.0,0.0,14.0,hoxtoneastshoreditch,hackney,Hoxton East and Shoreditch,Lab,hoxtoneastshoreditch-hackney
+0.0,58.1,11.9,16.0,0.0,0.0,14.0,hoxtoneastshoreditch,hackney,Hoxton East and Shoreditch,Lab,hoxtoneastshoreditch-hackney
+28.1,71.9,0.0,0.0,0.0,0.0,0.0,alibon,barkingdagenham,Alibon,Lab,alibon-barkingdagenham
+15.6,53.1,11.1,20.2,0.0,0.0,0.0,vauxhall,lambeth,Vauxhall,Lab,vauxhall-lambeth
+15.6,53.1,11.1,20.2,0.0,0.0,0.0,vauxhall,lambeth,Vauxhall,Lab,vauxhall-lambeth
+15.6,53.1,11.1,20.2,0.0,0.0,0.0,vauxhall,lambeth,Vauxhall,Lab,vauxhall-lambeth
+0.0,61.0,13.1,25.9,0.0,0.0,0.0,londonfields,hackney,London Fields,Lab,londonfields-hackney
+0.0,61.0,13.1,25.9,0.0,0.0,0.0,londonfields,hackney,London Fields,Lab,londonfields-hackney
+32.1,60.8,7.1,0.0,0.0,0.0,0.0,roxbourne,harrow,Roxbourne,Lab,roxbourne-harrow
+32.1,60.8,7.1,0.0,0.0,0.0,0.0,roxbourne,harrow,Roxbourne,Lab,roxbourne-harrow
+39.8,37.9,11.4,10.9,0.0,0.0,0.0,lancastergate,westminster,Lancaster Gate,Con,lancastergate-westminster
+39.8,37.9,11.4,10.9,0.0,0.0,0.0,lancastergate,westminster,Lancaster Gate,Con,lancastergate-westminster
+31.2,58.7,10.1,0.0,0.0,0.0,0.0,longbridge,barkingdagenham,Longbridge,Lab,longbridge-barkingdagenham
+31.2,58.7,10.1,0.0,0.0,0.0,0.0,longbridge,barkingdagenham,Longbridge,Lab,longbridge-barkingdagenham
+26.3,47.4,10.2,16.1,0.0,0.0,0.0,shaftesburyqueenstown,wandsworth,Shaftesbury and Queenstown,Lab,shaftesburyqueenstown-wandsworth
+26.3,47.4,10.2,16.1,0.0,0.0,0.0,shaftesburyqueenstown,wandsworth,Shaftesbury and Queenstown,Lab,shaftesburyqueenstown-wandsworth
+9.9,53.5,12.7,23.8,0.0,0.0,0.0,perryvale,lewisham,Perry Vale,Lab,perryvale-lewisham
+3.6,44.6,5.2,6.0,0.0,0.0,40.6,bromleysouth,towerhamlets,Bromley South,Lab,bromleysouth-towerhamlets
+20.5,64.2,0.0,15.3,0.0,0.0,0.0,hestonwest,hounslow,Heston West,Lab,hestonwest-hounslow
+20.5,64.2,0.0,15.3,0.0,0.0,0.0,hestonwest,hounslow,Heston West,Lab,hestonwest-hounslow
+20.5,64.2,0.0,15.3,0.0,0.0,0.0,hestonwest,hounslow,Heston West,Lab,hestonwest-hounslow
+32.6,6.3,45.0,0.0,0.0,0.0,16.1,warlinghameastchelshamfarleigh,tandridge,Warlingham East and Chelsham and Farleigh,LDem,warlinghameastchelshamfarleigh-tandridge
+32.6,6.3,45.0,0.0,0.0,0.0,16.1,warlinghameastchelshamfarleigh,tandridge,Warlingham East and Chelsham and Farleigh,LDem,warlinghameastchelshamfarleigh-tandridge
+32.6,6.3,45.0,0.0,0.0,0.0,16.1,warlinghameastchelshamfarleigh,tandridge,Warlingham East and Chelsham and Farleigh,LDem,warlinghameastchelshamfarleigh-tandridge
+38.4,45.1,8.5,8.1,0.0,0.0,0.0,wembleyhill,brent,Wembley Hill,Lab,wembleyhill-brent
+49.4,26.8,5.2,8.0,0.0,0.0,10.7,hendon,barnet,Hendon,Con,hendon-barnet
+42.7,26.2,14.5,16.6,0.0,0.0,0.0,hayesconeyhall,bromley,Hayes and Coney Hall,Con,hayesconeyhall-bromley
+42.7,26.2,14.5,16.6,0.0,0.0,0.0,hayesconeyhall,bromley,Hayes and Coney Hall,Con,hayesconeyhall-bromley
+10.5,55.1,10.9,20.1,0.0,0.0,3.4,claphameast,lambeth,Clapham East,Lab,claphameast-lambeth
+35.5,10.6,46.9,7.1,0.0,0.0,0.0,oldmalden,kingstonuponthames,Old Malden,LDem,oldmalden-kingstonuponthames
+35.5,10.6,46.9,7.1,0.0,0.0,0.0,oldmalden,kingstonuponthames,Old Malden,LDem,oldmalden-kingstonuponthames
+55.8,16.3,16.8,11.2,0.0,0.0,0.0,kenley,croydon,Kenley,Con,kenley-croydon
+55.8,16.3,16.8,11.2,0.0,0.0,0.0,kenley,croydon,Kenley,Con,kenley-croydon
+22.4,9.6,39.9,25.4,0.0,0.0,2.6,carshaltoncentral,sutton,Carshalton Central,LDem,carshaltoncentral-sutton
+32.4,67.6,0.0,0.0,0.0,0.0,0.0,beam,barkingdagenham,Beam,Lab,beam-barkingdagenham
+32.4,67.6,0.0,0.0,0.0,0.0,0.0,beam,barkingdagenham,Beam,Lab,beam-barkingdagenham
+32.4,67.6,0.0,0.0,0.0,0.0,0.0,beam,barkingdagenham,Beam,Lab,beam-barkingdagenham
+59.1,24.1,8.0,8.7,0.0,0.0,0.0,ruislipmanor,hillingdon,Ruislip Manor,Con,ruislipmanor-hillingdon
+41.2,28.6,15.8,14.4,0.0,0.0,0.0,bromleycommonholwood,bromley,Bromley Common and Holwood,Con,bromleycommonholwood-bromley
+17.0,30.3,36.4,14.7,0.0,0.0,1.7,ealingcommon,ealing,Ealing Common,LDem,ealingcommon-ealing
+17.0,30.3,36.4,14.7,0.0,0.0,1.7,ealingcommon,ealing,Ealing Common,LDem,ealingcommon-ealing
+56.4,0.0,43.6,0.0,0.0,0.0,0.0,oxshottstokedabernon,elmbridge,Oxshott and Stoke D'Abernon,Con,oxshottstokedabernon-elmbridge
+56.4,0.0,43.6,0.0,0.0,0.0,0.0,oxshottstokedabernon,elmbridge,Oxshott and Stoke D'Abernon,Con,oxshottstokedabernon-elmbridge
+56.4,0.0,43.6,0.0,0.0,0.0,0.0,oxshottstokedabernon,elmbridge,Oxshott and Stoke D'Abernon,Con,oxshottstokedabernon-elmbridge
+8.2,53.5,6.8,18.9,0.0,0.0,12.5,deptford,lewisham,Deptford,Lab,deptford-lewisham
+8.2,53.5,6.8,18.9,0.0,0.0,12.5,deptford,lewisham,Deptford,Lab,deptford-lewisham
+21.7,11.5,66.9,0.0,0.0,0.0,0.0,teddington,richmonduponthames,Teddington,LDem,teddington-richmonduponthames
+16.0,53.8,10.6,16.1,0.0,0.0,3.6,bunhill,islington,Bunhill,Lab,bunhill-islington
+16.0,53.8,10.6,16.1,0.0,0.0,3.6,bunhill,islington,Bunhill,Lab,bunhill-islington
+16.0,53.8,10.6,16.1,0.0,0.0,3.6,bunhill,islington,Bunhill,Lab,bunhill-islington
+21.8,78.2,0.0,0.0,0.0,0.0,0.0,village,barkingdagenham,Village,Lab,village-barkingdagenham
+21.8,78.2,0.0,0.0,0.0,0.0,0.0,village,barkingdagenham,Village,Lab,village-barkingdagenham
+14.6,55.0,20.0,10.4,0.0,0.0,0.0,dollishill,brent,Dollis Hill,Lab,dollishill-brent
+14.6,55.0,20.0,10.4,0.0,0.0,0.0,dollishill,brent,Dollis Hill,Lab,dollishill-brent
+22.4,66.9,0.0,0.0,0.0,0.0,10.8,valentines,redbridge,Valentines,Lab,valentines-redbridge
+8.1,62.3,8.6,21.0,0.0,0.0,0.0,tottenhamcentral,haringey,Tottenham Central,Lab,tottenhamcentral-haringey
+32.5,57.7,9.8,0.0,0.0,0.0,0.0,bayswater,westminster,Bayswater,Lab,bayswater-westminster
+32.5,57.7,9.8,0.0,0.0,0.0,0.0,bayswater,westminster,Bayswater,Lab,bayswater-westminster
+17.2,66.4,5.2,5.8,0.0,0.0,5.4,southallgreen,ealing,Southall Green,Lab,southallgreen-ealing
+17.2,66.4,5.2,5.8,0.0,0.0,5.4,southallgreen,ealing,Southall Green,Lab,southallgreen-ealing
+17.2,66.4,5.2,5.8,0.0,0.0,5.4,southallgreen,ealing,Southall Green,Lab,southallgreen-ealing
+18.5,60.8,8.4,12.3,0.0,0.0,0.0,northoltwestend,ealing,Northolt West End,Lab,northoltwestend-ealing
+18.5,60.8,8.4,12.3,0.0,0.0,0.0,northoltwestend,ealing,Northolt West End,Lab,northoltwestend-ealing
+34.3,16.5,49.2,0.0,0.0,0.0,0.0,kinggeorgessunray,kingstonuponthames,King George's and Sunray,LDem,kinggeorgessunray-kingstonuponthames
+34.3,16.5,49.2,0.0,0.0,0.0,0.0,kinggeorgessunray,kingstonuponthames,King George's and Sunray,LDem,kinggeorgessunray-kingstonuponthames
+19.5,63.8,16.7,0.0,0.0,0.0,0.0,wendellpark,hammersmithfulham,Wendell Park,Lab,wendellpark-hammersmithfulham
+19.5,63.8,16.7,0.0,0.0,0.0,0.0,wendellpark,hammersmithfulham,Wendell Park,Lab,wendellpark-hammersmithfulham
+19.5,63.8,16.7,0.0,0.0,0.0,0.0,wendellpark,hammersmithfulham,Wendell Park,Lab,wendellpark-hammersmithfulham
+32.7,14.9,41.5,11.0,0.0,0.0,0.0,thewrythe,sutton,The Wrythe,LDem,thewrythe-sutton
+53.7,23.5,9.3,10.6,0.0,0.0,3.0,parkhillwhitgift,croydon,Park Hill and Whitgift,Con,parkhillwhitgift-croydon
+32.0,46.5,0.0,0.0,0.0,0.0,21.5,eastbrookrushgreen,barkingdagenham,Eastbrook and Rush Green,Lab,eastbrookrushgreen-barkingdagenham
+32.0,46.5,0.0,0.0,0.0,0.0,21.5,eastbrookrushgreen,barkingdagenham,Eastbrook and Rush Green,Lab,eastbrookrushgreen-barkingdagenham
+31.9,44.7,8.1,13.5,0.0,0.0,1.8,southbury,enfield,Southbury,Lab,southbury-enfield
+19.4,40.5,11.1,15.2,0.0,0.0,13.9,marlborough,harrow,Marlborough,Lab,marlborough-harrow
+38.7,45.2,0.0,16.1,0.0,0.0,0.0,hanworthvillage,hounslow,Hanworth Village,Lab,hanworthvillage-hounslow
+38.7,45.2,0.0,16.1,0.0,0.0,0.0,hanworthvillage,hounslow,Hanworth Village,Lab,hanworthvillage-hounslow
+38.7,45.2,0.0,16.1,0.0,0.0,0.0,hanworthvillage,hounslow,Hanworth Village,Lab,hanworthvillage-hounslow
+41.8,31.3,26.9,0.0,0.0,0.0,0.0,pimliconorth,westminster,Pimlico North,Con,pimliconorth-westminster
+72.8,27.2,0.0,0.0,0.0,0.0,0.0,orsett,thurrock,Orsett,Con,orsett-thurrock
+72.8,27.2,0.0,0.0,0.0,0.0,0.0,orsett,thurrock,Orsett,Con,orsett-thurrock
+72.8,27.2,0.0,0.0,0.0,0.0,0.0,orsett,thurrock,Orsett,Con,orsett-thurrock
+72.8,27.2,0.0,0.0,0.0,0.0,0.0,orsett,thurrock,Orsett,Con,orsett-thurrock
+11.3,59.9,9.7,19.0,0.0,0.0,0.0,kingscross,camden,King's Cross,Lab,kingscross-camden
+11.3,59.9,9.7,19.0,0.0,0.0,0.0,kingscross,camden,King's Cross,Lab,kingscross-camden
+19.3,65.4,15.3,0.0,0.0,0.0,0.0,clockhouse,bromley,Clock House,Lab,clockhouse-bromley
+19.3,65.4,15.3,0.0,0.0,0.0,0.0,clockhouse,bromley,Clock House,Lab,clockhouse-bromley
+10.9,59.4,9.9,17.1,0.0,0.0,2.7,stockwellwestlarkhall,lambeth,Stockwell West and Larkhall,Lab,stockwellwestlarkhall-lambeth
+10.9,59.4,9.9,17.1,0.0,0.0,2.7,stockwellwestlarkhall,lambeth,Stockwell West and Larkhall,Lab,stockwellwestlarkhall-lambeth
+4.8,38.9,16.5,0.0,0.0,0.0,39.7,stepneygreen,towerhamlets,Stepney Green,OTH,stepneygreen-towerhamlets
+51.6,48.4,0.0,0.0,0.0,0.0,0.0,colnbrookwithpoyle,slough,Colnbrook with Poyle,Con,colnbrookwithpoyle-slough
+51.6,48.4,0.0,0.0,0.0,0.0,0.0,colnbrookwithpoyle,slough,Colnbrook with Poyle,Con,colnbrookwithpoyle-slough
+51.6,48.4,0.0,0.0,0.0,0.0,0.0,colnbrookwithpoyle,slough,Colnbrook with Poyle,Con,colnbrookwithpoyle-slough
+51.6,48.4,0.0,0.0,0.0,0.0,0.0,colnbrookwithpoyle,slough,Colnbrook with Poyle,Con,colnbrookwithpoyle-slough
+51.6,48.4,0.0,0.0,0.0,0.0,0.0,colnbrookwithpoyle,slough,Colnbrook with Poyle,Con,colnbrookwithpoyle-slough
+16.9,66.4,16.6,0.0,0.0,0.0,0.0,grove,hammersmithfulham,Grove,Lab,grove-hammersmithfulham
+43.0,39.0,15.8,0.0,0.0,0.0,2.2,kelseyedenpark,bromley,Kelsey and Eden Park,Con,kelseyedenpark-bromley
+43.0,39.0,15.8,0.0,0.0,0.0,2.2,kelseyedenpark,bromley,Kelsey and Eden Park,Con,kelseyedenpark-bromley
+41.4,36.2,22.4,0.0,0.0,0.0,0.0,chiswickgunnersbury,hounslow,Chiswick Gunnersbury,Con,chiswickgunnersbury-hounslow
+41.4,36.2,22.4,0.0,0.0,0.0,0.0,chiswickgunnersbury,hounslow,Chiswick Gunnersbury,Con,chiswickgunnersbury-hounslow
+6.3,37.4,46.2,10.1,0.0,0.0,0.0,stgeorges,southwark,St George's,LDem,stgeorges-southwark
+6.3,37.4,46.2,10.1,0.0,0.0,0.0,stgeorges,southwark,St George's,LDem,stgeorges-southwark
+27.1,7.6,58.9,0.0,0.0,0.0,6.4,kew,richmonduponthames,Kew,LDem,kew-richmonduponthames
+27.1,7.6,58.9,0.0,0.0,0.0,6.4,kew,richmonduponthames,Kew,LDem,kew-richmonduponthames
+24.6,45.1,3.7,7.2,0.0,0.0,19.5,haleendhighamsparksouth,walthamforest,Hale End and Highams Park South,Lab,haleendhighamsparksouth-walthamforest
+24.6,45.1,3.7,7.2,0.0,0.0,19.5,haleendhighamsparksouth,walthamforest,Hale End and Highams Park South,Lab,haleendhighamsparksouth-walthamforest
+13.4,67.0,6.7,12.9,0.0,0.0,0.0,norwoodgreen,ealing,Norwood Green,Lab,norwoodgreen-ealing
+13.4,67.0,6.7,12.9,0.0,0.0,0.0,norwoodgreen,ealing,Norwood Green,Lab,norwoodgreen-ealing
+25.1,74.9,0.0,0.0,0.0,0.0,0.0,eastbury,barkingdagenham,Eastbury,Lab,eastbury-barkingdagenham
+20.2,65.0,0.0,9.7,0.0,0.0,5.1,colindalenorth,barnet,Colindale North,Lab,colindalenorth-barnet
+14.5,66.1,0.0,19.4,0.0,0.0,0.0,abbey,barkingdagenham,Abbey,Lab,abbey-barkingdagenham
+14.5,66.1,0.0,19.4,0.0,0.0,0.0,abbey,barkingdagenham,Abbey,Lab,abbey-barkingdagenham
+17.8,71.2,11.0,0.0,0.0,0.0,0.0,woolwichdockyard,greenwich,Woolwich Dockyard,Lab,woolwichdockyard-greenwich
+17.8,71.2,11.0,0.0,0.0,0.0,0.0,woolwichdockyard,greenwich,Woolwich Dockyard,Lab,woolwichdockyard-greenwich
+7.0,49.1,11.1,32.9,0.0,0.0,0.0,croftonpark,lewisham,Crofton Park,Lab,croftonpark-lewisham
+7.0,49.1,11.1,32.9,0.0,0.0,0.0,croftonpark,lewisham,Crofton Park,Lab,croftonpark-lewisham
+13.7,56.2,12.8,17.3,0.0,0.0,0.0,greenwichcreekside,greenwich,Greenwich Creekside,Lab,greenwichcreekside-greenwich
+13.7,56.2,12.8,17.3,0.0,0.0,0.0,greenwichcreekside,greenwich,Greenwich Creekside,Lab,greenwichcreekside-greenwich
+13.7,56.2,12.8,17.3,0.0,0.0,0.0,greenwichcreekside,greenwich,Greenwich Creekside,Lab,greenwichcreekside-greenwich
+8.6,62.5,6.4,22.5,0.0,0.0,0.0,peckhamrye,southwark,Peckham Rye,Lab,peckhamrye-southwark
+8.6,62.5,6.4,22.5,0.0,0.0,0.0,peckhamrye,southwark,Peckham Rye,Lab,peckhamrye-southwark
+22.8,8.8,0.0,7.6,0.0,0.0,60.7,nork,reigatebanstead,Nork,OTH,nork-reigatebanstead
+22.8,8.8,0.0,7.6,0.0,0.0,60.7,nork,reigatebanstead,Nork,OTH,nork-reigatebanstead
+22.8,8.8,0.0,7.6,0.0,0.0,60.7,nork,reigatebanstead,Nork,OTH,nork-reigatebanstead
+40.1,31.2,14.7,8.8,0.0,0.0,5.2,millhill,barnet,Mill Hill,Con,millhill-barnet
+30.4,7.6,62.1,0.0,0.0,0.0,0.0,eastsheen,richmonduponthames,East Sheen,LDem,eastsheen-richmonduponthames
+30.4,7.6,62.1,0.0,0.0,0.0,0.0,eastsheen,richmonduponthames,East Sheen,LDem,eastsheen-richmonduponthames
+30.4,7.6,62.1,0.0,0.0,0.0,0.0,eastsheen,richmonduponthames,East Sheen,LDem,eastsheen-richmonduponthames
+41.2,44.8,0.0,13.9,0.0,0.0,0.0,felthamnorth,hounslow,Feltham North,Lab,felthamnorth-hounslow
+16.0,22.9,45.7,15.5,0.0,0.0,0.0,southfield,ealing,Southfield,LDem,southfield-ealing
+16.0,22.9,45.7,15.5,0.0,0.0,0.0,southfield,ealing,Southfield,LDem,southfield-ealing
+16.0,22.9,45.7,15.5,0.0,0.0,0.0,southfield,ealing,Southfield,LDem,southfield-ealing
+40.0,29.1,14.1,14.4,0.0,0.0,2.5,southcroydon,croydon,South Croydon,Con,southcroydon-croydon
+6.5,48.1,3.3,42.0,0.0,0.0,0.0,gipsyhill,lambeth,Gipsy Hill,Lab,gipsyhill-lambeth
+6.5,48.1,3.3,42.0,0.0,0.0,0.0,gipsyhill,lambeth,Gipsy Hill,Lab,gipsyhill-lambeth
+6.5,48.1,3.3,42.0,0.0,0.0,0.0,gipsyhill,lambeth,Gipsy Hill,Lab,gipsyhill-lambeth
+24.4,54.3,8.6,12.7,0.0,0.0,0.0,enfieldlock,enfield,Enfield Lock,Lab,enfieldlock-enfield
+24.4,54.3,8.6,12.7,0.0,0.0,0.0,enfieldlock,enfield,Enfield Lock,Lab,enfieldlock-enfield
+24.4,54.3,8.6,12.7,0.0,0.0,0.0,enfieldlock,enfield,Enfield Lock,Lab,enfieldlock-enfield
+46.8,42.6,7.8,0.0,0.0,0.0,2.8,queensbury,brent,Queensbury,Con,queensbury-brent
+46.8,42.6,7.8,0.0,0.0,0.0,2.8,queensbury,brent,Queensbury,Con,queensbury-brent
+46.8,42.6,7.8,0.0,0.0,0.0,2.8,queensbury,brent,Queensbury,Con,queensbury-brent
+47.9,21.6,9.9,20.6,0.0,0.0,0.0,norland,kensingtonchelsea,Norland,Con,norland-kensingtonchelsea
+47.9,21.6,9.9,20.6,0.0,0.0,0.0,norland,kensingtonchelsea,Norland,Con,norland-kensingtonchelsea
+38.4,15.5,46.0,0.0,0.0,0.0,0.0,suttonsouth,sutton,Sutton South,LDem,suttonsouth-sutton
+27.9,59.2,0.0,12.9,0.0,0.0,0.0,colindalesouth,barnet,Colindale South,Lab,colindalesouth-barnet
+27.9,59.2,0.0,12.9,0.0,0.0,0.0,colindalesouth,barnet,Colindale South,Lab,colindalesouth-barnet
+36.9,45.6,8.5,8.9,0.0,0.0,0.0,trinity,wandsworth,Trinity,Lab,trinity-wandsworth
+52.0,39.8,8.2,0.0,0.0,0.0,0.0,kentonwest,harrow,Kenton West,Con,kentonwest-harrow
+52.0,39.8,8.2,0.0,0.0,0.0,0.0,kentonwest,harrow,Kenton West,Con,kentonwest-harrow
+26.1,54.6,9.6,9.8,0.0,0.0,0.0,pondersend,enfield,Ponders End,Lab,pondersend-enfield
+26.1,54.6,9.6,9.8,0.0,0.0,0.0,pondersend,enfield,Ponders End,Lab,pondersend-enfield
+20.2,54.9,9.2,15.6,0.0,0.0,0.0,haselbury,enfield,Haselbury,Lab,haselbury-enfield
+18.2,62.2,8.2,11.4,0.0,0.0,0.0,loweredmonton,enfield,Lower Edmonton,Lab,loweredmonton-enfield
+18.2,62.2,8.2,11.4,0.0,0.0,0.0,loweredmonton,enfield,Lower Edmonton,Lab,loweredmonton-enfield
+32.1,26.6,33.7,7.6,0.0,0.0,0.0,cannonhill,merton,Cannon Hill,LDem,cannonhill-merton
+15.8,49.5,12.8,21.8,0.0,0.0,0.0,barnsbury,islington,Barnsbury,Lab,barnsbury-islington
+29.8,9.4,5.0,0.0,0.0,0.0,55.8,chislehurst,bromley,Chislehurst,OTH,chislehurst-bromley
+29.8,9.4,5.0,0.0,0.0,0.0,55.8,chislehurst,bromley,Chislehurst,OTH,chislehurst-bromley
+29.8,9.4,5.0,0.0,0.0,0.0,55.8,chislehurst,bromley,Chislehurst,OTH,chislehurst-bromley
+26.9,45.4,12.3,15.4,0.0,0.0,0.0,addiscombewest,croydon,Addiscombe West,Lab,addiscombewest-croydon
+12.4,59.8,8.8,19.0,0.0,0.0,0.0,forestgatenorth,newham,Forest Gate North,Lab,forestgatenorth-newham
+12.4,59.8,8.8,19.0,0.0,0.0,0.0,forestgatenorth,newham,Forest Gate North,Lab,forestgatenorth-newham
+12.4,59.8,8.8,19.0,0.0,0.0,0.0,forestgatenorth,newham,Forest Gate North,Lab,forestgatenorth-newham
+39.9,37.8,22.3,0.0,0.0,0.0,0.0,hampsteadtown,camden,Hampstead Town,Con,hampsteadtown-camden
+39.9,37.8,22.3,0.0,0.0,0.0,0.0,hampsteadtown,camden,Hampstead Town,Con,hampsteadtown-camden
+8.7,50.3,13.0,25.3,0.0,0.0,2.7,arsenal,islington,Arsenal,Lab,arsenal-islington
+8.7,50.3,13.0,25.3,0.0,0.0,2.7,arsenal,islington,Arsenal,Lab,arsenal-islington
+12.4,64.5,8.7,14.4,0.0,0.0,0.0,caledonian,islington,Caledonian,Lab,caledonian-islington
+12.4,64.5,8.7,14.4,0.0,0.0,0.0,caledonian,islington,Caledonian,Lab,caledonian-islington
+19.1,53.3,0.0,14.2,0.0,0.0,13.4,cranford,hounslow,Cranford,Lab,cranford-hounslow
+19.1,53.3,0.0,14.2,0.0,0.0,13.4,cranford,hounslow,Cranford,Lab,cranford-hounslow
+9.8,41.0,4.7,44.6,0.0,0.0,0.0,highgate,camden,Highgate,Grn,highgate-camden
+9.8,41.0,4.7,44.6,0.0,0.0,0.0,highgate,camden,Highgate,Grn,highgate-camden
+9.8,41.0,4.7,44.6,0.0,0.0,0.0,highgate,camden,Highgate,Grn,highgate-camden
+9.8,41.0,4.7,44.6,0.0,0.0,0.0,highgate,camden,Highgate,Grn,highgate-camden
+18.5,60.6,6.0,14.9,0.0,0.0,0.0,tootingbroadway,wandsworth,Tooting Broadway,Lab,tootingbroadway-wandsworth
+18.5,60.6,6.0,14.9,0.0,0.0,0.0,tootingbroadway,wandsworth,Tooting Broadway,Lab,tootingbroadway-wandsworth
+23.2,58.0,8.2,10.5,0.0,0.0,0.0,middleparkhornpark,greenwich,Middle Park and Horn Park,Lab,middleparkhornpark-greenwich
+23.2,58.0,8.2,10.5,0.0,0.0,0.0,middleparkhornpark,greenwich,Middle Park and Horn Park,Lab,middleparkhornpark-greenwich
+23.2,58.0,8.2,10.5,0.0,0.0,0.0,middleparkhornpark,greenwich,Middle Park and Horn Park,Lab,middleparkhornpark-greenwich
+5.0,47.1,8.4,24.1,0.0,0.0,15.3,clissold,hackney,Clissold,Lab,clissold-hackney
+5.0,47.1,8.4,24.1,0.0,0.0,15.3,clissold,hackney,Clissold,Lab,clissold-hackney
+41.5,48.5,0.0,10.0,0.0,0.0,0.0,newaddingtonnorth,croydon,New Addington North,Lab,newaddingtonnorth-croydon
+41.5,48.5,0.0,10.0,0.0,0.0,0.0,newaddingtonnorth,croydon,New Addington North,Lab,newaddingtonnorth-croydon
+49.9,30.6,12.2,0.0,0.0,0.0,7.4,blackfenlamorbey,bexley,Blackfen and Lamorbey,Con,blackfenlamorbey-bexley
+49.9,30.6,12.2,0.0,0.0,0.0,7.4,blackfenlamorbey,bexley,Blackfen and Lamorbey,Con,blackfenlamorbey-bexley
+8.4,55.8,13.2,20.0,0.0,0.0,2.6,victoria,hackney,Victoria,Lab,victoria-hackney
+8.4,55.8,13.2,20.0,0.0,0.0,2.6,victoria,hackney,Victoria,Lab,victoria-hackney
+23.8,53.3,10.8,12.2,0.0,0.0,0.0,northgreenford,ealing,North Greenford,Lab,northgreenford-ealing
+23.8,53.3,10.8,12.2,0.0,0.0,0.0,northgreenford,ealing,North Greenford,Lab,northgreenford-ealing
+23.8,53.3,10.8,12.2,0.0,0.0,0.0,northgreenford,ealing,North Greenford,Lab,northgreenford-ealing
+22.6,13.9,52.1,11.3,0.0,0.0,0.0,wimbledontowndundonald,merton,Wimbledon Town and Dundonald,LDem,wimbledontowndundonald-merton
+40.9,36.4,11.5,11.2,0.0,0.0,0.0,addiscombeeast,croydon,Addiscombe East,Con,addiscombeeast-croydon
+13.5,58.5,10.2,17.8,0.0,0.0,0.0,forestgatesouth,newham,Forest Gate South,Lab,forestgatesouth-newham
+19.9,69.4,10.7,0.0,0.0,0.0,0.0,golborne,kensingtonchelsea,Golborne,Lab,golborne-kensingtonchelsea
+19.9,69.4,10.7,0.0,0.0,0.0,0.0,golborne,kensingtonchelsea,Golborne,Lab,golborne-kensingtonchelsea
+56.9,11.0,0.0,32.1,0.0,0.0,0.0,harefieldvillage,hillingdon,Harefield Village,Con,harefieldvillage-hillingdon
+39.2,15.8,45.0,0.0,0.0,0.0,0.0,suttonwesteastcheam,sutton,Sutton West and East Cheam,LDem,suttonwesteastcheam-sutton
+24.4,49.6,11.3,14.7,0.0,0.0,0.0,hounslowsouth,hounslow,Hounslow South,Lab,hounslowsouth-hounslow
+24.4,49.6,11.3,14.7,0.0,0.0,0.0,hounslowsouth,hounslow,Hounslow South,Lab,hounslowsouth-hounslow
+15.1,70.7,14.2,0.0,0.0,0.0,0.0,addison,hammersmithfulham,Addison,Lab,addison-hammersmithfulham
+15.1,70.7,14.2,0.0,0.0,0.0,0.0,addison,hammersmithfulham,Addison,Lab,addison-hammersmithfulham
+14.2,7.8,41.6,36.5,0.0,0.0,0.0,hampetershamrichmondriverside,richmonduponthames,"Ham, Petersham and Richmond Riverside",LDem,hampetershamrichmondriverside-richmonduponthames
+14.2,7.8,41.6,36.5,0.0,0.0,0.0,hampetershamrichmondriverside,richmonduponthames,"Ham, Petersham and Richmond Riverside",LDem,hampetershamrichmondriverside-richmonduponthames
+13.0,42.4,27.3,15.4,0.0,0.0,2.0,leegreen,lewisham,Lee Green,Lab,leegreen-lewisham
+13.0,42.4,27.3,15.4,0.0,0.0,2.0,leegreen,lewisham,Lee Green,Lab,leegreen-lewisham
+39.5,19.2,41.2,0.0,0.0,0.0,0.0,hillside,merton,Hillside,LDem,hillside-merton
+17.4,46.9,0.0,12.3,0.0,0.0,23.4,benshammanor,croydon,Bensham Manor,Lab,benshammanor-croydon
+24.4,45.6,13.9,16.1,0.0,0.0,0.0,grovepark,lewisham,Grove Park,Lab,grovepark-lewisham
+24.4,45.6,13.9,16.1,0.0,0.0,0.0,grovepark,lewisham,Grove Park,Lab,grovepark-lewisham
+24.4,45.6,13.9,16.1,0.0,0.0,0.0,grovepark,lewisham,Grove Park,Lab,grovepark-lewisham
+15.4,55.7,0.0,0.0,0.0,0.0,28.9,sevenkings,redbridge,Seven Kings,Lab,sevenkings-redbridge
+49.1,18.0,4.8,0.0,0.0,0.0,28.1,squirrelsheath,havering,Squirrels Heath,Con,squirrelsheath-havering
+54.1,14.7,18.4,12.9,0.0,0.0,0.0,purleyoaksriddlesdown,croydon,Purley Oaks and Riddlesdown,Con,purleyoaksriddlesdown-croydon
+37.5,7.5,42.5,12.4,0.0,0.0,0.0,tudor,kingstonuponthames,Tudor,LDem,tudor-kingstonuponthames
+37.5,7.5,42.5,12.4,0.0,0.0,0.0,tudor,kingstonuponthames,Tudor,LDem,tudor-kingstonuponthames
+7.1,60.1,7.0,20.2,0.0,0.0,5.6,newcrossgate,lewisham,New Cross Gate,Lab,newcrossgate-lewisham
+7.1,60.1,7.0,20.2,0.0,0.0,5.6,newcrossgate,lewisham,New Cross Gate,Lab,newcrossgate-lewisham
+18.3,9.8,38.3,14.4,0.0,0.0,19.2,kingstongate,kingstonuponthames,Kingston Gate,LDem,kingstongate-kingstonuponthames
+18.3,9.8,38.3,14.4,0.0,0.0,19.2,kingstongate,kingstonuponthames,Kingston Gate,LDem,kingstongate-kingstonuponthames
+18.1,59.1,0.0,17.6,0.0,0.0,5.1,boleyn,newham,Boleyn,Lab,boleyn-newham
+31.4,54.5,14.0,0.0,0.0,0.0,0.0,southhampstead,camden,South Hampstead,Lab,southhampstead-camden
+31.4,54.5,14.0,0.0,0.0,0.0,0.0,southhampstead,camden,South Hampstead,Lab,southhampstead-camden
+16.8,83.2,0.0,0.0,0.0,0.0,0.0,clementswood,redbridge,Clementswood,Lab,clementswood-redbridge
+5.2,49.9,5.0,39.9,0.0,0.0,0.0,tufnellpark,islington,Tufnell Park,Lab,tufnellpark-islington
+5.2,49.9,5.0,39.9,0.0,0.0,0.0,tufnellpark,islington,Tufnell Park,Lab,tufnellpark-islington
+41.1,39.8,7.3,11.8,0.0,0.0,0.0,balham,wandsworth,Balham,Con,balham-wandsworth
+41.1,39.8,7.3,11.8,0.0,0.0,0.0,balham,wandsworth,Balham,Con,balham-wandsworth
+8.2,71.9,12.6,0.0,0.0,0.0,7.3,woodstreet,walthamforest,Wood Street,Lab,woodstreet-walthamforest
+16.2,63.3,8.1,12.4,0.0,0.0,0.0,ravensbury,merton,Ravensbury,Lab,ravensbury-merton
+16.2,63.3,8.1,12.4,0.0,0.0,0.0,ravensbury,merton,Ravensbury,Lab,ravensbury-merton
+27.0,16.0,40.9,0.0,0.0,0.0,16.1,mortlakebarnescommon,richmonduponthames,Mortlake and Barnes Common,LDem,mortlakebarnescommon-richmonduponthames
+27.0,16.0,40.9,0.0,0.0,0.0,16.1,mortlakebarnescommon,richmonduponthames,Mortlake and Barnes Common,LDem,mortlakebarnescommon-richmonduponthames
+27.0,16.0,40.9,0.0,0.0,0.0,16.1,mortlakebarnescommon,richmonduponthames,Mortlake and Barnes Common,LDem,mortlakebarnescommon-richmonduponthames
+8.7,55.6,14.7,21.0,0.0,0.0,0.0,dulwichhill,southwark,Dulwich Hill,Lab,dulwichhill-southwark
+8.7,55.6,14.7,21.0,0.0,0.0,0.0,dulwichhill,southwark,Dulwich Hill,Lab,dulwichhill-southwark
+45.6,28.0,11.1,15.3,0.0,0.0,0.0,northcote,wandsworth,Northcote,Con,northcote-wandsworth
+45.6,28.0,11.1,15.3,0.0,0.0,0.0,northcote,wandsworth,Northcote,Con,northcote-wandsworth
+6.0,54.0,9.1,23.6,0.0,0.0,7.3,hoestreet,walthamforest,Hoe Street,Lab,hoestreet-walthamforest
+9.3,42.5,6.6,4.4,0.0,0.0,37.2,stdunstans,towerhamlets,St Dunstan's,Lab,stdunstans-towerhamlets
+41.7,32.1,26.2,0.0,0.0,0.0,0.0,munster,hammersmithfulham,Munster,Con,munster-hammersmithfulham
+6.3,30.5,8.4,9.3,0.0,0.0,45.5,lansbury,towerhamlets,Lansbury,OTH,lansbury-towerhamlets
+6.3,30.5,8.4,9.3,0.0,0.0,45.5,lansbury,towerhamlets,Lansbury,OTH,lansbury-towerhamlets
+42.9,50.2,0.0,0.0,0.0,0.0,6.9,hainault,redbridge,Hainault,Lab,hainault-redbridge
+42.9,50.2,0.0,0.0,0.0,0.0,6.9,hainault,redbridge,Hainault,Lab,hainault-redbridge
+42.9,50.2,0.0,0.0,0.0,0.0,6.9,hainault,redbridge,Hainault,Lab,hainault-redbridge
+42.9,50.2,0.0,0.0,0.0,0.0,6.9,hainault,redbridge,Hainault,Lab,hainault-redbridge
+16.5,20.6,41.0,12.2,0.0,0.0,9.7,kingstontown,kingstonuponthames,Kingston Town,LDem,kingstontown-kingstonuponthames
+16.5,20.6,41.0,12.2,0.0,0.0,9.7,kingstontown,kingstonuponthames,Kingston Town,LDem,kingstontown-kingstonuponthames
+8.2,62.3,7.1,22.4,0.0,0.0,0.0,junction,islington,Junction,Lab,junction-islington
+8.2,62.3,7.1,22.4,0.0,0.0,0.0,junction,islington,Junction,Lab,junction-islington
+8.2,62.3,7.1,22.4,0.0,0.0,0.0,junction,islington,Junction,Lab,junction-islington
+27.9,54.8,0.0,17.3,0.0,0.0,0.0,hounslowcentral,hounslow,Hounslow Central,Lab,hounslowcentral-hounslow
+25.5,26.0,48.5,0.0,0.0,0.0,0.0,heathfield,richmonduponthames,Heathfield,LDem,heathfield-richmonduponthames
+25.5,26.0,48.5,0.0,0.0,0.0,0.0,heathfield,richmonduponthames,Heathfield,LDem,heathfield-richmonduponthames
+24.4,56.6,0.0,12.5,0.0,0.0,6.5,westthornton,croydon,West Thornton,Lab,westthornton-croydon
+24.4,56.6,0.0,12.5,0.0,0.0,6.5,westthornton,croydon,West Thornton,Lab,westthornton-croydon
+24.4,56.6,0.0,12.5,0.0,0.0,6.5,westthornton,croydon,West Thornton,Lab,westthornton-croydon
+43.5,44.0,9.2,0.0,0.0,0.0,3.4,mottinghamcoldharbourneweltham,greenwich,"Mottingham, Coldharbour and New Eltham",Lab,mottinghamcoldharbourneweltham-greenwich
+43.5,44.0,9.2,0.0,0.0,0.0,3.4,mottinghamcoldharbourneweltham,greenwich,"Mottingham, Coldharbour and New Eltham",Lab,mottinghamcoldharbourneweltham-greenwich
+43.5,44.0,9.2,0.0,0.0,0.0,3.4,mottinghamcoldharbourneweltham,greenwich,"Mottingham, Coldharbour and New Eltham",Lab,mottinghamcoldharbourneweltham-greenwich
+29.3,70.7,0.0,0.0,0.0,0.0,0.0,goresbrook,barkingdagenham,Goresbrook,Lab,goresbrook-barkingdagenham
+30.5,35.2,8.2,10.8,0.0,0.0,15.3,waddon,croydon,Waddon,Lab,waddon-croydon
+30.5,35.2,8.2,10.8,0.0,0.0,15.3,waddon,croydon,Waddon,Lab,waddon-croydon
+9.9,58.3,8.5,15.4,0.0,0.0,7.9,faraday,southwark,Faraday,Lab,faraday-southwark
+29.8,51.2,7.6,9.4,0.0,0.0,2.0,bullsmoor,enfield,Bullsmoor,Lab,bullsmoor-enfield
+29.8,51.2,7.6,9.4,0.0,0.0,2.0,bullsmoor,enfield,Bullsmoor,Lab,bullsmoor-enfield
+54.1,24.2,11.5,10.2,0.0,0.0,0.0,northwoodhills,hillingdon,Northwood Hills,Con,northwoodhills-hillingdon
+54.1,24.2,11.5,10.2,0.0,0.0,0.0,northwoodhills,hillingdon,Northwood Hills,Con,northwoodhills-hillingdon
+54.1,24.2,11.5,10.2,0.0,0.0,0.0,northwoodhills,hillingdon,Northwood Hills,Con,northwoodhills-hillingdon
+14.7,66.5,0.0,13.6,0.0,0.0,5.2,greenstreeteast,newham,Green Street East,Lab,greenstreeteast-newham
+7.1,57.4,0.0,32.6,0.0,0.0,2.9,stokenewington,hackney,Stoke Newington,Lab,stokenewington-hackney
+16.7,16.3,56.3,0.0,0.0,0.0,10.8,tolworth,kingstonuponthames,Tolworth,LDem,tolworth-kingstonuponthames
+16.7,16.3,56.3,0.0,0.0,0.0,10.8,tolworth,kingstonuponthames,Tolworth,LDem,tolworth-kingstonuponthames
+29.5,70.5,0.0,0.0,0.0,0.0,0.0,whalebone,barkingdagenham,Whalebone,Lab,whalebone-barkingdagenham
+29.5,70.5,0.0,0.0,0.0,0.0,0.0,whalebone,barkingdagenham,Whalebone,Lab,whalebone-barkingdagenham
+29.5,70.5,0.0,0.0,0.0,0.0,0.0,whalebone,barkingdagenham,Whalebone,Lab,whalebone-barkingdagenham
+29.5,9.4,45.9,15.2,0.0,0.0,0.0,canburygardens,kingstonuponthames,Canbury Gardens,LDem,canburygardens-kingstonuponthames
+29.5,9.4,45.9,15.2,0.0,0.0,0.0,canburygardens,kingstonuponthames,Canbury Gardens,LDem,canburygardens-kingstonuponthames
+49.4,50.6,0.0,0.0,0.0,0.0,0.0,charville,hillingdon,Charville,Lab,charville-hillingdon
+49.4,50.6,0.0,0.0,0.0,0.0,0.0,charville,hillingdon,Charville,Lab,charville-hillingdon
+11.6,42.9,45.5,0.0,0.0,0.0,0.0,fortunegreen,camden,Fortune Green,LDem,fortunegreen-camden
+11.6,42.9,45.5,0.0,0.0,0.0,0.0,fortunegreen,camden,Fortune Green,LDem,fortunegreen-camden
+11.6,42.9,45.5,0.0,0.0,0.0,0.0,fortunegreen,camden,Fortune Green,LDem,fortunegreen-camden
+24.0,76.0,0.0,0.0,0.0,0.0,0.0,goodmayes,redbridge,Goodmayes,Lab,goodmayes-redbridge
+24.0,76.0,0.0,0.0,0.0,0.0,0.0,goodmayes,redbridge,Goodmayes,Lab,goodmayes-redbridge
+23.4,61.1,5.8,9.6,0.0,0.0,0.0,carterhatch,enfield,Carterhatch,Lab,carterhatch-enfield
+16.8,52.4,9.0,17.2,0.0,0.0,4.6,upperwalthamstow,walthamforest,Upper Walthamstow,Lab,upperwalthamstow-walthamforest
+16.8,52.4,9.0,17.2,0.0,0.0,4.6,upperwalthamstow,walthamforest,Upper Walthamstow,Lab,upperwalthamstow-walthamforest
+36.5,11.7,48.8,0.0,0.0,0.0,3.0,chessingtonsouthmaldenrushett,kingstonuponthames,Chessington South and Malden Rushett,LDem,chessingtonsouthmaldenrushett-kingstonuponthames
+36.5,11.7,48.8,0.0,0.0,0.0,3.0,chessingtonsouthmaldenrushett,kingstonuponthames,Chessington South and Malden Rushett,LDem,chessingtonsouthmaldenrushett-kingstonuponthames
+36.5,11.7,48.8,0.0,0.0,0.0,3.0,chessingtonsouthmaldenrushett,kingstonuponthames,Chessington South and Malden Rushett,LDem,chessingtonsouthmaldenrushett-kingstonuponthames
+36.5,11.7,48.8,0.0,0.0,0.0,3.0,chessingtonsouthmaldenrushett,kingstonuponthames,Chessington South and Malden Rushett,LDem,chessingtonsouthmaldenrushett-kingstonuponthames
+8.3,53.5,10.0,23.1,0.0,0.0,5.1,chapelend,walthamforest,Chapel End,Lab,chapelend-walthamforest
+15.6,68.9,0.0,15.6,0.0,0.0,0.0,roundwood,brent,Roundwood,Lab,roundwood-brent
+5.4,43.4,6.5,9.6,0.0,0.0,35.0,mileend,towerhamlets,Mile End,Lab,mileend-towerhamlets
+41.9,44.4,13.7,0.0,0.0,0.0,0.0,hydepark,westminster,Hyde Park,Lab,hydepark-westminster
+8.5,58.1,10.7,19.1,0.0,0.0,3.5,cannhall,walthamforest,Cann Hall,Lab,cannhall-walthamforest
+8.5,58.1,10.7,19.1,0.0,0.0,3.5,cannhall,walthamforest,Cann Hall,Lab,cannhall-walthamforest
+8.5,58.1,10.7,19.1,0.0,0.0,3.5,cannhall,walthamforest,Cann Hall,Lab,cannhall-walthamforest
+13.8,64.0,9.6,12.6,0.0,0.0,0.0,plumsteadglyndon,greenwich,Plumstead and Glyndon,Lab,plumsteadglyndon-greenwich
+4.5,37.4,4.8,29.2,0.0,0.0,24.2,bowwest,towerhamlets,Bow West,Lab,bowwest-towerhamlets
+4.5,37.4,4.8,29.2,0.0,0.0,24.2,bowwest,towerhamlets,Bow West,Lab,bowwest-towerhamlets
+23.6,68.5,8.0,0.0,0.0,0.0,0.0,thamesmeadeast,bexley,Thamesmead East,Lab,thamesmeadeast-bexley
+23.6,68.5,8.0,0.0,0.0,0.0,0.0,thamesmeadeast,bexley,Thamesmead East,Lab,thamesmeadeast-bexley
+23.6,68.5,8.0,0.0,0.0,0.0,0.0,thamesmeadeast,bexley,Thamesmead East,Lab,thamesmeadeast-bexley
+44.8,43.1,12.1,0.0,0.0,0.0,0.0,vincentsquare,westminster,Vincent Square,Con,vincentsquare-westminster
+44.8,43.1,12.1,0.0,0.0,0.0,0.0,vincentsquare,westminster,Vincent Square,Con,vincentsquare-westminster
+32.7,16.6,50.7,0.0,0.0,0.0,0.0,westway,tandridge,Westway,LDem,westway-tandridge
+32.7,16.6,50.7,0.0,0.0,0.0,0.0,westway,tandridge,Westway,LDem,westway-tandridge
+11.6,55.5,8.0,24.9,0.0,0.0,0.0,collierswood,merton,Colliers Wood,Lab,collierswood-merton
+11.6,55.5,8.0,24.9,0.0,0.0,0.0,collierswood,merton,Colliers Wood,Lab,collierswood-merton
+34.2,57.0,8.8,0.0,0.0,0.0,0.0,northwickpark,brent,Northwick Park,Lab,northwickpark-brent
+34.2,57.0,8.8,0.0,0.0,0.0,0.0,northwickpark,brent,Northwick Park,Lab,northwickpark-brent
+7.5,60.9,11.6,20.0,0.0,0.0,0.0,championhill,southwark,Champion Hill,Lab,championhill-southwark
+7.5,60.9,11.6,20.0,0.0,0.0,0.0,championhill,southwark,Champion Hill,Lab,championhill-southwark
+6.1,59.2,8.2,26.6,0.0,0.0,0.0,brixtonrushcommon,lambeth,Brixton Rush Common,Lab,brixtonrushcommon-lambeth
+22.8,62.3,15.0,0.0,0.0,0.0,0.0,avonmore,hammersmithfulham,Avonmore,Lab,avonmore-hammersmithfulham
+22.8,62.3,15.0,0.0,0.0,0.0,0.0,avonmore,hammersmithfulham,Avonmore,Lab,avonmore-hammersmithfulham
+36.4,3.0,36.2,3.8,0.0,0.0,20.6,moleseyeast,elmbridge,Molesey East,Con,moleseyeast-elmbridge
+36.4,3.0,36.2,3.8,0.0,0.0,20.6,moleseyeast,elmbridge,Molesey East,Con,moleseyeast-elmbridge
+32.2,52.5,4.9,6.5,0.0,0.0,3.8,preston,brent,Preston,Lab,preston-brent
+16.7,54.4,10.6,18.2,0.0,0.0,0.0,kidbrookevillagesutcliffe,greenwich,Kidbrooke Village and Sutcliffe,Lab,kidbrookevillagesutcliffe-greenwich
+16.7,54.4,10.6,18.2,0.0,0.0,0.0,kidbrookevillagesutcliffe,greenwich,Kidbrooke Village and Sutcliffe,Lab,kidbrookevillagesutcliffe-greenwich
+15.2,58.4,8.1,18.3,0.0,0.0,0.0,charltonhornfair,greenwich,Charlton Hornfair,Lab,charltonhornfair-greenwich
+49.0,26.0,9.5,15.5,0.0,0.0,0.0,shirleysouth,croydon,Shirley South,Con,shirleysouth-croydon
+49.0,26.0,9.5,15.5,0.0,0.0,0.0,shirleysouth,croydon,Shirley South,Con,shirleysouth-croydon
+9.5,62.8,12.5,15.1,0.0,0.0,0.0,newington,southwark,Newington,Lab,newington-southwark
+9.5,62.8,12.5,15.1,0.0,0.0,0.0,newington,southwark,Newington,Lab,newington-southwark
+24.1,63.3,12.6,0.0,0.0,0.0,0.0,fulhamreach,hammersmithfulham,Fulham Reach,Lab,fulhamreach-hammersmithfulham
+24.1,63.3,12.6,0.0,0.0,0.0,0.0,fulhamreach,hammersmithfulham,Fulham Reach,Lab,fulhamreach-hammersmithfulham
+24.8,56.1,5.8,11.1,0.0,0.0,2.2,brimsdown,enfield,Brimsdown,Lab,brimsdown-enfield
+24.8,56.1,5.8,11.1,0.0,0.0,2.2,brimsdown,enfield,Brimsdown,Lab,brimsdown-enfield
+12.6,55.3,11.6,20.5,0.0,0.0,0.0,laycock,islington,Laycock,Lab,laycock-islington
+24.4,51.3,9.4,14.9,0.0,0.0,0.0,brondesburypark,brent,Brondesbury Park,Lab,brondesburypark-brent
+38.7,44.8,6.8,9.7,0.0,0.0,0.0,lowermorden,merton,Lower Morden,Lab,lowermorden-merton
+38.7,44.8,6.8,9.7,0.0,0.0,0.0,lowermorden,merton,Lower Morden,Lab,lowermorden-merton
+21.2,47.3,17.3,14.1,0.0,0.0,0.0,stpeterscanalside,islington,St Peter's and Canalside,Lab,stpeterscanalside-islington
+21.2,47.3,17.3,14.1,0.0,0.0,0.0,stpeterscanalside,islington,St Peter's and Canalside,Lab,stpeterscanalside-islington
+10.6,60.4,9.9,15.9,0.0,0.0,3.2,oldkentroad,southwark,Old Kent Road,Lab,oldkentroad-southwark
+10.6,60.4,9.9,15.9,0.0,0.0,3.2,oldkentroad,southwark,Old Kent Road,Lab,oldkentroad-southwark
+31.8,8.0,54.3,0.0,0.0,0.0,5.9,leatherheadnorth,molevalley,Leatherhead North,LDem,leatherheadnorth-molevalley
+31.8,8.0,54.3,0.0,0.0,0.0,5.9,leatherheadnorth,molevalley,Leatherhead North,LDem,leatherheadnorth-molevalley
+31.8,8.0,54.3,0.0,0.0,0.0,5.9,leatherheadnorth,molevalley,Leatherhead North,LDem,leatherheadnorth-molevalley
+46.4,22.8,30.7,0.0,0.0,0.0,0.0,marylebone,westminster,Marylebone,Con,marylebone-westminster
+23.3,53.3,6.2,10.2,0.0,0.0,7.1,jubilee,enfield,Jubilee,Lab,jubilee-enfield
+16.5,13.8,0.0,6.5,0.0,0.0,63.1,standrews,havering,St Andrew's,OTH,standrews-havering
+41.8,49.9,8.3,0.0,0.0,0.0,0.0,pimlicosouth,westminster,Pimlico South,Lab,pimlicosouth-westminster
+41.8,49.9,8.3,0.0,0.0,0.0,0.0,pimlicosouth,westminster,Pimlico South,Lab,pimlicosouth-westminster
+30.7,69.3,0.0,0.0,0.0,0.0,0.0,erith,bexley,Erith,Lab,erith-bexley
+30.7,69.3,0.0,0.0,0.0,0.0,0.0,erith,bexley,Erith,Lab,erith-bexley
+19.9,9.4,0.0,7.5,0.0,0.0,63.1,upminster,havering,Upminster,OTH,upminster-havering
+19.9,9.4,0.0,7.5,0.0,0.0,63.1,upminster,havering,Upminster,OTH,upminster-havering
+19.9,9.4,0.0,7.5,0.0,0.0,63.1,upminster,havering,Upminster,OTH,upminster-havering
+13.2,16.7,0.0,5.7,0.0,0.0,64.4,elmpark,havering,Elm Park,OTH,elmpark-havering
+13.2,16.7,0.0,5.7,0.0,0.0,64.4,elmpark,havering,Elm Park,OTH,elmpark-havering
+9.1,58.8,7.3,24.8,0.0,0.0,0.0,knightshill,lambeth,Knight's Hill,Lab,knightshill-lambeth
+9.1,58.8,7.3,24.8,0.0,0.0,0.0,knightshill,lambeth,Knight's Hill,Lab,knightshill-lambeth
+14.5,49.4,19.9,16.2,0.0,0.0,0.0,isleworth,hounslow,Isleworth,Lab,isleworth-hounslow
+14.5,49.4,19.9,16.2,0.0,0.0,0.0,isleworth,hounslow,Isleworth,Lab,isleworth-hounslow
+14.5,46.0,11.6,13.5,0.0,0.0,14.4,southnorwood,croydon,South Norwood,Lab,southnorwood-croydon
+14.5,46.0,11.6,13.5,0.0,0.0,14.4,southnorwood,croydon,South Norwood,Lab,southnorwood-croydon
+27.0,73.0,0.0,0.0,0.0,0.0,0.0,parsloes,barkingdagenham,Parsloes,Lab,parsloes-barkingdagenham
+26.8,10.9,0.0,62.3,0.0,0.0,0.0,buckhursthilleast,eppingforest,Buckhurst Hill East,Grn,buckhursthilleast-eppingforest
+26.8,10.9,0.0,62.3,0.0,0.0,0.0,buckhursthilleast,eppingforest,Buckhurst Hill East,Grn,buckhursthilleast-eppingforest
+27.9,9.8,0.0,0.0,0.0,0.0,62.3,loughtonforest,eppingforest,Loughton Forest,OTH,loughtonforest-eppingforest
+27.9,9.8,0.0,0.0,0.0,0.0,62.3,loughtonforest,eppingforest,Loughton Forest,OTH,loughtonforest-eppingforest
+15.0,48.4,11.5,19.3,0.0,0.0,5.9,southacton,ealing,South Acton,Lab,southacton-ealing
+15.0,48.4,11.5,19.3,0.0,0.0,5.9,southacton,ealing,South Acton,Lab,southacton-ealing
+48.8,31.9,5.8,13.4,0.0,0.0,0.0,wandsworthcommon,wandsworth,Wandsworth Common,Con,wandsworthcommon-wandsworth
+48.8,31.9,5.8,13.4,0.0,0.0,0.0,wandsworthcommon,wandsworth,Wandsworth Common,Con,wandsworthcommon-wandsworth
+25.4,48.6,13.0,13.0,0.0,0.0,0.0,osterleyspringgrove,hounslow,Osterley and Spring Grove,Lab,osterleyspringgrove-hounslow
+25.4,48.6,13.0,13.0,0.0,0.0,0.0,osterleyspringgrove,hounslow,Osterley and Spring Grove,Lab,osterleyspringgrove-hounslow
+15.9,66.8,7.2,10.0,0.0,0.0,0.0,cricketgreen,merton,Cricket Green,Lab,cricketgreen-merton
+15.9,66.8,7.2,10.0,0.0,0.0,0.0,cricketgreen,merton,Cricket Green,Lab,cricketgreen-merton
+24.5,30.9,34.2,10.3,0.0,0.0,0.0,abbey,merton,Abbey,LDem,abbey-merton
+27.4,72.6,0.0,0.0,0.0,0.0,0.0,valence,barkingdagenham,Valence,Lab,valence-barkingdagenham
+27.4,72.6,0.0,0.0,0.0,0.0,0.0,valence,barkingdagenham,Valence,Lab,valence-barkingdagenham
+56.2,33.7,5.8,0.0,0.0,0.0,4.3,endlebury,walthamforest,Endlebury,Con,endlebury-walthamforest
+56.2,33.7,5.8,0.0,0.0,0.0,4.3,endlebury,walthamforest,Endlebury,Con,endlebury-walthamforest
+9.8,32.0,54.5,0.0,0.0,0.0,3.7,boroughbankside,southwark,Borough and Bankside,LDem,boroughbankside-southwark
+9.8,32.0,54.5,0.0,0.0,0.0,3.7,boroughbankside,southwark,Borough and Bankside,LDem,boroughbankside-southwark
+9.8,32.0,54.5,0.0,0.0,0.0,3.7,boroughbankside,southwark,Borough and Bankside,LDem,boroughbankside-southwark
+14.0,9.0,40.4,36.7,0.0,0.0,0.0,fulwellhamptonhill,richmonduponthames,Fulwell and Hampton Hill,LDem,fulwellhamptonhill-richmonduponthames
+14.0,9.0,40.4,36.7,0.0,0.0,0.0,fulwellhamptonhill,richmonduponthames,Fulwell and Hampton Hill,LDem,fulwellhamptonhill-richmonduponthames
+47.2,11.8,33.4,0.0,0.0,0.0,7.6,coombehill,kingstonuponthames,Coombe Hill,Con,coombehill-kingstonuponthames
+47.2,11.8,33.4,0.0,0.0,0.0,7.6,coombehill,kingstonuponthames,Coombe Hill,Con,coombehill-kingstonuponthames
+47.2,11.8,33.4,0.0,0.0,0.0,7.6,coombehill,kingstonuponthames,Coombe Hill,Con,coombehill-kingstonuponthames
+47.2,11.8,33.4,0.0,0.0,0.0,7.6,coombehill,kingstonuponthames,Coombe Hill,Con,coombehill-kingstonuponthames
+19.7,51.2,9.5,19.6,0.0,0.0,0.0,westdulwich,lambeth,West Dulwich,Lab,westdulwich-lambeth
+19.7,51.2,9.5,19.6,0.0,0.0,0.0,westdulwich,lambeth,West Dulwich,Lab,westdulwich-lambeth
+5.2,50.0,5.4,37.9,0.0,0.0,1.5,hernehillloughboroughjunction,lambeth,Herne Hill and Loughborough Junction,Lab,hernehillloughboroughjunction-lambeth
+5.2,50.0,5.4,37.9,0.0,0.0,1.5,hernehillloughboroughjunction,lambeth,Herne Hill and Loughborough Junction,Lab,hernehillloughboroughjunction-lambeth
+29.1,50.2,7.8,10.4,0.0,0.0,2.6,perivale,ealing,Perivale,Lab,perivale-ealing
+29.1,50.2,7.8,10.4,0.0,0.0,2.6,perivale,ealing,Perivale,Lab,perivale-ealing
+44.9,27.3,27.8,0.0,0.0,0.0,0.0,fulhamtown,hammersmithfulham,Fulham Town,Con,fulhamtown-hammersmithfulham
+36.0,42.5,12.3,9.3,0.0,0.0,0.0,childshill,barnet,Childs Hill,Lab,childshill-barnet
+36.0,42.5,12.3,9.3,0.0,0.0,0.0,childshill,barnet,Childs Hill,Lab,childshill-barnet
+23.9,9.3,25.3,0.0,0.0,0.0,41.4,moleseywest,elmbridge,Molesey West,OTH,moleseywest-elmbridge
+23.9,9.3,25.3,0.0,0.0,0.0,41.4,moleseywest,elmbridge,Molesey West,OTH,moleseywest-elmbridge
+23.9,9.3,25.3,0.0,0.0,0.0,41.4,moleseywest,elmbridge,Molesey West,OTH,moleseywest-elmbridge
+44.7,38.0,0.0,7.2,0.0,0.0,10.1,colhamcowley,hillingdon,Colham and Cowley,Con,colhamcowley-hillingdon
+44.7,38.0,0.0,7.2,0.0,0.0,10.1,colhamcowley,hillingdon,Colham and Cowley,Con,colhamcowley-hillingdon
+22.9,27.2,38.9,11.1,0.0,0.0,0.0,suttoncentral,sutton,Sutton Central,LDem,suttoncentral-sutton
+5.7,57.1,8.7,24.6,0.0,0.0,3.8,kentishtownnorth,camden,Kentish Town North,Lab,kentishtownnorth-camden
+5.7,57.1,8.7,24.6,0.0,0.0,3.8,kentishtownnorth,camden,Kentish Town North,Lab,kentishtownnorth-camden
+13.5,67.4,11.1,0.0,0.0,0.0,8.0,holborncoventgarden,camden,Holborn and Covent Garden,Lab,holborncoventgarden-camden
+13.5,67.4,11.1,0.0,0.0,0.0,8.0,holborncoventgarden,camden,Holborn and Covent Garden,Lab,holborncoventgarden-camden
+13.5,67.4,11.1,0.0,0.0,0.0,8.0,holborncoventgarden,camden,Holborn and Covent Garden,Lab,holborncoventgarden-camden
+13.5,67.4,11.1,0.0,0.0,0.0,8.0,holborncoventgarden,camden,Holborn and Covent Garden,Lab,holborncoventgarden-camden
+53.1,19.4,15.4,10.8,0.0,0.0,1.3,selsdonaddingtonvillage,croydon,Selsdon and Addington Village,Con,selsdonaddingtonvillage-croydon
+53.1,19.4,15.4,10.8,0.0,0.0,1.3,selsdonaddingtonvillage,croydon,Selsdon and Addington Village,Con,selsdonaddingtonvillage-croydon
+27.4,72.6,0.0,0.0,0.0,0.0,0.0,falconbrook,wandsworth,Falconbrook,Lab,falconbrook-wandsworth
+11.7,10.0,12.0,6.0,0.0,0.0,60.3,beddington,sutton,Beddington,Ind,beddington-sutton
+11.7,10.0,12.0,6.0,0.0,0.0,60.3,beddington,sutton,Beddington,Ind,beddington-sutton
+11.7,10.0,12.0,6.0,0.0,0.0,60.3,beddington,sutton,Beddington,Ind,beddington-sutton
+11.9,69.5,11.1,0.0,0.0,0.0,7.5,stpancrassomerstown,camden,St Pancras and Somers Town,Lab,stpancrassomerstown-camden
+52.7,5.5,36.3,5.5,0.0,0.0,0.0,oldcoulsdon,croydon,Old Coulsdon,Con,oldcoulsdon-croydon
+52.7,5.5,36.3,5.5,0.0,0.0,0.0,oldcoulsdon,croydon,Old Coulsdon,Con,oldcoulsdon-croydon
+52.7,5.5,36.3,5.5,0.0,0.0,0.0,oldcoulsdon,croydon,Old Coulsdon,Con,oldcoulsdon-croydon
+36.9,45.8,8.7,0.0,0.0,0.0,8.6,barkingside,redbridge,Barkingside,Lab,barkingside-redbridge
+67.4,16.5,0.0,16.1,0.0,0.0,0.0,selsdonvaleforestdale,croydon,Selsdon Vale and Forestdale,Con,selsdonvaleforestdale-croydon
+67.4,16.5,0.0,16.1,0.0,0.0,0.0,selsdonvaleforestdale,croydon,Selsdon Vale and Forestdale,Con,selsdonvaleforestdale-croydon
+18.8,71.6,9.6,0.0,0.0,0.0,0.0,hammersmithbroadway,hammersmithfulham,Hammersmith Broadway,Lab,hammersmithbroadway-hammersmithfulham
+18.8,71.6,9.6,0.0,0.0,0.0,0.0,hammersmithbroadway,hammersmithfulham,Hammersmith Broadway,Lab,hammersmithbroadway-hammersmithfulham
+4.8,44.8,4.5,41.0,0.0,0.0,4.9,hackneydowns,hackney,Hackney Downs,Lab,hackneydowns-hackney
+22.3,54.3,12.1,11.2,0.0,0.0,0.0,broadgreen,croydon,Broad Green,Lab,broadgreen-croydon
+22.3,54.3,12.1,11.2,0.0,0.0,0.0,broadgreen,croydon,Broad Green,Lab,broadgreen-croydon
+12.2,45.5,1.9,40.3,0.0,0.0,0.0,eastgreenwich,greenwich,East Greenwich,Lab,eastgreenwich-greenwich
+12.2,45.5,1.9,40.3,0.0,0.0,0.0,eastgreenwich,greenwich,East Greenwich,Lab,eastgreenwich-greenwich
+24.1,28.1,0.0,4.9,0.0,0.0,43.0,southhornchurch,havering,South Hornchurch,OTH,southhornchurch-havering
+24.1,28.1,0.0,4.9,0.0,0.0,43.0,southhornchurch,havering,South Hornchurch,OTH,southhornchurch-havering
+55.1,34.5,0.0,10.4,0.0,0.0,0.0,hillingdonwest,hillingdon,Hillingdon West,Con,hillingdonwest-hillingdon
+0.0,41.7,4.8,50.3,0.0,0.0,3.1,dalston,hackney,Dalston,Grn,dalston-hackney
+0.0,41.7,4.8,50.3,0.0,0.0,3.1,dalston,hackney,Dalston,Grn,dalston-hackney
+21.3,13.6,0.0,0.0,0.0,0.0,65.1,hacton,havering,Hacton,OTH,hacton-havering
+14.8,48.4,0.0,30.5,0.0,0.0,6.4,beckton,newham,Beckton,Lab,beckton-newham
+14.8,48.4,0.0,30.5,0.0,0.0,6.4,beckton,newham,Beckton,Lab,beckton-newham
+14.8,48.4,0.0,30.5,0.0,0.0,6.4,beckton,newham,Beckton,Lab,beckton-newham
+59.0,21.6,19.4,0.0,0.0,0.0,0.0,abingdon,kensingtonchelsea,Abingdon,Con,abingdon-kensingtonchelsea
+59.0,21.6,19.4,0.0,0.0,0.0,0.0,abingdon,kensingtonchelsea,Abingdon,Con,abingdon-kensingtonchelsea
+16.2,66.5,0.0,17.3,0.0,0.0,0.0,plaistownorth,newham,Plaistow North,Lab,plaistownorth-newham
+29.7,17.5,44.1,8.8,0.0,0.0,0.0,earlscourt,kensingtonchelsea,Earl's Court,LDem,earlscourt-kensingtonchelsea
+29.7,17.5,44.1,8.8,0.0,0.0,0.0,earlscourt,kensingtonchelsea,Earl's Court,LDem,earlscourt-kensingtonchelsea
+19.2,60.2,8.5,12.2,0.0,0.0,0.0,ladymargaret,ealing,Lady Margaret,Lab,ladymargaret-ealing
+19.2,60.2,8.5,12.2,0.0,0.0,0.0,ladymargaret,ealing,Lady Margaret,Lab,ladymargaret-ealing
+10.5,28.9,38.9,21.7,0.0,0.0,0.0,surreydocks,southwark,Surrey Docks,LDem,surreydocks-southwark
+10.5,28.9,38.9,21.7,0.0,0.0,0.0,surreydocks,southwark,Surrey Docks,LDem,surreydocks-southwark
+10.5,28.9,38.9,21.7,0.0,0.0,0.0,surreydocks,southwark,Surrey Docks,LDem,surreydocks-southwark
+30.0,17.9,42.4,9.8,0.0,0.0,0.0,raynespark,merton,Raynes Park,LDem,raynespark-merton
+30.0,17.9,42.4,9.8,0.0,0.0,0.0,raynespark,merton,Raynes Park,LDem,raynespark-merton
+23.8,76.2,0.0,0.0,0.0,0.0,0.0,ilfordtown,redbridge,Ilford Town,Lab,ilfordtown-redbridge
+23.8,76.2,0.0,0.0,0.0,0.0,0.0,ilfordtown,redbridge,Ilford Town,Lab,ilfordtown-redbridge
+15.2,10.0,66.0,0.0,0.0,0.0,8.7,stmargaretsnorthtwickenham,richmonduponthames,St Margarets and North Twickenham,LDem,stmargaretsnorthtwickenham-richmonduponthames
+15.2,10.0,66.0,0.0,0.0,0.0,8.7,stmargaretsnorthtwickenham,richmonduponthames,St Margarets and North Twickenham,LDem,stmargaretsnorthtwickenham-richmonduponthames
+25.3,32.7,42.1,0.0,0.0,0.0,0.0,stheliereast,sutton,St Helier East,LDem,stheliereast-sutton
+25.3,32.7,42.1,0.0,0.0,0.0,0.0,stheliereast,sutton,St Helier East,LDem,stheliereast-sutton
+8.6,60.8,9.9,20.8,0.0,0.0,0.0,myattsfields,lambeth,Myatt's Fields,Lab,myattsfields-lambeth
+8.6,60.8,9.9,20.8,0.0,0.0,0.0,myattsfields,lambeth,Myatt's Fields,Lab,myattsfields-lambeth
+30.2,58.2,0.0,11.6,0.0,0.0,0.0,barnhill,brent,Barnhill,Lab,barnhill-brent
+28.1,60.7,0.0,0.0,0.0,0.0,11.2,cranbrook,redbridge,Cranbrook,Lab,cranbrook-redbridge
+7.2,35.4,42.1,15.4,0.0,0.0,0.0,muswellhill,haringey,Muswell Hill,LDem,muswellhill-haringey
+6.1,47.2,7.1,39.7,0.0,0.0,0.0,ladywell,lewisham,Ladywell,Lab,ladywell-lewisham
+5.2,59.3,5.8,29.7,0.0,0.0,0.0,brixtonwindrush,lambeth,Brixton Windrush,Lab,brixtonwindrush-lambeth
+10.9,32.1,37.9,19.1,0.0,0.0,0.0,highgate,haringey,Highgate,LDem,highgate-haringey
+10.9,32.1,37.9,19.1,0.0,0.0,0.0,highgate,haringey,Highgate,LDem,highgate-haringey
+10.9,32.1,37.9,19.1,0.0,0.0,0.0,highgate,haringey,Highgate,LDem,highgate-haringey
+14.9,48.6,0.0,9.0,0.0,0.0,27.5,wallend,newham,Wall End,Lab,wallend-newham
+14.9,48.6,0.0,9.0,0.0,0.0,27.5,wallend,newham,Wall End,Lab,wallend-newham
+26.6,43.5,0.0,0.0,0.0,0.0,29.9,heaton,havering,Heaton,Lab,heaton-havering
+14.0,49.4,10.2,14.4,0.0,0.0,12.0,customhouse,newham,Custom House,Lab,customhouse-newham
+25.8,64.6,9.7,0.0,0.0,0.0,0.0,newbury,redbridge,Newbury,Lab,newbury-redbridge
+15.4,8.9,40.5,35.3,0.0,0.0,0.0,southtwickenham,richmonduponthames,South Twickenham,LDem,southtwickenham-richmonduponthames
+6.6,65.9,0.0,24.9,0.0,0.0,2.7,hackneywick,hackney,Hackney Wick,Lab,hackneywick-hackney
+6.6,65.9,0.0,24.9,0.0,0.0,2.7,hackneywick,hackney,Hackney Wick,Lab,hackneywick-hackney
+6.6,65.9,0.0,24.9,0.0,0.0,2.7,hackneywick,hackney,Hackney Wick,Lab,hackneywick-hackney
+18.9,81.1,0.0,0.0,0.0,0.0,0.0,loxford,redbridge,Loxford,Lab,loxford-redbridge
+18.9,81.1,0.0,0.0,0.0,0.0,0.0,loxford,redbridge,Loxford,Lab,loxford-redbridge
+18.9,81.1,0.0,0.0,0.0,0.0,0.0,loxford,redbridge,Loxford,Lab,loxford-redbridge
+57.8,21.4,9.2,10.4,0.0,0.0,1.2,eastcote,hillingdon,Eastcote,Con,eastcote-hillingdon
+57.8,21.4,9.2,10.4,0.0,0.0,1.2,eastcote,hillingdon,Eastcote,Con,eastcote-hillingdon
+25.6,67.0,0.0,7.4,0.0,0.0,0.0,belmore,hillingdon,Belmore,Lab,belmore-hillingdon
+25.6,67.0,0.0,7.4,0.0,0.0,0.0,belmore,hillingdon,Belmore,Lab,belmore-hillingdon
+42.8,29.0,14.7,13.6,0.0,0.0,0.0,chiswickhomefields,hounslow,Chiswick Homefields,Con,chiswickhomefields-hounslow
+42.8,29.0,14.7,13.6,0.0,0.0,0.0,chiswickhomefields,hounslow,Chiswick Homefields,Con,chiswickhomefields-hounslow
+42.8,29.0,14.7,13.6,0.0,0.0,0.0,chiswickhomefields,hounslow,Chiswick Homefields,Con,chiswickhomefields-hounslow
+42.8,29.0,14.7,13.6,0.0,0.0,0.0,chiswickhomefields,hounslow,Chiswick Homefields,Con,chiswickhomefields-hounslow
+18.8,53.1,28.0,0.0,0.0,0.0,0.0,hackbridge,sutton,Hackbridge,Lab,hackbridge-sutton
+18.8,53.1,28.0,0.0,0.0,0.0,0.0,hackbridge,sutton,Hackbridge,Lab,hackbridge-sutton
+54.3,24.5,21.2,0.0,0.0,0.0,0.0,stanley,kensingtonchelsea,Stanley,Con,stanley-kensingtonchelsea
+54.3,24.5,21.2,0.0,0.0,0.0,0.0,stanley,kensingtonchelsea,Stanley,Con,stanley-kensingtonchelsea
+53.4,20.9,25.7,0.0,0.0,0.0,0.0,pettswoodknoll,bromley,Petts Wood and Knoll,Con,pettswoodknoll-bromley
+19.3,10.8,51.3,10.5,0.0,0.0,8.1,surbitonhill,kingstonuponthames,Surbiton Hill,LDem,surbitonhill-kingstonuponthames
+19.3,10.8,51.3,10.5,0.0,0.0,8.1,surbitonhill,kingstonuponthames,Surbiton Hill,LDem,surbitonhill-kingstonuponthames
+22.1,54.2,11.8,11.9,0.0,0.0,0.0,ravenscourt,hammersmithfulham,Ravenscourt,Lab,ravenscourt-hammersmithfulham
+22.1,54.2,11.8,11.9,0.0,0.0,0.0,ravenscourt,hammersmithfulham,Ravenscourt,Lab,ravenscourt-hammersmithfulham
+22.1,54.2,11.8,11.9,0.0,0.0,0.0,ravenscourt,hammersmithfulham,Ravenscourt,Lab,ravenscourt-hammersmithfulham
+18.8,47.2,12.6,21.4,0.0,0.0,0.0,royalvictoria,newham,Royal Victoria,Lab,royalvictoria-newham
+18.8,47.2,12.6,21.4,0.0,0.0,0.0,royalvictoria,newham,Royal Victoria,Lab,royalvictoria-newham
+18.8,47.2,12.6,21.4,0.0,0.0,0.0,royalvictoria,newham,Royal Victoria,Lab,royalvictoria-newham
+8.9,52.5,0.0,14.5,0.0,0.0,24.1,canningtownnorth,newham,Canning Town North,Lab,canningtownnorth-newham
+8.9,52.5,0.0,14.5,0.0,0.0,24.1,canningtownnorth,newham,Canning Town North,Lab,canningtownnorth-newham
+22.8,14.6,45.6,7.8,0.0,0.0,9.2,wallingtonsouth,sutton,Wallington South,LDem,wallingtonsouth-sutton
+44.7,12.4,31.0,11.9,0.0,0.0,0.0,cheam,sutton,Cheam,Con,cheam-sutton
+44.7,12.4,31.0,11.9,0.0,0.0,0.0,cheam,sutton,Cheam,Con,cheam-sutton
+44.7,12.4,31.0,11.9,0.0,0.0,0.0,cheam,sutton,Cheam,Con,cheam-sutton
+9.4,62.5,7.4,18.5,0.0,0.0,2.2,leytonstone,walthamforest,Leytonstone,Lab,leytonstone-walthamforest
+9.4,62.5,7.4,18.5,0.0,0.0,2.2,leytonstone,walthamforest,Leytonstone,Lab,leytonstone-walthamforest
+28.4,47.0,10.9,13.6,0.0,0.0,0.0,westharrow,harrow,West Harrow,Lab,westharrow-harrow
+47.9,43.1,9.0,0.0,0.0,0.0,0.0,edgware,harrow,Edgware,Con,edgware-harrow
+47.9,43.1,9.0,0.0,0.0,0.0,0.0,edgware,harrow,Edgware,Con,edgware-harrow
+5.9,57.8,7.7,28.6,0.0,0.0,0.0,tollington,islington,Tollington,Lab,tollington-islington
+5.9,57.8,7.7,28.6,0.0,0.0,0.0,tollington,islington,Tollington,Lab,tollington-islington
+14.8,37.8,10.1,16.1,0.0,0.0,21.2,syonbrentfordlock,hounslow,Syon and Brentford Lock,Lab,syonbrentfordlock-hounslow
+14.8,37.8,10.1,16.1,0.0,0.0,21.2,syonbrentfordlock,hounslow,Syon and Brentford Lock,Lab,syonbrentfordlock-hounslow
+11.6,45.9,10.7,31.9,0.0,0.0,0.0,greenwichpark,greenwich,Greenwich Park,Lab,greenwichpark-greenwich
+11.6,45.9,10.7,31.9,0.0,0.0,0.0,greenwichpark,greenwich,Greenwich Park,Lab,greenwichpark-greenwich
+11.6,45.9,10.7,31.9,0.0,0.0,0.0,greenwichpark,greenwich,Greenwich Park,Lab,greenwichpark-greenwich
+49.7,15.5,34.7,0.0,0.0,0.0,0.0,worcesterparksouth,sutton,Worcester Park South,Con,worcesterparksouth-sutton
+49.7,15.5,34.7,0.0,0.0,0.0,0.0,worcesterparksouth,sutton,Worcester Park South,Con,worcesterparksouth-sutton
+21.3,62.2,14.0,0.0,0.0,0.0,2.4,westkensington,hammersmithfulham,West Kensington,Lab,westkensington-hammersmithfulham
+21.3,62.2,14.0,0.0,0.0,0.0,2.4,westkensington,hammersmithfulham,West Kensington,Lab,westkensington-hammersmithfulham
+51.9,36.2,11.9,0.0,0.0,0.0,0.0,holland,kensingtonchelsea,Holland,Con,holland-kensingtonchelsea
+51.9,36.2,11.9,0.0,0.0,0.0,0.0,holland,kensingtonchelsea,Holland,Con,holland-kensingtonchelsea
+30.9,23.2,33.0,12.9,0.0,0.0,0.0,hangerhill,ealing,Hanger Hill,LDem,hangerhill-ealing
+30.9,23.2,33.0,12.9,0.0,0.0,0.0,hangerhill,ealing,Hanger Hill,LDem,hangerhill-ealing
+9.4,46.4,26.9,15.4,0.0,0.0,1.9,streathamwells,lambeth,Streatham Wells,Lab,streathamwells-lambeth
+39.7,29.5,27.0,3.8,0.0,0.0,0.0,nineelms,wandsworth,Nine Elms,Con,nineelms-wandsworth
+39.7,29.5,27.0,3.8,0.0,0.0,0.0,nineelms,wandsworth,Nine Elms,Con,nineelms-wandsworth
+39.7,29.5,27.0,3.8,0.0,0.0,0.0,nineelms,wandsworth,Nine Elms,Con,nineelms-wandsworth
+4.7,40.8,34.8,19.6,0.0,0.0,0.0,crouchend,haringey,Crouch End,Lab,crouchend-haringey
+4.7,40.8,34.8,19.6,0.0,0.0,0.0,crouchend,haringey,Crouch End,Lab,crouchend-haringey
+12.7,66.4,0.0,20.8,0.0,0.0,0.0,woodberrydown,hackney,Woodberry Down,Lab,woodberrydown-hackney
+12.7,66.4,0.0,20.8,0.0,0.0,0.0,woodberrydown,hackney,Woodberry Down,Lab,woodberrydown-hackney
+21.1,57.9,10.6,0.0,0.0,0.0,10.4,dalgarno,kensingtonchelsea,Dalgarno,Lab,dalgarno-kensingtonchelsea
+21.1,57.9,10.6,0.0,0.0,0.0,10.4,dalgarno,kensingtonchelsea,Dalgarno,Lab,dalgarno-kensingtonchelsea
+21.1,57.9,10.6,0.0,0.0,0.0,10.4,dalgarno,kensingtonchelsea,Dalgarno,Lab,dalgarno-kensingtonchelsea
+21.1,57.9,10.6,0.0,0.0,0.0,10.4,dalgarno,kensingtonchelsea,Dalgarno,Lab,dalgarno-kensingtonchelsea
+6.8,39.6,41.6,12.0,0.0,0.0,0.0,streathamhillwestthornton,lambeth,Streatham Hill West and Thornton,LDem,streathamhillwestthornton-lambeth
+6.8,39.6,41.6,12.0,0.0,0.0,0.0,streathamhillwestthornton,lambeth,Streatham Hill West and Thornton,LDem,streathamhillwestthornton-lambeth
+9.5,55.8,13.3,19.1,0.0,0.0,2.3,northwalworth,southwark,North Walworth,Lab,northwalworth-southwark
+65.2,19.5,5.7,6.2,0.0,0.0,3.4,goldersgreen,barnet,Golders Green,Con,goldersgreen-barnet
+12.2,41.3,46.5,0.0,0.0,0.0,0.0,alperton,brent,Alperton,LDem,alperton-brent
+12.2,41.3,46.5,0.0,0.0,0.0,0.0,alperton,brent,Alperton,LDem,alperton-brent
+34.2,52.5,0.0,13.3,0.0,0.0,0.0,roxeth,harrow,Roxeth,Lab,roxeth-harrow
+34.2,52.5,0.0,13.3,0.0,0.0,0.0,roxeth,harrow,Roxeth,Lab,roxeth-harrow
+34.2,52.5,0.0,13.3,0.0,0.0,0.0,roxeth,harrow,Roxeth,Lab,roxeth-harrow
+24.2,49.7,12.3,9.8,0.0,0.0,3.9,norburypollardshill,croydon,Norbury and Pollards Hill,Lab,norburypollardshill-croydon
+24.2,49.7,12.3,9.8,0.0,0.0,3.9,norburypollardshill,croydon,Norbury and Pollards Hill,Lab,norburypollardshill-croydon
+24.2,49.7,12.3,9.8,0.0,0.0,3.9,norburypollardshill,croydon,Norbury and Pollards Hill,Lab,norburypollardshill-croydon
+33.5,52.3,6.7,0.0,0.0,0.0,7.5,aldborough,redbridge,Aldborough,Lab,aldborough-redbridge
+33.5,52.3,6.7,0.0,0.0,0.0,7.5,aldborough,redbridge,Aldborough,Lab,aldborough-redbridge
+12.7,35.3,33.0,19.0,0.0,0.0,0.0,crystalpalaceuppernorwood,croydon,Crystal Palace and Upper Norwood,Lab,crystalpalaceuppernorwood-croydon
+12.7,35.3,33.0,19.0,0.0,0.0,0.0,crystalpalaceuppernorwood,croydon,Crystal Palace and Upper Norwood,Lab,crystalpalaceuppernorwood-croydon
+12.7,35.3,33.0,19.0,0.0,0.0,0.0,crystalpalaceuppernorwood,croydon,Crystal Palace and Upper Norwood,Lab,crystalpalaceuppernorwood-croydon
+6.5,56.9,10.9,22.9,0.0,0.0,2.8,ryelane,southwark,Rye Lane,Lab,ryelane-southwark
+47.5,22.6,29.9,0.0,0.0,0.0,0.0,orpington,bromley,Orpington,Con,orpington-bromley
+18.0,47.8,13.2,17.7,0.0,0.0,3.3,northhanwell,ealing,North Hanwell,Lab,northhanwell-ealing
+53.2,29.7,14.0,0.0,0.0,0.0,3.0,westwickham,bromley,West Wickham,Con,westwickham-bromley
+53.2,29.7,14.0,0.0,0.0,0.0,3.0,westwickham,bromley,West Wickham,Con,westwickham-bromley
+44.0,26.1,0.0,0.0,0.0,0.0,29.9,haveringattebower,havering,Havering-atte-Bower,Con,haveringattebower-havering
+44.0,26.1,0.0,0.0,0.0,0.0,29.9,haveringattebower,havering,Havering-atte-Bower,Con,haveringattebower-havering
+44.0,26.1,0.0,0.0,0.0,0.0,29.9,haveringattebower,havering,Havering-atte-Bower,Con,haveringattebower-havering
+44.0,26.1,0.0,0.0,0.0,0.0,29.9,haveringattebower,havering,Havering-atte-Bower,Con,haveringattebower-havering
+44.0,26.1,0.0,0.0,0.0,0.0,29.9,haveringattebower,havering,Havering-atte-Bower,Con,haveringattebower-havering
+4.3,89.2,2.3,4.2,0.0,0.0,0.0,wansteadpark,redbridge,Wanstead Park,Lab,wansteadpark-redbridge
+4.3,89.2,2.3,4.2,0.0,0.0,0.0,wansteadpark,redbridge,Wanstead Park,Lab,wansteadpark-redbridge
+4.3,89.2,2.3,4.2,0.0,0.0,0.0,wansteadpark,redbridge,Wanstead Park,Lab,wansteadpark-redbridge
+21.7,56.2,8.1,14.0,0.0,0.0,0.0,tootingbec,wandsworth,Tooting Bec,Lab,tootingbec-wandsworth
+46.0,44.9,9.2,0.0,0.0,0.0,0.0,fairlop,redbridge,Fairlop,Con,fairlop-redbridge
+46.0,44.9,9.2,0.0,0.0,0.0,0.0,fairlop,redbridge,Fairlop,Con,fairlop-redbridge
+47.4,24.3,14.1,14.2,0.0,0.0,0.0,frognal,camden,Frognal,Con,frognal-camden
+47.4,24.3,14.1,14.2,0.0,0.0,0.0,frognal,camden,Frognal,Con,frognal-camden
+13.9,59.5,8.7,15.0,0.0,0.0,2.8,shootershill,greenwich,Shooters Hill,Lab,shootershill-greenwich
+13.9,59.5,8.7,15.0,0.0,0.0,2.8,shootershill,greenwich,Shooters Hill,Lab,shootershill-greenwich
+48.1,46.6,5.4,0.0,0.0,0.0,0.0,valley,walthamforest,Valley,Con,valley-walthamforest
+48.1,46.6,5.4,0.0,0.0,0.0,0.0,valley,walthamforest,Valley,Con,valley-walthamforest
+15.1,50.7,14.6,17.4,0.0,0.0,2.3,greenwichpeninsula,greenwich,Greenwich Peninsula,Lab,greenwichpeninsula-greenwich
+15.1,50.7,14.6,17.4,0.0,0.0,2.3,greenwichpeninsula,greenwich,Greenwich Peninsula,Lab,greenwichpeninsula-greenwich
+15.1,50.7,14.6,17.4,0.0,0.0,2.3,greenwichpeninsula,greenwich,Greenwich Peninsula,Lab,greenwichpeninsula-greenwich
+30.7,53.9,0.0,15.4,0.0,0.0,0.0,felthamwest,hounslow,Feltham West,Lab,felthamwest-hounslow
+30.7,53.9,0.0,15.4,0.0,0.0,0.0,felthamwest,hounslow,Feltham West,Lab,felthamwest-hounslow
+53.3,31.1,9.5,0.0,0.0,0.0,6.2,blendonpenhill,bexley,Blendon and Penhill,Con,blendonpenhill-bexley
+52.2,35.7,12.0,0.0,0.0,0.0,0.0,longlands,bexley,Longlands,Con,longlands-bexley
+52.2,35.7,12.0,0.0,0.0,0.0,0.0,longlands,bexley,Longlands,Con,longlands-bexley
+52.2,35.7,12.0,0.0,0.0,0.0,0.0,longlands,bexley,Longlands,Con,longlands-bexley
+15.2,68.2,11.2,0.0,0.0,0.0,5.3,bellingham,lewisham,Bellingham,Lab,bellingham-lewisham
+15.2,68.2,11.2,0.0,0.0,0.0,5.3,bellingham,lewisham,Bellingham,Lab,bellingham-lewisham
+8.1,55.7,17.7,18.5,0.0,0.0,0.0,chaucer,southwark,Chaucer,Lab,chaucer-southwark
+24.8,60.1,0.0,0.0,0.0,0.0,15.2,barkingriverside,barkingdagenham,Barking Riverside,Lab,barkingriverside-barkingdagenham
+24.8,60.1,0.0,0.0,0.0,0.0,15.2,barkingriverside,barkingdagenham,Barking Riverside,Lab,barkingriverside-barkingdagenham
+24.8,60.1,0.0,0.0,0.0,0.0,15.2,barkingriverside,barkingdagenham,Barking Riverside,Lab,barkingriverside-barkingdagenham
+24.8,60.1,0.0,0.0,0.0,0.0,15.2,barkingriverside,barkingdagenham,Barking Riverside,Lab,barkingriverside-barkingdagenham
+46.1,44.6,9.3,0.0,0.0,0.0,0.0,littlevenice,westminster,Little Venice,Con,littlevenice-westminster
+10.6,51.5,11.2,26.7,0.0,0.0,0.0,lewishamcentral,lewisham,Lewisham Central,Lab,lewishamcentral-lewisham
+10.6,51.5,11.2,26.7,0.0,0.0,0.0,lewishamcentral,lewisham,Lewisham Central,Lab,lewishamcentral-lewisham
+58.4,32.6,2.0,7.0,0.0,0.0,0.0,springfield,hackney,Springfield,Con,springfield-hackney
+58.4,32.6,2.0,7.0,0.0,0.0,0.0,springfield,hackney,Springfield,Con,springfield-hackney
+58.4,32.6,2.0,7.0,0.0,0.0,0.0,springfield,hackney,Springfield,Con,springfield-hackney
+15.8,65.1,7.6,11.6,0.0,0.0,0.0,longthornton,merton,Longthornton,Lab,longthornton-merton
+15.8,65.1,7.6,11.6,0.0,0.0,0.0,longthornton,merton,Longthornton,Lab,longthornton-merton
+15.8,65.1,7.6,11.6,0.0,0.0,0.0,longthornton,merton,Longthornton,Lab,longthornton-merton
+9.9,29.3,45.5,15.3,0.0,0.0,0.0,northbermondsey,southwark,North Bermondsey,LDem,northbermondsey-southwark
+9.9,29.3,45.5,15.3,0.0,0.0,0.0,northbermondsey,southwark,North Bermondsey,LDem,northbermondsey-southwark
+6.8,57.8,9.1,26.3,0.0,0.0,0.0,stgiles,southwark,St Giles,Lab,stgiles-southwark
+6.8,57.8,9.1,26.3,0.0,0.0,0.0,stgiles,southwark,St Giles,Lab,stgiles-southwark
+23.7,8.3,33.3,21.0,0.0,0.0,13.7,hamptonnorth,richmonduponthames,Hampton North,LDem,hamptonnorth-richmonduponthames
+23.7,8.3,33.3,21.0,0.0,0.0,13.7,hamptonnorth,richmonduponthames,Hampton North,LDem,hamptonnorth-richmonduponthames
+22.0,49.6,8.4,15.1,0.0,0.0,4.9,kidbrookepark,greenwich,Kidbrooke Park,Lab,kidbrookepark-greenwich
+35.5,56.1,0.0,8.4,0.0,0.0,0.0,yiewsley,hillingdon,Yiewsley,Lab,yiewsley-hillingdon
+35.5,56.1,0.0,8.4,0.0,0.0,0.0,yiewsley,hillingdon,Yiewsley,Lab,yiewsley-hillingdon
+18.6,62.8,0.0,18.5,0.0,0.0,0.0,brentfordeast,hounslow,Brentford East,Lab,brentfordeast-hounslow
+18.6,62.8,0.0,18.5,0.0,0.0,0.0,brentfordeast,hounslow,Brentford East,Lab,brentfordeast-hounslow
+18.6,62.8,0.0,18.5,0.0,0.0,0.0,brentfordeast,hounslow,Brentford East,Lab,brentfordeast-hounslow
+9.9,57.5,10.7,18.5,0.0,0.0,3.3,kilburn,brent,Kilburn,Lab,kilburn-brent
+9.9,57.5,10.7,18.5,0.0,0.0,3.3,kilburn,brent,Kilburn,Lab,kilburn-brent
+9.9,57.5,10.7,18.5,0.0,0.0,3.3,kilburn,brent,Kilburn,Lab,kilburn-brent
+24.1,9.5,62.0,4.4,0.0,0.0,0.0,warley,brentwood,Warley,LDem,warley-brentwood
+24.1,9.5,62.0,4.4,0.0,0.0,0.0,warley,brentwood,Warley,LDem,warley-brentwood
+12.3,53.9,0.0,15.8,0.0,0.0,17.9,canningtownsouth,newham,Canning Town South,Lab,canningtownsouth-newham
+12.3,53.9,0.0,15.8,0.0,0.0,17.9,canningtownsouth,newham,Canning Town South,Lab,canningtownsouth-newham
+36.8,37.3,10.0,0.0,0.0,0.0,15.9,stpaulscray,bromley,St Paul's Cray,Lab,stpaulscray-bromley
+36.8,37.3,10.0,0.0,0.0,0.0,15.9,stpaulscray,bromley,St Paul's Cray,Lab,stpaulscray-bromley
+36.8,37.3,10.0,0.0,0.0,0.0,15.9,stpaulscray,bromley,St Paul's Cray,Lab,stpaulscray-bromley
+6.1,48.9,18.7,18.2,0.0,0.0,8.1,goosegreen,southwark,Goose Green,Lab,goosegreen-southwark
+25.6,62.9,11.5,0.0,0.0,0.0,0.0,lillie,hammersmithfulham,Lillie,Lab,lillie-hammersmithfulham
+25.6,62.9,11.5,0.0,0.0,0.0,0.0,lillie,hammersmithfulham,Lillie,Lab,lillie-hammersmithfulham
+10.7,42.5,36.0,10.8,0.0,0.0,0.0,waterloosouthbank,lambeth,Waterloo and South Bank,Lab,waterloosouthbank-lambeth
+10.7,42.5,36.0,10.8,0.0,0.0,0.0,waterloosouthbank,lambeth,Waterloo and South Bank,Lab,waterloosouthbank-lambeth
+10.7,42.5,36.0,10.8,0.0,0.0,0.0,waterloosouthbank,lambeth,Waterloo and South Bank,Lab,waterloosouthbank-lambeth
+28.0,42.6,10.7,15.1,0.0,0.0,3.5,blackheathwestcombe,greenwich,Blackheath Westcombe,Lab,blackheathwestcombe-greenwich
+28.0,42.6,10.7,15.1,0.0,0.0,3.5,blackheathwestcombe,greenwich,Blackheath Westcombe,Lab,blackheathwestcombe-greenwich
+10.6,58.0,10.2,21.3,0.0,0.0,0.0,stmartins,lambeth,St Martin's,Lab,stmartins-lambeth
+9.5,60.0,9.8,16.0,0.0,0.0,4.7,maryland,newham,Maryland,Lab,maryland-newham
+9.5,60.0,9.8,16.0,0.0,0.0,4.7,maryland,newham,Maryland,Lab,maryland-newham
+9.5,62.1,10.7,17.7,0.0,0.0,0.0,holloway,islington,Holloway,Lab,holloway-islington
+9.5,62.1,10.7,17.7,0.0,0.0,0.0,holloway,islington,Holloway,Lab,holloway-islington
+26.7,11.7,35.7,14.8,0.0,0.0,11.1,coombevale,kingstonuponthames,Coombe Vale,LDem,coombevale-kingstonuponthames
+0.0,67.7,0.0,32.3,0.0,0.0,0.0,kingspark,hackney,King's Park,Lab,kingspark-hackney
+0.0,67.7,0.0,32.3,0.0,0.0,0.0,kingspark,hackney,King's Park,Lab,kingspark-hackney
+21.9,70.3,0.0,0.0,0.0,0.0,7.8,hayestown,hillingdon,Hayes Town,Lab,hayestown-hillingdon
+19.1,26.2,3.6,7.6,0.0,0.0,43.5,westhill,wandsworth,West Hill,Ind,westhill-wandsworth
+19.1,26.2,3.6,7.6,0.0,0.0,43.5,westhill,wandsworth,West Hill,Ind,westhill-wandsworth
+10.8,53.2,15.1,20.8,0.0,0.0,0.0,stratford,newham,Stratford,Lab,stratford-newham
+10.8,53.2,15.1,20.8,0.0,0.0,0.0,stratford,newham,Stratford,Lab,stratford-newham
+10.5,52.5,11.7,25.3,0.0,0.0,0.0,foresthill,lewisham,Forest Hill,Lab,foresthill-lewisham
+10.5,52.5,11.7,25.3,0.0,0.0,0.0,foresthill,lewisham,Forest Hill,Lab,foresthill-lewisham
+5.8,39.6,39.5,15.1,0.0,0.0,0.0,alexandrapark,haringey,Alexandra Park,Lab,alexandrapark-haringey
+5.8,39.6,39.5,15.1,0.0,0.0,0.0,alexandrapark,haringey,Alexandra Park,Lab,alexandrapark-haringey
+4.6,60.9,9.6,20.1,0.0,0.0,4.8,highamhill,walthamforest,Higham Hill,Lab,highamhill-walthamforest
+4.6,60.9,9.6,20.1,0.0,0.0,4.8,highamhill,walthamforest,Higham Hill,Lab,highamhill-walthamforest
+4.6,60.9,9.6,20.1,0.0,0.0,4.8,highamhill,walthamforest,Higham Hill,Lab,highamhill-walthamforest
+19.5,62.6,17.9,0.0,0.0,0.0,0.0,wembleypark,brent,Wembley Park,Lab,wembleypark-brent
+30.7,42.0,12.4,14.9,0.0,0.0,0.0,northfield,ealing,Northfield,Lab,northfield-ealing
+30.7,42.0,12.4,14.9,0.0,0.0,0.0,northfield,ealing,Northfield,Lab,northfield-ealing
+11.5,53.4,16.5,18.6,0.0,0.0,0.0,queenspark,brent,Queens Park,Lab,queenspark-brent
+11.5,53.4,16.5,18.6,0.0,0.0,0.0,queenspark,brent,Queens Park,Lab,queenspark-brent
+11.5,53.4,16.5,18.6,0.0,0.0,0.0,queenspark,brent,Queens Park,Lab,queenspark-brent
+11.5,53.4,16.5,18.6,0.0,0.0,0.0,queenspark,brent,Queens Park,Lab,queenspark-brent
+37.6,50.5,0.0,11.8,0.0,0.0,0.0,wealdstonesouth,harrow,Wealdstone South,Lab,wealdstonesouth-harrow
+26.6,52.7,10.7,10.0,0.0,0.0,0.0,walhamgreen,hammersmithfulham,Walham Green,Lab,walhamgreen-hammersmithfulham
+3.5,18.3,30.5,5.6,0.0,0.0,42.0,shadwell,towerhamlets,Shadwell,OTH,shadwell-towerhamlets
+10.1,63.5,8.6,17.7,0.0,0.0,0.0,camdentown,camden,Camden Town,Lab,camdentown-camden
+26.2,37.7,0.0,8.7,0.0,0.0,27.4,gooshays,havering,Gooshays,Lab,gooshays-havering
+26.2,37.7,0.0,8.7,0.0,0.0,27.4,gooshays,havering,Gooshays,Lab,gooshays-havering
+40.6,42.8,8.2,8.4,0.0,0.0,0.0,westputney,wandsworth,West Putney,Lab,westputney-wandsworth
+40.6,42.8,8.2,8.4,0.0,0.0,0.0,westputney,wandsworth,West Putney,Lab,westputney-wandsworth
+11.5,27.8,47.3,7.3,0.0,0.0,6.1,norbiton,kingstonuponthames,Norbiton,LDem,norbiton-kingstonuponthames
+25.5,44.3,12.1,18.2,0.0,0.0,0.0,claphamtown,lambeth,Clapham Town,Lab,claphamtown-lambeth
+25.5,44.3,12.1,18.2,0.0,0.0,0.0,claphamtown,lambeth,Clapham Town,Lab,claphamtown-lambeth
+60.2,23.2,16.6,0.0,0.0,0.0,0.0,knightsbridgebelgravia,westminster,Knightsbridge and Belgravia,Con,knightsbridgebelgravia-westminster
+60.2,23.2,16.6,0.0,0.0,0.0,0.0,knightsbridgebelgravia,westminster,Knightsbridge and Belgravia,Con,knightsbridgebelgravia-westminster
+10.7,17.7,9.0,5.3,0.0,0.0,57.2,mertonpark,merton,Merton Park,OTH,mertonpark-merton
+17.4,72.0,0.0,10.6,0.0,0.0,0.0,northbury,barkingdagenham,Northbury,Lab,northbury-barkingdagenham
+17.4,72.0,0.0,10.6,0.0,0.0,0.0,northbury,barkingdagenham,Northbury,Lab,northbury-barkingdagenham
+17.4,72.0,0.0,10.6,0.0,0.0,0.0,northbury,barkingdagenham,Northbury,Lab,northbury-barkingdagenham
+66.0,11.4,12.4,10.2,0.0,0.0,0.0,sanderstead,croydon,Sanderstead,Con,sanderstead-croydon
+66.0,11.4,12.4,10.2,0.0,0.0,0.0,sanderstead,croydon,Sanderstead,Con,sanderstead-croydon
+53.7,21.8,0.0,24.5,0.0,0.0,0.0,ickenhamsouthharefield,hillingdon,Ickenham and South Harefield,Con,ickenhamsouthharefield-hillingdon
+53.7,21.8,0.0,24.5,0.0,0.0,0.0,ickenhamsouthharefield,hillingdon,Ickenham and South Harefield,Con,ickenhamsouthharefield-hillingdon
+23.0,77.0,0.0,0.0,0.0,0.0,0.0,becontree,barkingdagenham,Becontree,Lab,becontree-barkingdagenham
+23.0,77.0,0.0,0.0,0.0,0.0,0.0,becontree,barkingdagenham,Becontree,Lab,becontree-barkingdagenham
+31.5,48.2,8.9,9.0,0.0,0.0,2.5,roehampton,wandsworth,Roehampton,Lab,roehampton-wandsworth
+31.5,48.2,8.9,9.0,0.0,0.0,2.5,roehampton,wandsworth,Roehampton,Lab,roehampton-wandsworth
+31.5,48.2,8.9,9.0,0.0,0.0,2.5,roehampton,wandsworth,Roehampton,Lab,roehampton-wandsworth
+31.5,48.2,8.9,9.0,0.0,0.0,2.5,roehampton,wandsworth,Roehampton,Lab,roehampton-wandsworth
+0.0,66.1,8.0,19.5,0.0,0.0,6.4,hackneycentral,hackney,Hackney Central,Lab,hackneycentral-hackney
+4.6,51.2,8.6,28.0,0.0,0.0,7.6,stjames,walthamforest,St James,Lab,stjames-walthamforest
+4.6,51.2,8.6,28.0,0.0,0.0,7.6,stjames,walthamforest,St James,Lab,stjames-walthamforest
+4.6,51.2,8.6,28.0,0.0,0.0,7.6,stjames,walthamforest,St James,Lab,stjames-walthamforest
+44.1,31.5,6.3,13.4,0.0,0.0,4.8,larkswood,walthamforest,Larkswood,Con,larkswood-walthamforest
+24.5,60.0,0.0,15.5,0.0,0.0,0.0,eastham,newham,East Ham,Lab,eastham-newham
+18.8,69.1,12.1,0.0,0.0,0.0,0.0,kilburn,camden,Kilburn,Lab,kilburn-camden
+18.8,69.1,12.1,0.0,0.0,0.0,0.0,kilburn,camden,Kilburn,Lab,kilburn-camden
+18.8,69.1,12.1,0.0,0.0,0.0,0.0,kilburn,camden,Kilburn,Lab,kilburn-camden
+15.7,64.8,16.5,0.0,0.0,0.0,3.0,gospeloak,camden,Gospel Oak,Lab,gospeloak-camden
+47.9,22.8,29.3,0.0,0.0,0.0,0.0,redcliffe,kensingtonchelsea,Redcliffe,Con,redcliffe-kensingtonchelsea
+47.9,22.8,29.3,0.0,0.0,0.0,0.0,redcliffe,kensingtonchelsea,Redcliffe,Con,redcliffe-kensingtonchelsea
+7.8,58.8,8.0,21.6,0.0,0.0,3.9,kentishtownsouth,camden,Kentish Town South,Lab,kentishtownsouth-camden
+7.8,58.8,8.0,21.6,0.0,0.0,3.9,kentishtownsouth,camden,Kentish Town South,Lab,kentishtownsouth-camden
+25.5,50.5,10.5,11.1,0.0,0.0,2.5,welshharp,brent,Welsh Harp,Lab,welshharp-brent
+25.5,50.5,10.5,11.1,0.0,0.0,2.5,welshharp,brent,Welsh Harp,Lab,welshharp-brent
+48.6,18.9,21.2,11.3,0.0,0.0,0.0,coulsdontown,croydon,Coulsdon Town,Con,coulsdontown-croydon
+48.6,18.9,21.2,11.3,0.0,0.0,0.0,coulsdontown,croydon,Coulsdon Town,Con,coulsdontown-croydon
+48.6,18.9,21.2,11.3,0.0,0.0,0.0,coulsdontown,croydon,Coulsdon Town,Con,coulsdontown-croydon
+12.8,52.9,9.2,11.7,0.0,0.0,13.5,plaistowwestcanningtowneast,newham,Plaistow West and Canning Town East,Lab,plaistowwestcanningtowneast-newham
+42.5,17.8,31.7,8.1,0.0,0.0,0.0,worcesterparknorth,sutton,Worcester Park North,Con,worcesterparknorth-sutton
+42.5,17.8,31.7,8.1,0.0,0.0,0.0,worcesterparknorth,sutton,Worcester Park North,Con,worcesterparknorth-sutton
+42.5,17.8,31.7,8.1,0.0,0.0,0.0,worcesterparknorth,sutton,Worcester Park North,Con,worcesterparknorth-sutton
+42.5,17.8,31.7,8.1,0.0,0.0,0.0,worcesterparknorth,sutton,Worcester Park North,Con,worcesterparknorth-sutton
+39.0,46.9,5.8,8.3,0.0,0.0,0.0,wandle,wandsworth,Wandle,Lab,wandle-wandsworth
+39.0,46.9,5.8,8.3,0.0,0.0,0.0,wandle,wandsworth,Wandle,Lab,wandle-wandsworth
+28.1,62.2,9.7,0.0,0.0,0.0,0.0,maidavale,westminster,Maida Vale,Lab,maidavale-westminster
+28.1,62.2,9.7,0.0,0.0,0.0,0.0,maidavale,westminster,Maida Vale,Lab,maidavale-westminster
+28.1,62.2,9.7,0.0,0.0,0.0,0.0,maidavale,westminster,Maida Vale,Lab,maidavale-westminster
+35.7,64.3,0.0,0.0,0.0,0.0,0.0,wealdstonenorth,harrow,Wealdstone North,Lab,wealdstonenorth-harrow
+9.9,79.3,10.7,0.0,0.0,0.0,0.0,peckham,southwark,Peckham,Lab,peckham-southwark
+22.9,48.5,15.8,12.8,0.0,0.0,0.0,hounslowheath,hounslow,Hounslow Heath,Lab,hounslowheath-hounslow
+22.9,48.5,15.8,12.8,0.0,0.0,0.0,hounslowheath,hounslow,Hounslow Heath,Lab,hounslowheath-hounslow
+7.1,59.6,9.2,20.8,0.0,0.0,3.3,camberwellgreen,southwark,Camberwell Green,Lab,camberwellgreen-southwark
+7.1,59.6,9.2,20.8,0.0,0.0,3.3,camberwellgreen,southwark,Camberwell Green,Lab,camberwellgreen-southwark
+19.4,72.7,8.0,0.0,0.0,0.0,0.0,churchstreet,westminster,Church Street,Lab,churchstreet-westminster
+6.2,63.2,7.0,23.6,0.0,0.0,0.0,hermitagegardens,haringey,Hermitage and Gardens,Lab,hermitagegardens-haringey
+6.2,63.2,7.0,23.6,0.0,0.0,0.0,hermitagegardens,haringey,Hermitage and Gardens,Lab,hermitagegardens-haringey
+16.5,44.5,38.9,0.0,0.0,0.0,0.0,westhampstead,camden,West Hampstead,Lab,westhampstead-camden
+16.5,44.5,38.9,0.0,0.0,0.0,0.0,westhampstead,camden,West Hampstead,Lab,westhampstead-camden
+7.4,62.2,7.1,23.3,0.0,0.0,0.0,brixtonnorth,lambeth,Brixton North,Lab,brixtonnorth-lambeth
+15.5,70.8,13.7,0.0,0.0,0.0,0.0,woolwichcommon,greenwich,Woolwich Common,Lab,woolwichcommon-greenwich
+0.0,52.3,6.5,41.3,0.0,0.0,0.0,stanns,haringey,St Ann's,Lab,stanns-haringey
+12.6,58.8,17.4,11.2,0.0,0.0,0.0,eastfinchley,barnet,East Finchley,Lab,eastfinchley-barnet
+12.6,58.8,17.4,11.2,0.0,0.0,0.0,eastfinchley,barnet,East Finchley,Lab,eastfinchley-barnet
+30.2,51.4,9.1,9.3,0.0,0.0,0.0,kingsbury,brent,Kingsbury,Lab,kingsbury-brent
+30.2,51.4,9.1,9.3,0.0,0.0,0.0,kingsbury,brent,Kingsbury,Lab,kingsbury-brent
+17.7,46.2,11.4,16.5,0.0,0.0,8.2,northacton,ealing,North Acton,Lab,northacton-ealing
+17.7,46.2,11.4,16.5,0.0,0.0,8.2,northacton,ealing,North Acton,Lab,northacton-ealing
+17.7,46.2,11.4,16.5,0.0,0.0,8.2,northacton,ealing,North Acton,Lab,northacton-ealing
+8.3,68.2,8.0,15.6,0.0,0.0,0.0,tottenhamhale,haringey,Tottenham Hale,Lab,tottenhamhale-haringey
+8.3,68.2,8.0,15.6,0.0,0.0,0.0,tottenhamhale,haringey,Tottenham Hale,Lab,tottenhamhale-haringey
+31.5,41.2,12.5,14.8,0.0,0.0,0.0,greenhill,harrow,Greenhill,Lab,greenhill-harrow
+31.5,41.2,12.5,14.8,0.0,0.0,0.0,greenhill,harrow,Greenhill,Lab,greenhill-harrow
+42.9,39.4,8.7,8.9,0.0,0.0,0.0,southfields,wandsworth,Southfields,Con,southfields-wandsworth
+42.9,39.4,8.7,8.9,0.0,0.0,0.0,southfields,wandsworth,Southfields,Con,southfields-wandsworth
+23.3,62.0,0.0,0.0,0.0,0.0,14.7,thamesview,barkingdagenham,Thames View,Lab,thamesview-barkingdagenham
+23.3,62.0,0.0,0.0,0.0,0.0,14.7,thamesview,barkingdagenham,Thames View,Lab,thamesview-barkingdagenham
+17.5,50.6,14.8,17.1,0.0,0.0,0.0,canonbury,islington,Canonbury,Lab,canonbury-islington
+11.0,60.7,9.0,19.3,0.0,0.0,0.0,westham,newham,West Ham,Lab,westham-newham
+20.1,54.3,12.5,13.1,0.0,0.0,0.0,hestoncentral,hounslow,Heston Central,Lab,hestoncentral-hounslow
+14.4,16.9,3.7,0.0,0.0,0.0,65.1,haroldwood,havering,Harold Wood,OTH,haroldwood-havering
+14.4,16.9,3.7,0.0,0.0,0.0,65.1,haroldwood,havering,Harold Wood,OTH,haroldwood-havering
+6.1,28.2,5.5,7.1,0.0,0.0,53.1,poplar,towerhamlets,Poplar,OTH,poplar-towerhamlets
+6.1,28.2,5.5,7.1,0.0,0.0,53.1,poplar,towerhamlets,Poplar,OTH,poplar-towerhamlets
+8.8,39.9,6.2,45.1,0.0,0.0,0.0,streathamstleonards,lambeth,Streatham St Leonard's,Grn,streathamstleonards-lambeth
+8.8,39.9,6.2,45.1,0.0,0.0,0.0,streathamstleonards,lambeth,Streatham St Leonard's,Grn,streathamstleonards-lambeth
+37.6,42.4,9.3,8.5,0.0,0.0,2.2,plaistow,bromley,Plaistow,Lab,plaistow-bromley
+37.6,42.4,9.3,8.5,0.0,0.0,2.2,plaistow,bromley,Plaistow,Lab,plaistow-bromley
+14.1,74.4,4.8,6.7,0.0,0.0,0.0,pollardshill,merton,Pollards Hill,Lab,pollardshill-merton
+14.1,74.4,4.8,6.7,0.0,0.0,0.0,pollardshill,merton,Pollards Hill,Lab,pollardshill-merton
+56.6,10.0,7.9,5.5,0.0,0.0,20.1,darwin,bromley,Darwin,Con,darwin-bromley
+56.6,10.0,7.9,5.5,0.0,0.0,20.1,darwin,bromley,Darwin,Con,darwin-bromley
+56.6,10.0,7.9,5.5,0.0,0.0,20.1,darwin,bromley,Darwin,Con,darwin-bromley
+56.6,10.0,7.9,5.5,0.0,0.0,20.1,darwin,bromley,Darwin,Con,darwin-bromley
+33.2,52.9,0.0,13.9,0.0,0.0,0.0,belvedere,bexley,Belvedere,Lab,belvedere-bexley
+33.2,52.9,0.0,13.9,0.0,0.0,0.0,belvedere,bexley,Belvedere,Lab,belvedere-bexley
+33.2,52.9,0.0,13.9,0.0,0.0,0.0,belvedere,bexley,Belvedere,Lab,belvedere-bexley
+10.8,72.3,5.6,8.1,0.0,0.0,3.1,figgesmarsh,merton,Figge's Marsh,Lab,figgesmarsh-merton
+41.3,58.7,0.0,0.0,0.0,0.0,0.0,fullwell,redbridge,Fullwell,Lab,fullwell-redbridge
+26.5,0.0,73.5,0.0,0.0,0.0,0.0,longditton,elmbridge,Long Ditton,LDem,longditton-elmbridge
+26.5,0.0,73.5,0.0,0.0,0.0,0.0,longditton,elmbridge,Long Ditton,LDem,longditton-elmbridge
+26.5,0.0,73.5,0.0,0.0,0.0,0.0,longditton,elmbridge,Long Ditton,LDem,longditton-elmbridge
+31.1,32.1,27.6,9.2,0.0,0.0,0.0,sthelierwest,sutton,St Helier West,Lab,sthelierwest-sutton
+31.1,32.1,27.6,9.2,0.0,0.0,0.0,sthelierwest,sutton,St Helier West,Lab,sthelierwest-sutton
+9.2,66.5,0.0,24.2,0.0,0.0,0.0,homerton,hackney,Homerton,Lab,homerton-hackney
+10.2,57.1,9.9,22.7,0.0,0.0,0.0,mildmay,islington,Mildmay,Lab,mildmay-islington
+10.2,57.1,9.9,22.7,0.0,0.0,0.0,mildmay,islington,Mildmay,Lab,mildmay-islington
+11.9,60.3,6.9,20.9,0.0,0.0,0.0,coningham,hammersmithfulham,Coningham,Lab,coningham-hammersmithfulham
+12.1,68.4,6.2,13.2,0.0,0.0,0.0,graveney,merton,Graveney,Lab,graveney-merton
+12.1,68.4,6.2,13.2,0.0,0.0,0.0,graveney,merton,Graveney,Lab,graveney-merton
+12.1,68.4,6.2,13.2,0.0,0.0,0.0,graveney,merton,Graveney,Lab,graveney-merton
+47.5,38.2,14.3,0.0,0.0,0.0,0.0,stjamess,westminster,St James's,Con,stjamess-westminster
+47.5,38.2,14.3,0.0,0.0,0.0,0.0,stjamess,westminster,St James's,Con,stjamess-westminster
+47.5,38.2,14.3,0.0,0.0,0.0,0.0,stjamess,westminster,St James's,Con,stjamess-westminster
+47.5,38.2,14.3,0.0,0.0,0.0,0.0,stjamess,westminster,St James's,Con,stjamess-westminster
+49.4,0.0,10.2,7.7,0.0,0.0,32.7,chigwellvillage,eppingforest,Chigwell Village,Con,chigwellvillage-eppingforest
+49.4,0.0,10.2,7.7,0.0,0.0,32.7,chigwellvillage,eppingforest,Chigwell Village,Con,chigwellvillage-eppingforest
+15.0,60.7,9.4,14.9,0.0,0.0,0.0,wormholt,hammersmithfulham,Wormholt,Lab,wormholt-hammersmithfulham
+15.0,60.7,9.4,14.9,0.0,0.0,0.0,wormholt,hammersmithfulham,Wormholt,Lab,wormholt-hammersmithfulham
+38.5,61.5,0.0,0.0,0.0,0.0,0.0,sladegreennorthend,bexley,Slade Green and Northend,Lab,sladegreennorthend-bexley
+38.5,61.5,0.0,0.0,0.0,0.0,0.0,sladegreennorthend,bexley,Slade Green and Northend,Lab,sladegreennorthend-bexley
+38.5,61.5,0.0,0.0,0.0,0.0,0.0,sladegreennorthend,bexley,Slade Green and Northend,Lab,sladegreennorthend-bexley
+26.1,30.9,33.6,8.6,0.0,0.0,0.8,claphamcommonabbeville,lambeth,Clapham Common and Abbeville,LDem,claphamcommonabbeville-lambeth
+26.1,30.9,33.6,8.6,0.0,0.0,0.8,claphamcommonabbeville,lambeth,Clapham Common and Abbeville,LDem,claphamcommonabbeville-lambeth
+11.8,51.2,14.3,22.7,0.0,0.0,0.0,stockwelleast,lambeth,Stockwell East,Lab,stockwelleast-lambeth
+23.7,29.6,34.9,11.7,0.0,0.0,0.0,wandle,merton,Wandle,LDem,wandle-merton
+23.7,29.6,34.9,11.7,0.0,0.0,0.0,wandle,merton,Wandle,LDem,wandle-merton
+52.2,35.1,12.7,0.0,0.0,0.0,0.0,centenary,harrow,Centenary,Con,centenary-harrow
+12.6,62.0,7.6,17.8,0.0,0.0,0.0,charltonvillageriverside,greenwich,Charlton Village and Riverside,Lab,charltonvillageriverside-greenwich
+12.6,62.0,7.6,17.8,0.0,0.0,0.0,charltonvillageriverside,greenwich,Charlton Village and Riverside,Lab,charltonvillageriverside-greenwich
+35.5,53.8,10.7,0.0,0.0,0.0,0.0,clayhall,redbridge,Clayhall,Lab,clayhall-redbridge
+10.4,75.5,14.1,0.0,0.0,0.0,0.0,camdensquare,camden,Camden Square,Lab,camdensquare-camden
+10.4,75.5,14.1,0.0,0.0,0.0,0.0,camdensquare,camden,Camden Square,Lab,camdensquare-camden
+12.8,50.3,10.9,26.0,0.0,0.0,0.0,sydenham,lewisham,Sydenham,Lab,sydenham-lewisham
+12.8,50.3,10.9,26.0,0.0,0.0,0.0,sydenham,lewisham,Sydenham,Lab,sydenham-lewisham
+12.8,50.3,10.9,26.0,0.0,0.0,0.0,sydenham,lewisham,Sydenham,Lab,sydenham-lewisham
+39.1,40.8,9.6,10.5,0.0,0.0,0.0,harrowonthehill,harrow,Harrow on the Hill,Lab,harrowonthehill-harrow
+39.1,40.8,9.6,10.5,0.0,0.0,0.0,harrowonthehill,harrow,Harrow on the Hill,Lab,harrowonthehill-harrow
+39.1,40.8,9.6,10.5,0.0,0.0,0.0,harrowonthehill,harrow,Harrow on the Hill,Lab,harrowonthehill-harrow
+7.6,56.2,15.9,17.8,0.0,0.0,2.5,leyton,walthamforest,Leyton,Lab,leyton-walthamforest
+7.6,56.2,15.9,17.8,0.0,0.0,2.5,leyton,walthamforest,Leyton,Lab,leyton-walthamforest
+7.6,56.2,15.9,17.8,0.0,0.0,2.5,leyton,walthamforest,Leyton,Lab,leyton-walthamforest
+25.3,56.5,6.2,11.9,0.0,0.0,0.0,tokyngton,brent,Tokyngton,Lab,tokyngton-brent
+23.9,63.2,0.0,12.9,0.0,0.0,0.0,burntoak,barnet,Burnt Oak,Lab,burntoak-barnet
+23.9,63.2,0.0,12.9,0.0,0.0,0.0,burntoak,barnet,Burnt Oak,Lab,burntoak-barnet
+23.9,63.2,0.0,12.9,0.0,0.0,0.0,burntoak,barnet,Burnt Oak,Lab,burntoak-barnet
+41.1,22.0,4.5,7.8,0.0,0.0,24.6,stedwards,havering,St Edward's,Con,stedwards-havering
+6.3,43.2,36.9,11.6,0.0,0.0,2.0,cazenove,hackney,Cazenove,Lab,cazenove-hackney
+27.2,20.2,37.4,15.3,0.0,0.0,0.0,wimbledonpark,merton,Wimbledon Park,LDem,wimbledonpark-merton
+27.2,20.2,37.4,15.3,0.0,0.0,0.0,wimbledonpark,merton,Wimbledon Park,LDem,wimbledonpark-merton
+38.2,37.7,11.8,12.3,0.0,0.0,0.0,eastputney,wandsworth,East Putney,Con,eastputney-wandsworth
+6.4,62.6,16.1,14.9,0.0,0.0,0.0,hornsey,haringey,Hornsey,Lab,hornsey-haringey
+22.8,53.7,10.7,12.7,0.0,0.0,0.0,downham,lewisham,Downham,Lab,downham-lewisham
+22.8,53.7,10.7,12.7,0.0,0.0,0.0,downham,lewisham,Downham,Lab,downham-lewisham
+52.4,17.9,29.7,0.0,0.0,0.0,0.0,queensgate,kensingtonchelsea,Queen's Gate,Con,queensgate-kensingtonchelsea
+52.4,17.9,29.7,0.0,0.0,0.0,0.0,queensgate,kensingtonchelsea,Queen's Gate,Con,queensgate-kensingtonchelsea
+42.8,33.0,13.9,10.4,0.0,0.0,0.0,thamesfield,wandsworth,Thamesfield,Con,thamesfield-wandsworth
+42.8,33.0,13.9,10.4,0.0,0.0,0.0,thamesfield,wandsworth,Thamesfield,Con,thamesfield-wandsworth
+42.8,33.0,13.9,10.4,0.0,0.0,0.0,thamesfield,wandsworth,Thamesfield,Con,thamesfield-wandsworth
+11.1,66.8,6.8,15.3,0.0,0.0,0.0,brucecastle,haringey,Bruce Castle,Lab,brucecastle-haringey
+11.1,66.8,6.8,15.3,0.0,0.0,0.0,brucecastle,haringey,Bruce Castle,Lab,brucecastle-haringey
+62.1,16.9,0.0,21.1,0.0,0.0,0.0,chipsteadkingswoodwoodmansterne,reigatebanstead,"Chipstead, Kingswood and Woodmansterne",Con,chipsteadkingswoodwoodmansterne-reigatebanstead
+62.1,16.9,0.0,21.1,0.0,0.0,0.0,chipsteadkingswoodwoodmansterne,reigatebanstead,"Chipstead, Kingswood and Woodmansterne",Con,chipsteadkingswoodwoodmansterne-reigatebanstead
+62.1,16.9,0.0,21.1,0.0,0.0,0.0,chipsteadkingswoodwoodmansterne,reigatebanstead,"Chipstead, Kingswood and Woodmansterne",Con,chipsteadkingswoodwoodmansterne-reigatebanstead
+25.6,58.3,0.0,16.1,0.0,0.0,0.0,chadwell,redbridge,Chadwell,Lab,chadwell-redbridge
+25.6,58.3,0.0,16.1,0.0,0.0,0.0,chadwell,redbridge,Chadwell,Lab,chadwell-redbridge
+28.3,58.4,0.0,13.3,0.0,0.0,0.0,hestoneast,hounslow,Heston East,Lab,hestoneast-hounslow
+28.3,58.4,0.0,13.3,0.0,0.0,0.0,hestoneast,hounslow,Heston East,Lab,hestoneast-hounslow
+53.7,46.3,0.0,0.0,0.0,0.0,0.0,crayford,bexley,Crayford,Con,crayford-bexley
+53.7,46.3,0.0,0.0,0.0,0.0,0.0,crayford,bexley,Crayford,Con,crayford-bexley
+2.9,46.0,28.1,21.8,0.0,0.0,1.3,stroudgreen,haringey,Stroud Green,Lab,stroudgreen-haringey
+2.9,46.0,28.1,21.8,0.0,0.0,1.3,stroudgreen,haringey,Stroud Green,Lab,stroudgreen-haringey
+54.2,30.3,15.5,0.0,0.0,0.0,0.0,parsonsgreensandford,hammersmithfulham,Parsons Green and Sandford,Con,parsonsgreensandford-hammersmithfulham
+54.2,30.3,15.5,0.0,0.0,0.0,0.0,parsonsgreensandford,hammersmithfulham,Parsons Green and Sandford,Con,parsonsgreensandford-hammersmithfulham
+14.8,58.7,7.9,8.7,0.0,0.0,9.8,dormerswells,ealing,Dormers Wells,Lab,dormerswells-ealing
+52.6,22.7,9.1,12.3,0.0,0.0,3.4,chingfordgreen,walthamforest,Chingford Green,Con,chingfordgreen-walthamforest
+52.6,22.7,9.1,12.3,0.0,0.0,3.4,chingfordgreen,walthamforest,Chingford Green,Con,chingfordgreen-walthamforest
+52.6,22.7,9.1,12.3,0.0,0.0,3.4,chingfordgreen,walthamforest,Chingford Green,Con,chingfordgreen-walthamforest
+52.6,22.7,9.1,12.3,0.0,0.0,3.4,chingfordgreen,walthamforest,Chingford Green,Con,chingfordgreen-walthamforest
+17.8,59.2,5.9,17.1,0.0,0.0,0.0,furzedown,wandsworth,Furzedown,Lab,furzedown-wandsworth
+17.8,59.2,5.9,17.1,0.0,0.0,0.0,furzedown,wandsworth,Furzedown,Lab,furzedown-wandsworth
+17.8,59.2,5.9,17.1,0.0,0.0,0.0,furzedown,wandsworth,Furzedown,Lab,furzedown-wandsworth
+15.0,56.4,9.1,15.4,0.0,0.0,4.1,regentspark,camden,Regent's Park,Lab,regentspark-camden
+15.0,56.4,9.1,15.4,0.0,0.0,4.1,regentspark,camden,Regent's Park,Lab,regentspark-camden
+35.1,18.1,41.1,5.6,0.0,0.0,0.0,stonecot,sutton,Stonecot,LDem,stonecot-sutton
+35.1,18.1,41.1,5.6,0.0,0.0,0.0,stonecot,sutton,Stonecot,LDem,stonecot-sutton
+7.1,58.3,10.2,24.4,0.0,0.0,0.0,brownswood,hackney,Brownswood,Lab,brownswood-hackney
+7.1,58.3,10.2,24.4,0.0,0.0,0.0,brownswood,hackney,Brownswood,Lab,brownswood-hackney
+7.1,58.3,10.2,24.4,0.0,0.0,0.0,brownswood,hackney,Brownswood,Lab,brownswood-hackney
+43.5,14.6,32.8,9.2,0.0,0.0,0.0,northcheam,sutton,North Cheam,Con,northcheam-sutton
+43.5,14.6,32.8,9.2,0.0,0.0,0.0,northcheam,sutton,North Cheam,Con,northcheam-sutton
+11.5,55.1,13.7,19.8,0.0,0.0,0.0,oval,lambeth,Oval,Lab,oval-lambeth
+23.3,57.4,19.3,0.0,0.0,0.0,0.0,wembleycentral,brent,Wembley Central,Lab,wembleycentral-brent
+10.5,69.9,7.3,12.3,0.0,0.0,0.0,northumberlandpark,haringey,Northumberland Park,Lab,northumberlandpark-haringey
+10.5,69.9,7.3,12.3,0.0,0.0,0.0,northumberlandpark,haringey,Northumberland Park,Lab,northumberlandpark-haringey
+10.5,69.9,7.3,12.3,0.0,0.0,0.0,northumberlandpark,haringey,Northumberland Park,Lab,northumberlandpark-haringey
+26.9,36.0,18.9,14.7,0.0,0.0,3.5,pitshanger,ealing,Pitshanger,Lab,pitshanger-ealing
+16.9,50.1,3.8,5.9,0.0,0.0,23.2,southallwest,ealing,Southall West,Lab,southallwest-ealing
+16.9,50.1,3.8,5.9,0.0,0.0,23.2,southallwest,ealing,Southall West,Lab,southallwest-ealing
+47.3,34.6,12.4,0.0,0.0,0.0,5.7,falconwoodwelling,bexley,Falconwood and Welling,Con,falconwoodwelling-bexley
+47.3,34.6,12.4,0.0,0.0,0.0,5.7,falconwoodwelling,bexley,Falconwood and Welling,Con,falconwoodwelling-bexley
+46.9,12.0,30.5,10.5,0.0,0.0,0.0,village,merton,Village,Con,village-merton
+46.9,12.0,30.5,10.5,0.0,0.0,0.0,village,merton,Village,Con,village-merton
+46.9,12.0,30.5,10.5,0.0,0.0,0.0,village,merton,Village,Con,village-merton
+33.0,0.0,67.0,0.0,0.0,0.0,0.0,thamesditton,elmbridge,Thames Ditton,LDem,thamesditton-elmbridge
+33.0,0.0,67.0,0.0,0.0,0.0,0.0,thamesditton,elmbridge,Thames Ditton,LDem,thamesditton-elmbridge
+9.1,44.6,12.5,18.8,0.0,0.0,14.9,haverstock,camden,Haverstock,Lab,haverstock-camden
+8.1,70.8,14.2,0.0,0.0,0.0,6.9,markhouse,walthamforest,Markhouse,Lab,markhouse-walthamforest
+26.2,73.8,0.0,0.0,0.0,0.0,0.0,heath,barkingdagenham,Heath,Lab,heath-barkingdagenham
+27.8,40.9,17.1,14.2,0.0,0.0,0.0,walpole,ealing,Walpole,Lab,walpole-ealing
+48.4,27.3,14.4,9.9,0.0,0.0,0.0,shirleynorth,croydon,Shirley North,Con,shirleynorth-croydon
+48.4,27.3,14.4,9.9,0.0,0.0,0.0,shirleynorth,croydon,Shirley North,Con,shirleynorth-croydon
+45.6,29.5,13.5,11.4,0.0,0.0,0.0,abbeyroad,westminster,Abbey Road,Con,abbeyroad-westminster
+45.6,29.5,13.5,11.4,0.0,0.0,0.0,abbeyroad,westminster,Abbey Road,Con,abbeyroad-westminster
+16.9,67.7,0.0,15.4,0.0,0.0,0.0,greenstreetwest,newham,Green Street West,Lab,greenstreetwest-newham
+55.8,28.1,0.0,9.1,0.0,0.0,7.0,southruislip,hillingdon,South Ruislip,Con,southruislip-hillingdon
+55.8,28.1,0.0,9.1,0.0,0.0,7.0,southruislip,hillingdon,South Ruislip,Con,southruislip-hillingdon
+55.8,28.1,0.0,9.1,0.0,0.0,7.0,southruislip,hillingdon,South Ruislip,Con,southruislip-hillingdon
+23.2,68.5,8.3,0.0,0.0,0.0,0.0,friernbarnet,barnet,Friern Barnet,Lab,friernbarnet-barnet
+23.2,68.5,8.3,0.0,0.0,0.0,0.0,friernbarnet,barnet,Friern Barnet,Lab,friernbarnet-barnet
+23.2,68.5,8.3,0.0,0.0,0.0,0.0,friernbarnet,barnet,Friern Barnet,Lab,friernbarnet-barnet
+17.1,51.6,8.8,15.1,0.0,0.0,7.3,eastacton,ealing,East Acton,Lab,eastacton-ealing
+17.1,51.6,8.8,15.1,0.0,0.0,7.3,eastacton,ealing,East Acton,Lab,eastacton-ealing
+27.9,61.4,6.8,0.0,0.0,0.0,3.9,woodend,hillingdon,Wood End,Lab,woodend-hillingdon
+27.9,61.4,6.8,0.0,0.0,0.0,3.9,woodend,hillingdon,Wood End,Lab,woodend-hillingdon
+50.1,36.4,13.4,0.0,0.0,0.0,0.0,crooklog,bexley,Crook Log,Con,crooklog-bexley
+21.3,53.7,12.6,12.5,0.0,0.0,0.0,hounslowwest,hounslow,Hounslow West,Lab,hounslowwest-hounslow
+38.7,16.0,34.0,11.2,0.0,0.0,0.0,belmont,sutton,Belmont,Con,belmont-sutton
+38.7,16.0,34.0,11.2,0.0,0.0,0.0,belmont,sutton,Belmont,Con,belmont-sutton
+18.0,67.5,7.9,0.0,0.0,0.0,6.6,westbourne,westminster,Westbourne,Lab,westbourne-westminster
+18.0,67.5,7.9,0.0,0.0,0.0,6.6,westbourne,westminster,Westbourne,Lab,westbourne-westminster
+14.5,70.9,0.0,14.7,0.0,0.0,0.0,stonebridge,brent,Stonebridge,Lab,stonebridge-brent
+14.5,70.9,0.0,14.7,0.0,0.0,0.0,stonebridge,brent,Stonebridge,Lab,stonebridge-brent
+33.7,36.6,8.8,14.1,0.0,0.0,6.8,bridge,redbridge,Bridge,Lab,bridge-redbridge
+33.7,36.6,8.8,14.1,0.0,0.0,6.8,bridge,redbridge,Bridge,Lab,bridge-redbridge
+12.6,22.7,9.3,0.0,0.0,0.0,55.4,canarywharf,towerhamlets,Canary Wharf,OTH,canarywharf-towerhamlets
+12.6,22.7,9.3,0.0,0.0,0.0,55.4,canarywharf,towerhamlets,Canary Wharf,OTH,canarywharf-towerhamlets
+19.6,8.6,55.3,0.0,0.0,0.0,16.5,twickenhamriverside,richmonduponthames,Twickenham Riverside,LDem,twickenhamriverside-richmonduponthames
+14.0,72.7,13.3,0.0,0.0,0.0,0.0,collegeparkoldoak,hammersmithfulham,College Park and Old Oak,Lab,collegeparkoldoak-hammersmithfulham
+14.0,72.7,13.3,0.0,0.0,0.0,0.0,collegeparkoldoak,hammersmithfulham,College Park and Old Oak,Lab,collegeparkoldoak-hammersmithfulham
+14.0,72.7,13.3,0.0,0.0,0.0,0.0,collegeparkoldoak,hammersmithfulham,College Park and Old Oak,Lab,collegeparkoldoak-hammersmithfulham
+14.0,72.7,13.3,0.0,0.0,0.0,0.0,collegeparkoldoak,hammersmithfulham,College Park and Old Oak,Lab,collegeparkoldoak-hammersmithfulham
+13.4,0.0,22.6,0.0,0.0,0.0,64.0,hinchleywoodwestongreen,elmbridge,Hinchley Wood and Weston Green,OTH,hinchleywoodwestongreen-elmbridge
+13.4,0.0,22.6,0.0,0.0,0.0,64.0,hinchleywoodwestongreen,elmbridge,Hinchley Wood and Weston Green,OTH,hinchleywoodwestongreen-elmbridge
+17.6,44.5,0.0,8.3,0.0,0.0,29.7,plashet,newham,Plashet,Lab,plashet-newham
+36.7,40.5,7.2,12.1,0.0,0.0,3.5,elthamtownaveryhill,greenwich,Eltham Town and Avery Hill,Lab,elthamtownaveryhill-greenwich
+36.7,40.5,7.2,12.1,0.0,0.0,3.5,elthamtownaveryhill,greenwich,Eltham Town and Avery Hill,Lab,elthamtownaveryhill-greenwich
+33.8,11.4,44.4,10.4,0.0,0.0,0.0,alexandra,kingstonuponthames,Alexandra,LDem,alexandra-kingstonuponthames
+23.9,6.3,38.5,31.3,0.0,0.0,0.0,southrichmond,richmonduponthames,South Richmond,LDem,southrichmond-richmonduponthames
+34.8,46.2,5.4,11.3,0.0,0.0,2.3,elthamparkprogress,greenwich,Eltham Park and Progress,Lab,elthamparkprogress-greenwich
+34.8,46.2,5.4,11.3,0.0,0.0,2.3,elthamparkprogress,greenwich,Eltham Park and Progress,Lab,elthamparkprogress-greenwich
+27.5,48.5,9.3,11.6,0.0,0.0,3.0,centralgreenford,ealing,Central Greenford,Lab,centralgreenford-ealing
+15.3,56.4,12.7,15.7,0.0,0.0,0.0,streathamcommonvale,lambeth,Streatham Common and Vale,Lab,streathamcommonvale-lambeth
+15.3,56.4,12.7,15.7,0.0,0.0,0.0,streathamcommonvale,lambeth,Streatham Common and Vale,Lab,streathamcommonvale-lambeth
+15.3,56.4,12.7,15.7,0.0,0.0,0.0,streathamcommonvale,lambeth,Streatham Common and Vale,Lab,streathamcommonvale-lambeth
+15.3,56.4,12.7,15.7,0.0,0.0,0.0,streathamcommonvale,lambeth,Streatham Common and Vale,Lab,streathamcommonvale-lambeth
+34.9,9.6,11.1,0.0,0.0,0.0,44.4,bigginhill,bromley,Biggin Hill,Ind,bigginhill-bromley
+34.9,9.6,11.1,0.0,0.0,0.0,44.4,bigginhill,bromley,Biggin Hill,Ind,bigginhill-bromley
+34.9,9.6,11.1,0.0,0.0,0.0,44.4,bigginhill,bromley,Biggin Hill,Ind,bigginhill-bromley
+46.6,19.5,2.5,0.0,0.0,0.0,31.4,mawneys,havering,Mawneys,Con,mawneys-havering
+46.6,19.5,2.5,0.0,0.0,0.0,31.4,mawneys,havering,Mawneys,Con,mawneys-havering
+17.9,71.8,10.3,0.0,0.0,0.0,0.0,harrowroad,westminster,Harrow Road,Lab,harrowroad-westminster
+17.9,71.8,10.3,0.0,0.0,0.0,0.0,harrowroad,westminster,Harrow Road,Lab,harrowroad-westminster
+17.9,71.8,10.3,0.0,0.0,0.0,0.0,harrowroad,westminster,Harrow Road,Lab,harrowroad-westminster
+5.1,31.0,5.1,10.9,0.0,0.0,47.9,whitechapel,towerhamlets,Whitechapel,OTH,whitechapel-towerhamlets
+5.1,31.0,5.1,10.9,0.0,0.0,47.9,whitechapel,towerhamlets,Whitechapel,OTH,whitechapel-towerhamlets
+9.7,53.3,37.0,0.0,0.0,0.0,0.0,southbermondsey,southwark,South Bermondsey,Lab,southbermondsey-southwark
+9.7,53.3,37.0,0.0,0.0,0.0,0.0,southbermondsey,southwark,South Bermondsey,Lab,southbermondsey-southwark
+11.4,55.4,15.1,18.2,0.0,0.0,0.0,hithergreen,lewisham,Hither Green,Lab,hithergreen-lewisham
+13.3,43.1,28.7,15.0,0.0,0.0,0.0,blackheath,lewisham,Blackheath,Lab,blackheath-lewisham
+13.3,43.1,28.7,15.0,0.0,0.0,0.0,blackheath,lewisham,Blackheath,Lab,blackheath-lewisham
+60.0,18.3,10.1,11.6,0.0,0.0,0.0,ruislip,hillingdon,Ruislip,Con,ruislip-hillingdon
+10.8,63.3,10.2,15.7,0.0,0.0,0.0,whitecity,hammersmithfulham,White City,Lab,whitecity-hammersmithfulham
+16.8,74.8,8.4,0.0,0.0,0.0,0.0,queenspark,westminster,Queen's Park,Lab,queenspark-westminster
+16.8,74.8,8.4,0.0,0.0,0.0,0.0,queenspark,westminster,Queen's Park,Lab,queenspark-westminster
+16.8,74.8,8.4,0.0,0.0,0.0,0.0,queenspark,westminster,Queen's Park,Lab,queenspark-westminster
+3.7,42.4,26.5,19.1,0.0,0.0,8.4,harringay,haringey,Harringay,Lab,harringay-haringey
+3.7,42.4,26.5,19.1,0.0,0.0,8.4,harringay,haringey,Harringay,Lab,harringay-haringey
+12.4,55.1,13.6,18.8,0.0,0.0,0.0,willesdengreen,brent,Willesden Green,Lab,willesdengreen-brent
+26.8,24.8,12.0,12.6,0.0,0.0,23.8,islandgardens,towerhamlets,Island Gardens,Con,islandgardens-towerhamlets
+26.8,24.8,12.0,12.6,0.0,0.0,23.8,islandgardens,towerhamlets,Island Gardens,Con,islandgardens-towerhamlets
+26.8,24.8,12.0,12.6,0.0,0.0,23.8,islandgardens,towerhamlets,Island Gardens,Con,islandgardens-towerhamlets
+26.8,24.8,12.0,12.6,0.0,0.0,23.8,islandgardens,towerhamlets,Island Gardens,Con,islandgardens-towerhamlets
+4.0,33.0,5.8,11.7,0.0,0.0,45.6,bethnalgreen,towerhamlets,Bethnal Green,OTH,bethnalgreen-towerhamlets
+20.2,64.0,6.4,9.4,0.0,0.0,0.0,cricklewood,barnet,Cricklewood,Lab,cricklewood-barnet
+20.2,64.0,6.4,9.4,0.0,0.0,0.0,cricklewood,barnet,Cricklewood,Lab,cricklewood-barnet
+20.2,64.0,6.4,9.4,0.0,0.0,0.0,cricklewood,barnet,Cricklewood,Lab,cricklewood-barnet
+39.3,48.6,12.0,0.0,0.0,0.0,0.0,sandsend,hammersmithfulham,Sands End,Lab,sandsend-hammersmithfulham
+39.3,48.6,12.0,0.0,0.0,0.0,0.0,sandsend,hammersmithfulham,Sands End,Lab,sandsend-hammersmithfulham
+39.3,48.6,12.0,0.0,0.0,0.0,0.0,sandsend,hammersmithfulham,Sands End,Lab,sandsend-hammersmithfulham
+16.9,66.8,6.7,9.6,0.0,0.0,0.0,upperedmonton,enfield,Upper Edmonton,Lab,upperedmonton-enfield
+16.9,66.8,6.7,9.6,0.0,0.0,0.0,upperedmonton,enfield,Upper Edmonton,Lab,upperedmonton-enfield
+16.9,66.8,6.7,9.6,0.0,0.0,0.0,upperedmonton,enfield,Upper Edmonton,Lab,upperedmonton-enfield
+28.6,7.9,63.5,0.0,0.0,0.0,0.0,hampton,richmonduponthames,Hampton,LDem,hampton-richmonduponthames
+28.6,7.9,63.5,0.0,0.0,0.0,0.0,hampton,richmonduponthames,Hampton,LDem,hampton-richmonduponthames
+28.6,7.9,63.5,0.0,0.0,0.0,0.0,hampton,richmonduponthames,Hampton,LDem,hampton-richmonduponthames
+28.6,7.9,63.5,0.0,0.0,0.0,0.0,hampton,richmonduponthames,Hampton,LDem,hampton-richmonduponthames
+26.5,55.0,6.7,11.8,0.0,0.0,0.0,northoltmandeville,ealing,Northolt Mandeville,Lab,northoltmandeville-ealing
+26.5,55.0,6.7,11.8,0.0,0.0,0.0,northoltmandeville,ealing,Northolt Mandeville,Lab,northoltmandeville-ealing
+26.5,55.0,6.7,11.8,0.0,0.0,0.0,northoltmandeville,ealing,Northolt Mandeville,Lab,northoltmandeville-ealing
+58.0,42.0,0.0,0.0,0.0,0.0,0.0,westheath,bexley,West Heath,Con,westheath-bexley
+58.0,42.0,0.0,0.0,0.0,0.0,0.0,westheath,bexley,West Heath,Con,westheath-bexley
+25.8,37.0,17.6,4.8,0.0,0.0,14.8,raynerslane,harrow,Rayners Lane,Lab,raynerslane-harrow
+25.8,37.0,17.6,4.8,0.0,0.0,14.8,raynerslane,harrow,Rayners Lane,Lab,raynerslane-harrow
+11.0,60.9,9.2,19.0,0.0,0.0,0.0,crystalpalaceanerley,bromley,Crystal Palace and Anerley,Lab,crystalpalaceanerley-bromley
+11.0,60.9,9.2,19.0,0.0,0.0,0.0,crystalpalaceanerley,bromley,Crystal Palace and Anerley,Lab,crystalpalaceanerley-bromley
+11.0,60.9,9.2,19.0,0.0,0.0,0.0,crystalpalaceanerley,bromley,Crystal Palace and Anerley,Lab,crystalpalaceanerley-bromley
+11.0,60.9,9.2,19.0,0.0,0.0,0.0,crystalpalaceanerley,bromley,Crystal Palace and Anerley,Lab,crystalpalaceanerley-bromley
+11.0,60.9,9.2,19.0,0.0,0.0,0.0,crystalpalaceanerley,bromley,Crystal Palace and Anerley,Lab,crystalpalaceanerley-bromley
+46.3,28.3,12.5,12.8,0.0,0.0,0.0,regentspark,westminster,Regent's Park,Con,regentspark-westminster
+46.3,28.3,12.5,12.8,0.0,0.0,0.0,regentspark,westminster,Regent's Park,Con,regentspark-westminster
+61.4,38.6,0.0,0.0,0.0,0.0,0.0,grangehill,eppingforest,Grange Hill,Con,grangehill-eppingforest
+61.4,38.6,0.0,0.0,0.0,0.0,0.0,grangehill,eppingforest,Grange Hill,Con,grangehill-eppingforest
+5.9,35.3,5.1,9.8,0.0,0.0,43.9,weavers,towerhamlets,Weavers,OTH,weavers-towerhamlets
+5.9,35.3,5.1,9.8,0.0,0.0,43.9,weavers,towerhamlets,Weavers,OTH,weavers-towerhamlets
+35.1,26.9,12.6,25.4,0.0,0.0,0.0,hooleymersthamnetherne,reigatebanstead,"Hooley, Merstham and Netherne",Con,hooleymersthamnetherne-reigatebanstead
+35.1,26.9,12.6,25.4,0.0,0.0,0.0,hooleymersthamnetherne,reigatebanstead,"Hooley, Merstham and Netherne",Con,hooleymersthamnetherne-reigatebanstead
+35.1,26.9,12.6,25.4,0.0,0.0,0.0,hooleymersthamnetherne,reigatebanstead,"Hooley, Merstham and Netherne",Con,hooleymersthamnetherne-reigatebanstead
+46.9,31.1,12.4,0.0,0.0,0.0,9.5,sidcup,bexley,Sidcup,Con,sidcup-bexley
+46.9,31.1,12.4,0.0,0.0,0.0,9.5,sidcup,bexley,Sidcup,Con,sidcup-bexley
+41.0,25.5,25.5,8.1,0.0,0.0,0.0,finchleychurchend,barnet,Finchley Church End,Con,finchleychurchend-barnet
+27.3,10.5,62.2,0.0,0.0,0.0,0.0,whitton,richmonduponthames,Whitton,LDem,whitton-richmonduponthames
+27.3,10.5,62.2,0.0,0.0,0.0,0.0,whitton,richmonduponthames,Whitton,LDem,whitton-richmonduponthames
+28.0,14.5,53.8,0.0,0.0,0.0,3.7,hookchessingtonnorth,kingstonuponthames,Hook and Chessington North,LDem,hookchessingtonnorth-kingstonuponthames
+28.0,14.5,53.8,0.0,0.0,0.0,3.7,hookchessingtonnorth,kingstonuponthames,Hook and Chessington North,LDem,hookchessingtonnorth-kingstonuponthames
+28.0,14.5,53.8,0.0,0.0,0.0,3.7,hookchessingtonnorth,kingstonuponthames,Hook and Chessington North,LDem,hookchessingtonnorth-kingstonuponthames
+44.9,36.7,0.0,0.0,0.0,0.0,18.4,rushgreencrowlands,havering,Rush Green and Crowlands,Con,rushgreencrowlands-havering
+44.9,36.7,0.0,0.0,0.0,0.0,18.4,rushgreencrowlands,havering,Rush Green and Crowlands,Con,rushgreencrowlands-havering
+51.1,13.5,35.4,0.0,0.0,0.0,0.0,courtfield,kensingtonchelsea,Courtfield,Con,courtfield-kensingtonchelsea
+51.6,0.0,13.3,0.0,0.0,0.0,35.0,marshallsrisepark,havering,Marshalls and Rise Park,Con,marshallsrisepark-havering
+31.7,15.8,41.5,11.0,0.0,0.0,0.0,bromleytown,bromley,Bromley Town,LDem,bromleytown-bromley
+31.7,15.8,41.5,11.0,0.0,0.0,0.0,bromleytown,bromley,Bromley Town,LDem,bromleytown-bromley
+18.9,24.5,14.6,12.0,0.0,0.0,29.9,blackwallcubitttown,towerhamlets,Blackwall and Cubitt Town,OTH,blackwallcubitttown-towerhamlets
+18.9,24.5,14.6,12.0,0.0,0.0,29.9,blackwallcubitttown,towerhamlets,Blackwall and Cubitt Town,OTH,blackwallcubitttown-towerhamlets
+18.9,24.5,14.6,12.0,0.0,0.0,29.9,blackwallcubitttown,towerhamlets,Blackwall and Cubitt Town,OTH,blackwallcubitttown-towerhamlets
+14.9,66.5,7.2,11.5,0.0,0.0,0.0,manorpark,newham,Manor Park,Lab,manorpark-newham
+14.9,66.5,7.2,11.5,0.0,0.0,0.0,manorpark,newham,Manor Park,Lab,manorpark-newham
+16.3,49.1,12.1,13.9,0.0,0.0,8.5,selhurst,croydon,Selhurst,Lab,selhurst-croydon
+12.0,43.7,44.3,0.0,0.0,0.0,0.0,sudbury,brent,Sudbury,LDem,sudbury-brent
+12.0,43.7,44.3,0.0,0.0,0.0,0.0,sudbury,brent,Sudbury,LDem,sudbury-brent
+12.0,43.7,44.3,0.0,0.0,0.0,0.0,sudbury,brent,Sudbury,LDem,sudbury-brent
+22.0,47.2,19.3,11.6,0.0,0.0,0.0,wansteadvillage,redbridge,Wanstead Village,Lab,wansteadvillage-redbridge
+22.0,47.2,19.3,11.6,0.0,0.0,0.0,wansteadvillage,redbridge,Wanstead Village,Lab,wansteadvillage-redbridge
+12.8,51.0,26.6,8.5,0.0,0.0,1.1,catfordsouth,lewisham,Catford South,Lab,catfordsouth-lewisham
+11.4,58.1,9.0,21.6,0.0,0.0,0.0,claphampark,lambeth,Clapham Park,Lab,claphampark-lambeth
+11.4,58.1,9.0,21.6,0.0,0.0,0.0,claphampark,lambeth,Clapham Park,Lab,claphampark-lambeth
+16.0,10.6,30.6,7.4,0.0,0.0,35.3,wallingtonnorth,sutton,Wallington North,LDem,wallingtonnorth-sutton
+11.9,10.0,2.7,6.4,0.0,0.0,69.0,cranham,havering,Cranham,OTH,cranham-havering
+11.9,10.0,2.7,6.4,0.0,0.0,69.0,cranham,havering,Cranham,OTH,cranham-havering
+21.0,57.8,6.9,6.7,0.0,0.0,7.5,southallbroadway,ealing,Southall Broadway,Lab,southallbroadway-ealing
+30.9,51.2,0.0,17.9,0.0,0.0,0.0,hounsloweast,hounslow,Hounslow East,Lab,hounsloweast-hounslow
+58.5,0.0,32.8,0.0,0.0,0.0,8.7,buckhursthillwest,eppingforest,Buckhurst Hill West,Con,buckhursthillwest-eppingforest
+58.5,0.0,32.8,0.0,0.0,0.0,8.7,buckhursthillwest,eppingforest,Buckhurst Hill West,Con,buckhursthillwest-eppingforest
+58.5,0.0,32.8,0.0,0.0,0.0,8.7,buckhursthillwest,eppingforest,Buckhurst Hill West,Con,buckhursthillwest-eppingforest
+0.0,63.1,14.6,18.0,0.0,0.0,4.3,hoxtonwest,hackney,Hoxton West,Lab,hoxtonwest-hackney
+0.0,63.1,14.6,18.0,0.0,0.0,4.3,hoxtonwest,hackney,Hoxton West,Lab,hoxtonwest-hackney
+4.5,40.2,6.3,7.6,0.0,0.0,41.5,spitalfieldsbanglatown,towerhamlets,Spitalfields and Banglatown,OTH,spitalfieldsbanglatown-towerhamlets
+4.5,40.2,6.3,7.6,0.0,0.0,41.5,spitalfieldsbanglatown,towerhamlets,Spitalfields and Banglatown,OTH,spitalfieldsbanglatown-towerhamlets
+4.5,40.2,6.3,7.6,0.0,0.0,41.5,spitalfieldsbanglatown,towerhamlets,Spitalfields and Banglatown,OTH,spitalfieldsbanglatown-towerhamlets
+45.1,30.5,21.3,0.0,0.0,0.0,3.1,shortlandsparklangley,bromley,Shortlands and Park Langley,Con,shortlandsparklangley-bromley
+45.1,30.5,21.3,0.0,0.0,0.0,3.1,shortlandsparklangley,bromley,Shortlands and Park Langley,Con,shortlandsparklangley-bromley
+21.8,55.1,9.3,13.9,0.0,0.0,0.0,dulwichwood,southwark,Dulwich Wood,Lab,dulwichwood-southwark
+21.8,55.1,9.3,13.9,0.0,0.0,0.0,dulwichwood,southwark,Dulwich Wood,Lab,dulwichwood-southwark
+21.8,55.1,9.3,13.9,0.0,0.0,0.0,dulwichwood,southwark,Dulwich Wood,Lab,dulwichwood-southwark
+21.8,55.1,9.3,13.9,0.0,0.0,0.0,dulwichwood,southwark,Dulwich Wood,Lab,dulwichwood-southwark
